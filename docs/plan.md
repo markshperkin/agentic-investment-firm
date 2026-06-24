@@ -25,7 +25,7 @@ Modes: **AFK** = agent can ship solo · **HITL** = needs your judgement/decision
 - [x] T08 — Replay clock + deterministic dispatcher + runner (TICK spans step the day; 3 tests)
 - [x] T09 — Corpus pipeline + time-box + lookahead guardrail (logic tested w/ fakes; live EDGAR/Voyage/Chroma run locally; 3 tests)
 - [x] T10 — Query-Gen + Relevance-Critic + CRAG loop (retry-on-bad-retrieval, refusal on exhaustion; 3 tests)
-- [ ] T11 — Research agent + citation/numeric verifier
+- [x] T11 — Research agent + citation/numeric-consistency verifier (cited numbers must appear in source; 3 tests)
 - [ ] T12 — PM agent + TickerMemory + sizing
 - [ ] T13 — Risk engine + Risk agent + HITL + approvals
 - [ ] T14 — Wire CONTEXT_BUILD end-to-end (LangGraph)
