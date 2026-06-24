@@ -23,7 +23,7 @@ Modes: **AFK** = agent can ship solo · **HITL** = needs your judgement/decision
 - [x] T06 — Portfolio state + paper broker (transactional fills, slippage/commission, idempotency; 6 tests + Portfolio UI — verify `npm run build`)
 - [x] T07 — Price ingester + DataAsset catalog + /datasets + lookahead-safe price feed (4 tests; live yfinance fetch runs locally)
 - [x] T08 — Replay clock + deterministic dispatcher + runner (TICK spans step the day; 3 tests)
-- [ ] T09 — Corpus ingestion (EDGAR) + Chroma + time-box + lookahead
+- [x] T09 — Corpus pipeline + time-box + lookahead guardrail (logic tested w/ fakes; live EDGAR/Voyage/Chroma run locally; 3 tests)
 - [ ] T10 — Query-Gen → Retrieve → Relevance-Critic (CRAG)
 - [ ] T11 — Research agent + citation/numeric verifier
 - [ ] T12 — PM agent + TickerMemory + sizing

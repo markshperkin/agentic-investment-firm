@@ -22,5 +22,11 @@ def datasets(session: Session = Depends(get_session)) -> list[dict]:
 
 @router.post("/datasets")
 def ingest(req: IngestRequest) -> dict:
-    results = PriceIngester().ingest(req.date, req.tickers)
-    return {"date": req.date, "prices": results}
+    prices = PriceIngester().ingest(req.date, req.tickers)
+    try:
+        from app.rag.factory import get_corpus_ingester
+
+        corpus = get_corpus_ingester().ingest(req.date, req.tickers)
+    except Exception as exc:  # noqa: BLE001  live-only path (EDGAR/Voyage/Chroma)
+        corpus = {"error": str(exc)}
+    return {"date": req.date, "prices": prices, "corpus": corpus}
