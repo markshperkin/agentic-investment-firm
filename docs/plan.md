@@ -26,7 +26,7 @@ Modes: **AFK** = agent can ship solo · **HITL** = needs your judgement/decision
 - [x] T09 — Corpus pipeline + time-box + lookahead guardrail (logic tested w/ fakes; live EDGAR/Voyage/Chroma run locally; 3 tests)
 - [x] T10 — Query-Gen + Relevance-Critic + CRAG loop (retry-on-bad-retrieval, refusal on exhaustion; 3 tests)
 - [x] T11 — Research agent + citation/numeric-consistency verifier (cited numbers must appear in source; 3 tests)
-- [ ] T12 — PM agent + TickerMemory + sizing
+- [x] T12 — PM agent + deterministic sizer + append-only TickerMemory timeline (4 tests)
 - [ ] T13 — Risk engine + Risk agent + HITL + approvals
 - [ ] T14 — Wire CONTEXT_BUILD end-to-end (LangGraph)
 - [ ] T15 — Input/schema/semantic validation + injection defense

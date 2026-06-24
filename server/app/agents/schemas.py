@@ -57,6 +57,11 @@ class TradeProposal(BaseModel):
     thesis_card: ThesisCard
 
 
+class PMDecision(BaseModel):
+    action: Literal["BUY", "SELL", "HOLD"]
+    thesis_card: ThesisCard
+
+
 class NoTrade(BaseModel):
     reason: str
 
