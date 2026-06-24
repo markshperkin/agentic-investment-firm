@@ -2,8 +2,10 @@ from dataclasses import dataclass
 from datetime import datetime
 
 from app.db import SessionLocal
+from app.guardrails.injection import scan
 from app.guardrails.lookahead import assert_no_lookahead
 from app.models.corpus import Chunk
+from app.obs.spans import span
 from app.rag.embeddings import Embedder
 from app.rag.vector_store import VectorStore
 
@@ -46,6 +48,12 @@ class Retriever:
                     published_ts=h.metadata.get("published_ts", 0.0), score=round(h.score, 4),
                 ))
 
+        clean, quarantined = scan(out)
+        if quarantined:
+            with span("GUARDRAIL", "injection_scan", ticker=ticker) as h:
+                h.set(status="REJECTED")
+                h.set_output({"quarantined": [c.chunk_id for c in quarantined]})
+
         # Independent boundary assertion — holds on every path, not just retrieval.
-        assert_no_lookahead([{"chunk_id": c.chunk_id, "published_ts": c.published_ts} for c in out], as_of_ts)
-        return out
+        assert_no_lookahead([{"chunk_id": c.chunk_id, "published_ts": c.published_ts} for c in clean], as_of_ts)
+        return clean

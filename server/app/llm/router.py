@@ -44,9 +44,13 @@ class LLMRouter:
         return TASK_MODEL.get(task, HAIKU)
 
     def complete(self, task: str, *, system: str, prompt: str, schema: Type[T]) -> LLMResult[T]:
+        from app.guardrails import budget
+
         model = self.model_for(task)
+        budget.charge_call()
         with span("LLM", f"llm:{task}", agent=task, input={"prompt_chars": len(prompt)}) as h:
             result = self.provider.complete(model, system, prompt, schema)
+            budget.charge_tokens(result.prompt_tokens + result.completion_tokens)
             value = schema.model_validate(result.data)
             cost = price(model, result.prompt_tokens, result.completion_tokens)
             h.set(

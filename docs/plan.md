@@ -29,8 +29,8 @@ Modes: **AFK** = agent can ship solo · **HITL** = needs your judgement/decision
 - [x] T12 — PM agent + deterministic sizer + append-only TickerMemory timeline (4 tests)
 - [x] T13 — Risk engine (hard limits) + Risk agent + DB-backed HITL approvals (approve/edit/reject, engine re-check on edit; 7 tests)
 - [x] T14 — CONTEXT_BUILD pipeline end-to-end (CRAG→research→PM→risk→HITL) + partial-failure isolation (1 e2e test)
-- [ ] T15 — Input/schema/semantic validation + injection defense
-- [ ] T16 — Resource circuit-breaker
+- [x] T15 — Schema/semantic validation + prompt-injection quarantine (2 tests)
+- [x] T16 — Resource circuit-breaker (per-run call/token/time budget → BUDGET_EXCEEDED halt; 2 tests)
 - [ ] T17 — INCREMENTAL_NEWS + PRICE_REEVAL paths
 - [ ] T18 — DAY_REVIEW + MONITOR_SELL
 - [ ] T19 — On-demand ticker ingestion [STRETCH]

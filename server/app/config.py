@@ -26,6 +26,10 @@ class Settings(BaseSettings):
     max_daily_loss_pct: float = 0.03
     max_trades_per_day: int = 20
 
+    max_llm_calls_per_run: int = 200
+    max_tokens_per_run: int = 500_000
+    max_run_seconds: int = 600
+
 
 @lru_cache
 def get_settings() -> Settings:
