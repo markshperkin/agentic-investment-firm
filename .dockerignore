@@ -1,0 +1,10 @@
+**/.venv
+**/node_modules
+**/__pycache__
+**/dist
+**/.pytest_cache
+**/*.sqlite
+**/chroma
+.git
+docs
+Agentic_AI_Engineer_Home_Task*
