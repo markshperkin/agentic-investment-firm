@@ -18,7 +18,7 @@ Modes: **AFK** = agent can ship solo · **HITL** = needs your judgement/decision
 - [x] T01 — Server scaffold + DB + config (health endpoint; 1 test passing)
 - [x] T02 — LLM Router (Anthropic + cassette; routing, validation, cost, spans; 2 tests)
 - [x] T03 — Trace/span store + event emitter (spans persist, nest, feed ordered; 3 tests)
-- [~] T04 — Web scaffold + live feed shell (WS streaming backend done + tested; React source written; npm build unverified — registry unreachable in this env)
+- [x] T04 — Web scaffold + live feed shell (WS streaming backend tested; React event feed builds clean — verified `npm run build`)
 - [~] T05 — Docker + compose (multi-stage Dockerfile + compose written; image build unverified — needs network/Docker)
 - [ ] T06 — Portfolio state + paper broker
 - [ ] T07 — Frozen market data loader + price feed
