@@ -36,8 +36,8 @@ Primary quality attributes: **correctness/safety** (hard limits cannot be exceed
                    │  │ Reporting  │  │                              ┌────────────────────┐
                    │  └─────┬──────┘  │                              │  External (ingest- │
                    └────────┼─────────┘                              │  time only):       │
-                            │ tools                                  │  yfinance, EDGAR,  │
-            ┌───────────────┼────────────────┬──────────────┐       │  news feeds        │
+                            │ tools                                  │  yfinance (prices),│
+            ┌───────────────┼────────────────┬──────────────┐       │  SEC EDGAR (filings)│
             ▼               ▼                ▼              ▼        └────────────────────┘
    ┌────────────────┐ ┌───────────┐  ┌──────────────┐ ┌───────────┐
    │ RAG Retriever  │ │ Market    │  │ Portfolio    │ │ LLM Router│
@@ -203,7 +203,7 @@ The firm does not trade live — it **replays a historical trading day**. The re
 
 ### Active pool (sliding window)
 
-The corpus is time-sorted by `published_date`. At each tick the **active pool** = docs with `as_of − lookback ≤ published_date ≤ as_of` (**default lookback 7 days** news + latest filings; refinable). As the clock advances, newly-eligible docs enter the pool automatically. **New-since-last-step** = docs in `(last_step, as_of]` — the signal the Dispatcher watches. A per-ticker `processed_doc_ids` set deduplicates so the same doc is never re-researched.
+The corpus source is **SEC EDGAR only** (public-domain, authoritatively timestamped): 10-K / 10-Q (the citable financial numbers) and **8-K** filings incl. their press-release exhibits (the material events that drive `INCREMENTAL_NEWS` triggers — an 8-K's acceptance datetime *is* the "news dropped at 11:12" signal). No third-party news APIs — keeps every cited number authoritative and the public repo copyright-clean. The corpus is time-sorted by `published_date` (= EDGAR acceptance datetime). At each tick the **active pool** = docs with `as_of − lookback ≤ published_date ≤ as_of` (**default lookback 7 days**, plus the latest 10-Q/10-K regardless of age; refinable). As the clock advances, newly-eligible docs enter the pool automatically. **New-since-last-step** = docs in `(last_step, as_of]` — the signal the Dispatcher watches. A per-ticker `processed_doc_ids` set deduplicates so the same doc is never re-researched.
 
 ### Context is always on (deterministic Context Assembler)
 
@@ -456,7 +456,7 @@ Reproducible historical replay, runnable in CI, **zero token spend**:
 - **Containers:** `Dockerfile` (backend, serves built React static) + `docker-compose.yml` (backend + volumes for SQLite/Chroma/artifacts). `clone → docker compose up → seeded demo` in <10 min.
 - **CI:** GitHub Actions — lint, unit tests, **eval harness on cassettes**, build image. (IaC/CD beyond this = noted bonus, not V1.)
 - **Observability stack:** self-contained (SQLite spans + JSONL + structlog); OTLP export seam for prod.
-- **External services:** only at **ingest time** (yfinance prices, SEC EDGAR filings, news). Runtime/replay is fully offline. No external dependency in the demo path.
+- **External services:** only at **ingest time** (yfinance prices, SEC EDGAR filings — no third-party news). Runtime/replay is fully offline. No external dependency in the demo path.
 - **Secrets:** `.env` (Anthropic key, optional Voyage key). CI needs neither (cassettes + local embeddings).
 
 ## Key Tradeoffs
@@ -480,7 +480,7 @@ Reproducible historical replay, runnable in CI, **zero token spend**:
 
 ## Open Questions
 
-- **Sample replay day** — specific historical date, chosen later; must have real citable news for ≥1 ticker so the demo trade is compelling. *Resolver: you, at corpus build.*
+- **Sample replay day** — specific historical date, chosen later; must have a real citable EDGAR event (e.g. an 8-K / earnings 10-Q) for ≥1 ticker so the demo trade is compelling. EDGAR's deep history means **any** past trading day is fair game (no recency constraint). *Resolver: you, at corpus build.*
 
 ---
 *ADRs: see `docs/adrs/`. Next pipeline step: `spec-write` per feature, then `sprint-plan`.*
