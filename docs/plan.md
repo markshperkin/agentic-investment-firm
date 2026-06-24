@@ -13,6 +13,33 @@ Modes: **AFK** = agent can ship solo · **HITL** = needs your judgement/decision
 
 ---
 
+## Progress
+
+- [x] T01 — Server scaffold + DB + config (health endpoint; 1 test passing)
+- [ ] T02 — LLM Router (Anthropic + cassette)
+- [ ] T03 — Trace/span store + event emitter
+- [ ] T04 — Web scaffold + live feed shell
+- [ ] T05 — Docker + compose
+- [ ] T06 — Portfolio state + paper broker
+- [ ] T07 — Frozen market data loader + price feed
+- [ ] T08 — Replay clock + dispatcher skeleton
+- [ ] T09 — Corpus ingestion (EDGAR) + Chroma + time-box + lookahead
+- [ ] T10 — Query-Gen → Retrieve → Relevance-Critic (CRAG)
+- [ ] T11 — Research agent + citation/numeric verifier
+- [ ] T12 — PM agent + TickerMemory + sizing
+- [ ] T13 — Risk engine + Risk agent + HITL + approvals
+- [ ] T14 — Wire CONTEXT_BUILD end-to-end (LangGraph)
+- [ ] T15 — Input/schema/semantic validation + injection defense
+- [ ] T16 — Resource circuit-breaker
+- [ ] T17 — INCREMENTAL_NEWS + PRICE_REEVAL paths
+- [ ] T18 — DAY_REVIEW + MONITOR_SELL
+- [ ] T19 — On-demand ticker ingestion [STRETCH]
+- [ ] T20 — Reporting agent + Excel + dashboard report
+- [ ] T21 — Observability views + export/reset
+- [ ] T22 — Eval harness + golden dataset + CI
+- [ ] T23 — Crash recovery + reconciliation
+- [ ] T24 — Sample run + docs
+
 ## Wave 0 — Foundation (infra; horizontal allowed)
 
 ### T01 — Server scaffold + DB + config  [CORE]
