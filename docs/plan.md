@@ -28,7 +28,7 @@ Modes: **AFK** = agent can ship solo · **HITL** = needs your judgement/decision
 - [x] T11 — Research agent + citation/numeric-consistency verifier (cited numbers must appear in source; 3 tests)
 - [x] T12 — PM agent + deterministic sizer + append-only TickerMemory timeline (4 tests)
 - [x] T13 — Risk engine (hard limits) + Risk agent + DB-backed HITL approvals (approve/edit/reject, engine re-check on edit; 7 tests)
-- [ ] T14 — Wire CONTEXT_BUILD end-to-end (LangGraph)
+- [x] T14 — CONTEXT_BUILD pipeline end-to-end (CRAG→research→PM→risk→HITL) + partial-failure isolation (1 e2e test)
 - [ ] T15 — Input/schema/semantic validation + injection defense
 - [ ] T16 — Resource circuit-breaker
 - [ ] T17 — INCREMENTAL_NEWS + PRICE_REEVAL paths

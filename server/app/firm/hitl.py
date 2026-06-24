@@ -6,26 +6,9 @@ from app.config import get_settings
 from app.db import SessionLocal
 from app.guardrails import risk_engine
 from app.models.approval import ApprovalRequest
-from app.models.portfolio import Trade
 from app.obs.spans import span
 from app.state.broker import PaperBroker
-from app.state.portfolio import equity as compute_equity
-from app.state.portfolio import get_or_create_portfolio, get_position
-
-
-def _snapshot(session, ticker: str, price: float) -> dict:
-    p = get_or_create_portfolio(session)
-    session.commit()
-    pos = get_position(session, p.id, ticker)
-    eq = compute_equity(session, p.id, {ticker: price})
-    trades_today = session.query(Trade).filter(Trade.status == "FILLED").count()
-    day_pnl_pct = (eq - get_settings().starting_cash) / get_settings().starting_cash
-    return {
-        "cash": p.cash, "equity": eq,
-        "position_qty": pos.quantity if pos else 0,
-        "position_value": (pos.quantity * price) if pos else 0.0,
-        "trades_today": trades_today, "day_pnl_pct": day_pnl_pct,
-    }
+from app.state.portfolio import account_snapshot
 
 
 def submit_for_approval(
@@ -67,7 +50,7 @@ def resolve_approval(
             return {"status": "REJECTED"}
 
         qty = edited_quantity if (decision == "edit" and edited_quantity) else appr.quantity
-        snap = _snapshot(s, appr.ticker, appr.reference_price)
+        snap = account_snapshot(appr.ticker, appr.reference_price)
         result = risk_engine.evaluate(
             side=appr.side, quantity=qty, price=appr.reference_price,
             equity=snap["equity"], cash=snap["cash"], position_qty=snap["position_qty"],
