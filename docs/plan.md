@@ -21,7 +21,7 @@ Modes: **AFK** = agent can ship solo · **HITL** = needs your judgement/decision
 - [x] T04 — Web scaffold + live feed shell (WS streaming backend tested; React event feed builds clean — verified `npm run build`)
 - [~] T05 — Docker + compose (multi-stage Dockerfile + compose written; image build unverified — needs network/Docker)
 - [x] T06 — Portfolio state + paper broker (transactional fills, slippage/commission, idempotency; 6 tests + Portfolio UI — verify `npm run build`)
-- [ ] T07 — Frozen market data loader + price feed
+- [x] T07 — Price ingester + DataAsset catalog + /datasets + lookahead-safe price feed (4 tests; live yfinance fetch runs locally)
 - [ ] T08 — Replay clock + dispatcher skeleton
 - [ ] T09 — Corpus ingestion (EDGAR) + Chroma + time-box + lookahead
 - [ ] T10 — Query-Gen → Retrieve → Relevance-Critic (CRAG)
