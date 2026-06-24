@@ -28,8 +28,27 @@ export interface RunSummary {
   started_at: string | null;
 }
 
+export interface Holding {
+  ticker: string;
+  quantity: number;
+  avg_cost_basis: number;
+  realized_pnl: number;
+}
+
+export interface PortfolioState {
+  cash: number;
+  currency: string;
+  holdings: Holding[];
+  equity_at_cost: number;
+}
+
 export async function listRuns(): Promise<RunSummary[]> {
   const r = await fetch("/runs");
+  return r.json();
+}
+
+export async function getPortfolio(): Promise<PortfolioState> {
+  const r = await fetch("/portfolio");
   return r.json();
 }
 

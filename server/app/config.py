@@ -14,6 +14,10 @@ class Settings(BaseSettings):
     database_url: str = "sqlite:///./data/firm.sqlite"
     log_level: str = "INFO"
 
+    starting_cash: float = 1_000_000.0
+    slippage_bps: float = 5.0
+    commission_per_trade: float = 1.0
+
 
 @lru_cache
 def get_settings() -> Settings:
