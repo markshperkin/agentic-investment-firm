@@ -10,6 +10,7 @@ from app.models.span import Run, Span
 _current_run: ContextVar[str | None] = ContextVar("current_run", default=None)
 _current_parent: ContextVar[str | None] = ContextVar("current_parent", default=None)
 _current_tick: ContextVar[int | None] = ContextVar("current_tick", default=None)
+_current_as_of: ContextVar[str | None] = ContextVar("current_as_of", default=None)
 
 # Subscribers receive each span dict as it is created or updated. Used by the
 # live feed (T04) to push events over WebSocket; persistence does not depend on it.
@@ -46,8 +47,9 @@ def end_run(run_id: str, status: str = "DONE") -> None:
             s.commit()
 
 
-def set_tick(tick_seq: int | None) -> None:
+def set_tick(tick_seq: int | None, as_of: str | None = None) -> None:
     _current_tick.set(tick_seq)
+    _current_as_of.set(as_of)
 
 
 class SpanHandle:
@@ -79,6 +81,7 @@ def span(
     run = run_id or _current_run.get()
     parent = _current_parent.get()
     tick = _current_tick.get()
+    as_of = _current_as_of.get()
     started = datetime.utcnow()
 
     with SessionLocal() as s:
@@ -87,6 +90,7 @@ def span(
             run_id=run or "",
             parent_span_id=parent,
             tick_seq=tick,
+            as_of=as_of,
             kind=kind,
             name=name,
             agent=agent,

@@ -22,7 +22,7 @@ Modes: **AFK** = agent can ship solo · **HITL** = needs your judgement/decision
 - [~] T05 — Docker + compose (multi-stage Dockerfile + compose written; image build unverified — needs network/Docker)
 - [x] T06 — Portfolio state + paper broker (transactional fills, slippage/commission, idempotency; 6 tests + Portfolio UI — verify `npm run build`)
 - [x] T07 — Price ingester + DataAsset catalog + /datasets + lookahead-safe price feed (4 tests; live yfinance fetch runs locally)
-- [ ] T08 — Replay clock + dispatcher skeleton
+- [x] T08 — Replay clock + deterministic dispatcher + runner (TICK spans step the day; 3 tests)
 - [ ] T09 — Corpus ingestion (EDGAR) + Chroma + time-box + lookahead
 - [ ] T10 — Query-Gen → Retrieve → Relevance-Critic (CRAG)
 - [ ] T11 — Research agent + citation/numeric verifier

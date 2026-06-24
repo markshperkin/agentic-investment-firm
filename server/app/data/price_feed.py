@@ -22,17 +22,17 @@ def _bars_until(replay_date: str, ticker: str, as_of: datetime, prices_dir: Path
     return df[df["ts"] <= as_of]
 
 
-def price_at(replay_date: str, ticker: str, as_of: datetime, prices_dir: Path = PRICES_DIR) -> float | None:
-    bars = _bars_until(replay_date, ticker, as_of, prices_dir)
+def price_at(replay_date: str, ticker: str, as_of: datetime, prices_dir: Path | None = None) -> float | None:
+    bars = _bars_until(replay_date, ticker, as_of, prices_dir or PRICES_DIR)
     if bars.empty:
         return None
     return float(bars.iloc[-1]["close"])
 
 
 def price_features(
-    replay_date: str, ticker: str, as_of: datetime, prices_dir: Path = PRICES_DIR
+    replay_date: str, ticker: str, as_of: datetime, prices_dir: Path | None = None
 ) -> dict:
-    bars = _bars_until(replay_date, ticker, as_of, prices_dir)
+    bars = _bars_until(replay_date, ticker, as_of, prices_dir or PRICES_DIR)
     if bars.empty:
         return {"last_price": None, "prev_close": None, "pct_change": None, "n_bars": 0}
     last = float(bars.iloc[-1]["close"])

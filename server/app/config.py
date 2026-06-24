@@ -18,6 +18,14 @@ class Settings(BaseSettings):
     slippage_bps: float = 5.0
     commission_per_trade: float = 1.0
 
+    tick_interval_minutes: int = 60
+    price_move_threshold: float = 0.02
+    act_confidence_threshold: float = 0.6
+    max_position_pct: float = 0.10
+    max_order_notional: float = 25_000.0
+    max_daily_loss_pct: float = 0.03
+    max_trades_per_day: int = 20
+
 
 @lru_cache
 def get_settings() -> Settings:

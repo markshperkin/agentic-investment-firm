@@ -6,7 +6,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
-from app.api import datasets, feed, health, portfolio, stream
+from app.api import datasets, feed, health, portfolio, run, stream
 from app.config import get_settings
 from app.db import init_db
 from app.obs.stream import broadcaster
@@ -33,6 +33,7 @@ def create_app() -> FastAPI:
     app.include_router(stream.router)
     app.include_router(portfolio.router)
     app.include_router(datasets.router)
+    app.include_router(run.router)
 
     web_dist = os.environ.get("WEB_DIST", "web_dist")
     if os.path.isdir(web_dist):
