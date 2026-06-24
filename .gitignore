@@ -1,0 +1,46 @@
+# ---- Assignment brief (do not publish) ----
+Agentic_AI_Engineer_Home_Task*
+~$*
+
+# ---- Secrets / env ----
+.env
+.env.*
+!.env.example
+
+# ---- Python (server) ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- Node / React (web) ----
+node_modules/
+dist/
+build/
+.vite/
+*.local
+
+# ---- Runtime state / data stores (committed sample data lives elsewhere) ----
+*.sqlite
+*.sqlite3
+*.db
+**/chroma/
+**/.chroma/
+logs/
+*.log
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ---- Scratch ----
+scratchpad/
