@@ -16,7 +16,7 @@ Modes: **AFK** = agent can ship solo · **HITL** = needs your judgement/decision
 ## Progress
 
 - [x] T01 — Server scaffold + DB + config (health endpoint; 1 test passing)
-- [ ] T02 — LLM Router (Anthropic + cassette)
+- [x] T02 — LLM Router (Anthropic + cassette; routing, validation, cost, spans; 2 tests)
 - [x] T03 — Trace/span store + event emitter (spans persist, nest, feed ordered; 3 tests)
 - [ ] T04 — Web scaffold + live feed shell
 - [ ] T05 — Docker + compose
