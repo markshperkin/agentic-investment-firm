@@ -1,0 +1,13 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA consolidated statements of income net revenue earnings per share",
+      "NVIDIA segment revenue data center gaming professional visualization",
+      "NVIDIA management discussion analysis financial results quarterly comparison",
+      "NVIDIA gross margin operating income cash flow from operations"
+    ],
+    "strategy": "DECOMPOSE"
+  },
+  "prompt_tokens": 1072,
+  "completion_tokens": 98
+}

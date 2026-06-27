@@ -1,0 +1,15 @@
+{
+  "data": {
+    "queries": [
+      "NVDA 10-Q data center revenue Q3 2024",
+      "NVIDIA 10-K earnings report AI accelerator segment",
+      "NVDA quarterly earnings data center business metrics",
+      "NVIDIA fiscal 2025 10-Q filing data center segment revenue",
+      "NVDA 8-K recent announcements earnings release"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 730
+  },
+  "prompt_tokens": 1080,
+  "completion_tokens": 145
+}

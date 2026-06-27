@@ -1,0 +1,16 @@
+{
+  "data": {
+    "action": "BUY",
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1,
+    "thesis_card": {
+      "headline": "NVIDIA positioned for sustained accelerated computing dominance with Blackwell momentum and next-gen Rubin on deck",
+      "why_now": "Compute Networking segment explosive 88% YoY revenue growth in Q1 FY2027 to $74.55B reflects peak Blackwell demand cycle. Management's 25x dividend increase (from $0.01 to $0.25/share) signals robust conviction in near-term cash generation. Rubin platform expected to commence shipping in H2 FY2027, providing revenue ramp visibility into FY2028.",
+      "expected_edge": "NVIDIA's data center networking growth (142% YoY in FY2026) and compute revenue acceleration (67% YoY to $193.48B) substantially outpace industry capex cycle. Operating leverage in Compute Networking remains extreme\u2014operating income grew 142% in Q1 FY2027 to $53.34B\u2014with 71.6% implied segment operating margin demonstrating pricing power and manufacturing efficiency that competitors cannot match in near term.",
+      "risks": "Geographic concentration with 78% of Q1 FY2027 revenue from US-headquartered customers ($63.77B) exposes the stock to US-China export restrictions or enterprise software macro pullback. Blackwell transition risk if Rubin adoption stalls or faces architectural objections from hyperscalers. Valuation likely prices in significant earnings growth; execution stumbles could trigger sharp multiple compression given elevated stock base.",
+      "confidence": 0.85
+    }
+  },
+  "prompt_tokens": 1827,
+  "completion_tokens": 456
+}

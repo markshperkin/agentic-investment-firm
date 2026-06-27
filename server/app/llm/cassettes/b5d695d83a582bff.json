@@ -1,0 +1,36 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVIDIA poised to capture sustained AI accelerator demand with robust backlog and broad customer diversification",
+      "why_now": "Management reaffirmed confidence in sustained data-center growth through year-end with a robust backlog, while capacity expansion signals confidence in near-term demand visibility. Broad-based demand across both cloud and enterprise customers reduces concentration risk and supports continued strength.",
+      "expected_edge": "NVIDIA's expanding production capacity coupled with a robust backlog positions the company to capture outsized revenue growth in AI accelerators. Broad-based demand across customer segments provides multiple growth vectors and reduces dependency on any single end-market, supporting sustainable margin expansion.",
+      "risks": "AI demand growth could decelerate faster than anticipated; competitive pressure from alternative accelerators or custom chips could erode NVIDIA's market share; geopolitical tensions and export controls could limit addressable markets, particularly China; valuation multiple compression if growth rates disappoint.",
+      "confidence": 0.75,
+      "key_evidence": [
+        {
+          "chunk_id": "4d05aaac9a2d41ffbbf6e9ef7c50fb02:0",
+          "quote": "NVIDIA is expanding production capacity to meet stronger-than-expected orders for AI accelerators, indicating robust near-term demand visibility",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        },
+        {
+          "chunk_id": "4d05aaac9a2d41ffbbf6e9ef7c50fb02:0",
+          "quote": "Management cited a robust backlog and reaffirmed confidence in sustained data-center growth through the remainder of the year",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        },
+        {
+          "chunk_id": "4d05aaac9a2d41ffbbf6e9ef7c50fb02:0",
+          "quote": "Demand is characterized as broad-based across both cloud and enterprise customers, diversifying revenue sources",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        }
+      ]
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1528,
+  "completion_tokens": 598
+}

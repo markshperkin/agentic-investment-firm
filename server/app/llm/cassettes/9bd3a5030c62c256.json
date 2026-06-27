@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": true,
+    "coverage": 0.35,
+    "failure_kind": "NONE",
+    "fix_hint": "The excerpts explain Palantir's revenue streams (Palantir Cloud, On-Premises Software, and professional services) but lack actual financial figures. To fully answer the query, retrieve sections containing: (1) actual revenue amounts and trends, (2) earnings/net income figures, (3) year-over-year comparisons, and (4) segment-level financial performance data. Search for sections titled \"Consolidated Results of Operations,\" \"Revenue Growth,\" or specific quarter/year financial highlights."
+  },
+  "prompt_tokens": 1542,
+  "completion_tokens": 196
+}

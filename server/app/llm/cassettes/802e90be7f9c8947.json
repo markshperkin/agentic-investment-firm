@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "No Trading Activity; Portfolio Underperformed Benchmark by 52.3 bps",
+    "summary": "Portfolio return: 0.00% vs. SPY benchmark: +0.0523%. Alpha: -0.0523%. No trades executed today (0 trades). Holdings remain empty with cash position at $1.0M. The underperformance reflects the opportunity cost of holding cash while the benchmark appreciated. Processing cost: $0.001365 (993 tokens). No risk engine rejects or injection quarantines triggered.",
+    "risk_note": "Portfolio is fully in cash; no market exposure. Any material move in SPY will widen performance gap."
+  },
+  "prompt_tokens": 950,
+  "completion_tokens": 198
+}

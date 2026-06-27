@@ -1,0 +1,26 @@
+{
+  "data": {
+    "action": "SELL",
+    "thesis_card": {
+      "headline": "NVIDIA faces material headwinds from imminent U.S. export controls on China sales; sell to lock in gains ahead of inventory write-downs and guidance cuts",
+      "why_now": "U.S. authorities are preparing tightened export controls that would restrict NVIDIA's advanced-chip sales to China, a meaningful revenue contributor in data-center. The timing is critical as these controls appear imminent and could force near-term negative guidance revisions and China-bound inventory write-downs.",
+      "expected_edge": "Exiting the long position before export controls are formally announced eliminates downside risk from inventory charges, guidance reductions, and the resulting multiple compression that typically follows disappointments in this sector. Sellers who act ahead of formal announcement will avoid the sharp repricing that follows policy clarity.",
+      "risks": "Risk that export controls are delayed, watered down, or that NVIDIA successfully pivots to alternative markets faster than anticipated, limiting actual revenue damage. Additionally, if the market has already priced in much of the China restriction risk, the stock may not decline meaningfully on the news, and holding would have captured upside from the structural AI boom.",
+      "confidence": 0.68,
+      "key_evidence": [
+        {
+          "chunk_id": "8b7901c8bb5245feb23d9147ab21c78b:0",
+          "quote": "U.S. authorities are preparing tightened export controls that would restrict NVIDIA's advanced-chip sales to China, a market that represents a meaningful share of data-center revenue.",
+          "source": "Research view provided"
+        },
+        {
+          "chunk_id": "8b7901c8bb5245feb23d9147ab21c78b:0",
+          "quote": "The export control measure could force NVIDIA to write down China-bound inventory and cut near-term guidance.",
+          "source": "Research view provided"
+        }
+      ]
+    }
+  },
+  "prompt_tokens": 1480,
+  "completion_tokens": 494
+}

@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "End-of-Day Summary: No Trading Activity",
+    "summary": "Portfolio remained fully in cash at $1,000,000.00 with zero positions held. Portfolio return was 0.00% versus benchmark (SPY) return of +0.05%, resulting in underperformance of -0.05% (alpha: -0.000523). No trades were executed today (0 trades). No investment decisions were made during the session.",
+    "risk_note": "Portfolio is 100% cash with no market exposure. Benchmark underperformance is a direct result of zero equity exposure while the market posted positive returns. Consider revisiting investment strategy and market positioning."
+  },
+  "prompt_tokens": 951,
+  "completion_tokens": 196
+}

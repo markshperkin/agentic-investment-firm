@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "Query returned no chunks. Verify the document source contains NVIDIA Q3 2024 earnings filings (10-Q or 8-K) and try searching for specific terms like \"data center revenue,\" \"guidance,\" or \"quarterly results\" from the earnings release or MD&A section. Confirm the filing date aligns with Q3 FY2025 (ended October 2024)."
+  },
+  "prompt_tokens": 1017,
+  "completion_tokens": 177
+}

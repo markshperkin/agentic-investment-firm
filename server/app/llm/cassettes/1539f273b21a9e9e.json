@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts were retrieved for the query. Try searching for specific terms like \"capital expenditures,\" \"capex,\" \"investments,\" or \"future spending\" in NVIDIA's most recent 10-K or earnings call transcripts. Also verify that NVIDIA filings are included in the document corpus."
+  },
+  "prompt_tokens": 1011,
+  "completion_tokens": 154
+}

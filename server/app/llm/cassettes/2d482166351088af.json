@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No SEC filing excerpts were retrieved. To find State Street SPY S&P 500 ETF Trust portfolio holdings and schedule of investments, search for the most recent N-PORT-P filing (quarterly portfolio holdings report) or N-1A filing (prospectus) for the SPY fund. Try queries like \"SPY portfolio holdings N-PORT\" or search directly for State Street S&P 500 ETF Trust filings on EDGAR."
+  },
+  "prompt_tokens": 905,
+  "completion_tokens": 188
+}

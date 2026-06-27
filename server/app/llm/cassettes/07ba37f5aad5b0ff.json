@@ -1,0 +1,59 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.85,
+    "key_points": [
+      {
+        "text": "NVIDIA has invested over $76.7 billion in research and development since inception, yielding essential inventions including the GPU (1999), CUDA (2006), Tensor Core GPU (2017), and most recently the Blackwell Ultra platform optimized for agentic, reasoning, and physical AI in fiscal year 2026.",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:8",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "We have invested over $76.7 billion in research and development since our inception... In fiscal year 2026, we launched and scaled the NVIDIA Blackwell Ultra platform, optimized for agentic, reasoning, and physical AI."
+        }
+      },
+      {
+        "text": "NVIDIA maintains a large and expanding ecosystem with over 7.5 million developers worldwide using CUDA and other software tools, with computing platforms available from virtually every major server maker and cloud service provider.",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:11",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "There are over 7.5 million developers worldwide using CUDA and our other software tools to help deploy our technology in our target markets."
+        }
+      },
+      {
+        "text": "NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list, demonstrating dominant market leadership in high-performance computing.",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:9",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Including GPUs and networking, NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list."
+        }
+      },
+      {
+        "text": "In fiscal year 2026, NVIDIA launched and scaled Blackwell architecture for gaming and GeForce NOW, and unveiled the Rubin platform expected to commence production shipments in the second half of fiscal year 2027, delivering up to a 10x reduction in cost per token compared to Blackwell.",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:10",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "In fiscal year 2026, we unveiled the NVIDIA Rubin platform, which is expected to commence production shipments in the second half of fiscal year 2027... delivering up to a 10x reduction in cost per token compared to Blackwell."
+        }
+      },
+      {
+        "text": "First quarter fiscal 2027 revenue growth was driven by data center products for accelerated computing and AI solutions, with Blackwell continuing to account for the majority of system shipments.",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:20",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Revenue growth in the first quarter was driven by data center products for accelerated computing and AI solutions. Blackwell continued to account for the majority of our system shipments."
+        }
+      },
+      {
+        "text": "In the first quarter of fiscal year 2027, NVIDIA made $18.6 billion in investments in private companies and infrastructure funds to strengthen its ecosystem and growth opportunities.",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:20",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "$18.6 billion in private companies and infrastructure funds."
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 9326,
+  "completion_tokens": 1103
+}

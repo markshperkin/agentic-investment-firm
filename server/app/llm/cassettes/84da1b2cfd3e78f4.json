@@ -1,0 +1,16 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVIDIA's Robust AI Accelerator Demand and Capacity Expansion Support Sustained Growth",
+      "why_now": "Management has reaffirmed confidence in sustained data-center growth through the year, citing a robust backlog and stronger-than-expected orders. The company is actively expanding production capacity to meet demand, signaling confidence in demand durability. Broad-based demand across both cloud and enterprise customers reduces concentration risk and validates the breadth of the AI infrastructure buildout.",
+      "expected_edge": "NVIDIA's ability to consistently meet or exceed capacity-constrained revenue guidance, combined with margin expansion from operating leverage on higher volumes, should support multiple expansion in the stock. The broad-based customer base across cloud and enterprise reduces downside from any single customer concentration.",
+      "risks": "Demand could deteriorate faster than management expects if enterprise AI spending cycles slow or if competitive offerings from AMD or custom silicon gain unexpected share. Geopolitical restrictions on semiconductor exports (particularly to China) could reduce addressable market. Execution risks on capacity expansion could lead to delays or cost overruns. A macro recession could compress enterprise AI capex budgets.",
+      "confidence": 0.72
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1509,
+  "completion_tokens": 365
+}

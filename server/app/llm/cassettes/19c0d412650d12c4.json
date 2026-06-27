@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts were retrieved. Verify that NVIDIA SEC filings (10-Q, 10-K, or earnings call transcripts) are indexed in the document store. Try a more specific query like \"NVIDIA Q3 2024 revenue guidance data center\" or search for a specific filing date/period."
+  },
+  "prompt_tokens": 1012,
+  "completion_tokens": 158
+}

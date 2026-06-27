@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The search returned no chunks. Retry with a simpler query targeting NVDA's segment revenue or operating structure, e.g., \"NVDA segments revenue data center gaming\" or \"NVIDIA business segments operating results.\""
+  },
+  "prompt_tokens": 1012,
+  "completion_tokens": 139
+}

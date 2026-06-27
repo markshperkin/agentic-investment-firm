@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "End-of-Day Summary: Cash Position, No Trades Executed",
+    "summary": "Portfolio Status: Cash holdings remain at $1,000,000 with zero open positions. No trades were executed (n_trades: 0). Portfolio return stands at 0.0% versus benchmark (SPY) return of 0.0523%, resulting in alpha of -0.000523 or -5.23 basis points underperformance. Operational efficiency: 1 decision analyzed; citation checks passed with 100% groundedness; no risk engine rejections or injection quarantines triggered. Total process cost: $0.04 USD across 26,479 tokens.",
+    "risk_note": "Portfolio remains fully in cash with no market exposure. Underperformance versus SPY benchmark reflects opportunity cost of cash position. No open positions to monitor."
+  },
+  "prompt_tokens": 954,
+  "completion_tokens": 238
+}

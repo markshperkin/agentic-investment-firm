@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "Rerun search with specific terms from 10-K/10-Q such as \"capital expenditures\", \"capex guidance\", \"infrastructure spending\", or \"facility investments\". Try filing sections like MD&A or specific guidance tables. Alternatively, search for \"NVIDIA cash flow\" or \"property plant equipment\" which often contain capex disclosure."
+  },
+  "prompt_tokens": 1013,
+  "completion_tokens": 165
+}

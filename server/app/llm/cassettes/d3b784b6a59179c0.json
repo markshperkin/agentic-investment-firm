@@ -1,0 +1,9 @@
+{
+  "data": {
+    "relevant": true,
+    "coverage": 0.85,
+    "fix_hint": "Consider requesting explicit revenue breakdowns by product line (e.g., H100/H200 vs. L40S vs. networking) or segment growth rates to quantify relative contribution of each revenue stream more precisely."
+  },
+  "prompt_tokens": 7813,
+  "completion_tokens": 114
+}

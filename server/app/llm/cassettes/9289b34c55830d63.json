@@ -1,0 +1,9 @@
+{
+  "data": {
+    "relevant": true,
+    "coverage": 0.65,
+    "fix_hint": "Retrieved balance sheet and cash flow snapshots but missing critical revenue and earnings trends. Query for \"NVIDIA revenue by segment\" or \"NVIDIA earnings per share growth\" to capture Data Center/Gaming segment performance, gross margin trends, and YoY earnings momentum\u2014the actual drivers of directional investment thesis."
+  },
+  "prompt_tokens": 7156,
+  "completion_tokens": 132
+}

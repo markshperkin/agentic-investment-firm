@@ -1,0 +1,67 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.92,
+    "key_points": [
+      {
+        "text": "Fiscal 2026 revenue surged 65% to $215.9 billion, with Compute Networking (Data Center) revenue increasing 67% to $193.5 billion, driven by Blackwell platform demand and AI acceleration.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:51",
+          "quote": "Revenue for fiscal year 2026 was $215.9 billion, up 65% from a year ago. Data Center revenue for fiscal year 2026 was up 68% from a year ago. The strong year-on-year growth was driven by the major platform shifts \u2013 accelerated computing and AI.",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Q1 FY2027 (ended April 26, 2026) revenue reached $81.6 billion, up 85% year-over-year and 20% sequentially, with Compute Networking revenue of $74.6 billion up 88% year-over-year driven by Blackwell systems and networking solutions ramp.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:22",
+          "quote": "Revenue was $81.6 billion, up 85% from a year ago and up 20% sequentially. Data Center revenue was $75.2 billion, up 92% from a year ago and up 21% sequentially, driven by the ramp of our Blackwell 300 products and demand for our InfiniBand, Spectrum-X Ethernet, and NVLink solutions.",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "Gross margin recovered to 74.9% in Q1 FY2027 from 60.5% in Q1 FY2026, primarily due to non-recurrence of the $4.5 billion H20 excess inventory charge taken in Q1 FY2026 and improved product mix.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:22",
+          "quote": "Gross margin increased from a year ago on lower inventory provisions, primarily due to the prior year's $4.5 billion charge associated with H20 excess inventory and purchase obligations. Gross margin was approximately flat sequentially as our Blackwell architecture remains the majority of our revenue.",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "Operating income surged 138% to $56.3 billion in Q1 FY2027, with Compute Networking operating income up 142% to $53.3 billion, demonstrating strong operational leverage as one-time inventory charges clear.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:22",
+          "quote": "The year-over-year increase in Compute Networking segment operating income in the first quarter of fiscal year 2027 was driven by the growth in revenue and the non-recurrence of a $4.5 billion charge associated with H20 excess inventory and purchase obligations in the first quarter of fiscal year 2026.",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "Data Center networking revenue grew 142% in fiscal 2026, driven by NVLink compute fabric adoption for GB200 and GB300 systems and growth in Ethernet and InfiniBand platforms, indicating successful diversification beyond accelerators.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:51",
+          "quote": "Revenue from Data Center computing grew 59% driven by demand for our Blackwell computing platform. Revenue from Data Center networking grew 142% driven by the introduction and continued ramp of NVLink compute fabric for GB200 and GB300 systems and the growth of Ethernet and InfiniBand platforms.",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Customer concentration increased with top direct customer representing 22% of FY2026 revenue (up from 12% in FY2025), all primarily from Compute Networking, reflecting hyperscaler dominance but with noted diversification initiatives.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:54",
+          "quote": "For fiscal year 2026, sales to one direct customer represented 22% of total revenue and sales to another direct customer represented 14% of total revenue, all of which were primarily attributable to the Compute Networking segment. For fiscal year 2025, sales to one direct customer represented 12% of total revenue and sales to two direct customers each represented 11% of total revenue.",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Net income reached $58.3 billion in Q1 FY2027, up 211% year-over-year, with net margin expanding to 71.5% from 42.6%, reflecting significant operational improvements and one-time charge anniversaries.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:22",
+          "quote": "Net income $ 58,321 ... $ 18,775 ... Income before income tax 85.7% 49.7% Net income 71.5% 42.6%",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 12487,
+  "completion_tokens": 1519
+}

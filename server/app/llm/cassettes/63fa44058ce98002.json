@@ -1,0 +1,13 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA capital expenditure outlook",
+      "NVIDIA capex guidance forward-looking statements",
+      "NVIDIA capital allocation investment plans",
+      "NVIDIA manufacturing investment semiconductor capex"
+    ],
+    "strategy": "DECOMPOSE"
+  },
+  "prompt_tokens": 1063,
+  "completion_tokens": 87
+}

@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The retrieved excerpts do not contain actual consolidated statements of income or specific net income figures. They contain only narrative sections discussing results of operations, metadata tags, and segment information. To answer this query, you need to retrieve the actual Consolidated Statements of Income table from NVDA's 10-K filing, which should display net income as a line item with specific dollar amounts for multiple fiscal years."
+  },
+  "prompt_tokens": 1783,
+  "completion_tokens": 173
+}

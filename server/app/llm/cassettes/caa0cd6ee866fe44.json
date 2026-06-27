@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "No Trading Activity; Portfolio Underperforming Benchmark",
+    "summary": "End-of-day portfolio status: Cash position of $1,000,000 with zero holdings and 0% return. SPY benchmark advanced 0.0523% today while the portfolio remained flat, resulting in -0.0523% alpha underperformance. No trades executed across 2 decision points. Portfolio equity maintained at $1,000,000. Process consumed $0.010412 USD and 7,012 tokens; 1 refusal was generated during the decision-making process.",
+    "risk_note": "Portfolio remains fully in cash with no market exposure. Underperformance vs. SPY driven entirely by lack of equity allocation. Operational refusal event warrants review for decision logic constraints."
+  },
+  "prompt_tokens": 951,
+  "completion_tokens": 226
+}

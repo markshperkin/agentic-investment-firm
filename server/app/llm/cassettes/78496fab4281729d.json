@@ -1,0 +1,16 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA financial results earnings revenue guidance",
+      "NVIDIA GPU AI data center competitive position",
+      "NVIDIA gross margin operating expenses profitability",
+      "NVIDIA customer concentration concentration risk major customers",
+      "NVIDIA manufacturing supply chain TSMC outsourcing",
+      "NVIDIA debt leverage balance sheet liquidity cash flow"
+    ],
+    "strategy": "BASELINE",
+    "date_window_days": 730
+  },
+  "prompt_tokens": 900,
+  "completion_tokens": 136
+}

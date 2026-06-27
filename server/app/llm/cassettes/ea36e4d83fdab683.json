@@ -1,0 +1,9 @@
+{
+  "data": {
+    "action": "TRIM",
+    "gap_risk": "HIGH",
+    "reasoning": "NVIDIA's fundamental thesis remains intact with strong conviction (72% bullish) supported by de-risked China exposure and successful new inference platform launches. Day price action is mildly positive (+2.5%) with steady momentum over 8 bars, indicating no thesis deterioration. However, the new evidence flagging elevated overnight gap risk for high-beta semiconductor names\u2014including explicit mention of NVIDIA and strategists cutting exposure ahead of a likely Federal Reserve-related catalyst\u2014warrants a tactical reduction. The gap risk is asymmetric and material given NVIDIA's volatility and the seemingly imminent macro event. Trimming reduces overnight exposure to gap slippage while preserving core bullish positioning, allowing re-entry if gap risk is resolved favorably. Conviction remains strong enough to avoid full FLATTEN, but gap risk is too elevated to hold the full position through close."
+  },
+  "prompt_tokens": 1072,
+  "completion_tokens": 251
+}

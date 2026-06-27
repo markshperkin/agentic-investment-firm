@@ -1,0 +1,28 @@
+{
+  "data": {
+    "action": "SELL",
+    "thesis_card": {
+      "headline": "NVIDIA faces material downside from impending U.S. export controls to China",
+      "why_now": "U.S. authorities are preparing tightened export controls that would restrict NVIDIA's advanced-chip sales to China, a significant portion of the company's data-center revenue. These regulatory measures present an imminent near-term headwind with concrete financial implications.",
+      "expected_edge": "Export controls to China will likely force NVIDIA to write down inventory destined for that market and reduce forward guidance, creating a catalyst for negative repricing. China represents a meaningful revenue stream, and inventory write-downs coupled with reduced guidance typically trigger 8-15% downside revisions in semiconductor valuations.",
+      "risks": "Regulatory risk could be overstated if negotiations soften restrictions; China demand may partially shift to NVIDIA's non-restricted products or competitors may fill gaps slower than expected, limiting downside. Broader AI tailwinds and U.S./allied data-center demand could offset China headwinds more than anticipated.",
+      "confidence": 0.72,
+      "key_evidence": [
+        {
+          "chunk_id": "385473cc018b401ab9471f213d0ec93a:0",
+          "quote": "U.S. authorities are preparing tightened export controls that would restrict NVIDIA's advanced-chip sales to China, a market that represents a meaningful share of data-center revenue",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        },
+        {
+          "chunk_id": "385473cc018b401ab9471f213d0ec93a:0",
+          "quote": "The regulatory measure could force NVIDIA to write down China-bound inventory and cut near-term guidance",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        }
+      ]
+    }
+  },
+  "prompt_tokens": 1471,
+  "completion_tokens": 477
+}

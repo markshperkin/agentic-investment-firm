@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": true,
+    "coverage": 0.65,
+    "fix_hint": "While the excerpts contain some relevant financial data (earnings per share of $0.06 basic and $0.06 diluted for recent periods, and description of revenue sources like Palantir Cloud, On-Premises Software, and professional services), the actual revenue amounts and complete earnings figures are truncated or missing. To fully answer the query about PLTR's financial performance, revenue, and earnings, retrieve complete consolidated statements of operations showing total revenues, operating income, and net income figures with year-over-year comparisons.",
+    "missing": "Total revenue amounts, net income/earnings figures, complete comparative periods, segment revenue breakdowns (Government vs. Commercial), year-over-year growth rates"
+  },
+  "prompt_tokens": 1864,
+  "completion_tokens": 228
+}

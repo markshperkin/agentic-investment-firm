@@ -1,0 +1,48 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVDA positioned for sustained dominance in AI infrastructure with exceptional growth trajectory and fortress balance sheet",
+      "why_now": "Data Center revenue has reached $193.7B (89.7% of total), demonstrating NVDA's commanding position in the AI boom. With fiscal 2026 revenue tripling to $215.9B from $60.9B in FY2024 and operating cash flow surging to $102.7B from $64.1B in FY2025, the company is in peak earnings growth mode with visibility through the Rubin platform launch in H2 FY2027. Aggressive capital returns ($40.4B repurchases in FY2026) signal management confidence, while $22.7B in committed data center leases underscore serious long-term capacity investment to meet sustained demand.",
+      "expected_edge": "NVDA's moat widens as Data Center becomes a dominant revenue stream with operating leverage translating to 64.6% net margin growth (net income up from $72.9B to $120.1B YoY). The company is not just riding AI demand\u2014it's investing to lead the next cycle with Rubin, while maintaining optionality through $22.3B in strategic non-marketable equity holdings with $2.7B in unrealized gains. Inventory discipline (provisions down from $2.3B to $0.8B QoQ) and balanced growth management suggest execution risk is being controlled.",
+      "risks": "Heavy reliance on Data Center demand (~90% of revenue) creates concentration risk if AI capex cycle slows or competitive pressures emerge. Supply chain complexity and aggressive manufacturing capacity integration present execution risk; demand visibility is strong but not indefinite. $25.8B inventory position and $22.7B future lease obligations reflect significant capital commitments that could constrain flexibility if demand disappoints. Near-term valuations likely already price in elevated growth; multiple compression risk if earnings growth decelerates below current run-rate expectations.",
+      "confidence": 0.72,
+      "key_evidence": [
+        {
+          "chunk_id": "0a8d49081c094b4a87f7b21ad59dfddd:85",
+          "quote": "Revenue more than tripled from $60.9 billion in fiscal 2024 to $215.9 billion in fiscal 2026, with Data Center revenue reaching $193.7 billion (89.7% of total revenue)",
+          "source": "NVDA Financial Statements FY2026",
+          "published_date": ""
+        },
+        {
+          "chunk_id": "0a8d49081c094b4a87f7b21ad59dfddd:65",
+          "quote": "Net income increased substantially to $120.1 billion in fiscal 2026 from $72.9 billion in fiscal 2025, and operating cash flow reached $102.7 billion in fiscal 2026, up from $64.1 billion in fiscal 2025",
+          "source": "NVDA Financial Statements FY2026",
+          "published_date": ""
+        },
+        {
+          "chunk_id": "0a8d49081c094b4a87f7b21ad59dfddd:86",
+          "quote": "Expected data center lease obligations of $22.7 billion between fiscal 2027 and 2030, supporting future growth and R&D infrastructure",
+          "source": "NVDA Financial Statements FY2026",
+          "published_date": ""
+        },
+        {
+          "chunk_id": "f86c29eacb424dee8155b189ce97dd09:12",
+          "quote": "Total inventories at $25.8 billion as of April 26, 2026, up from $21.4 billion at January 25, 2026, with inventory provisions moderated to $0.8 billion in Q1 FY2027 from $2.3 billion in Q1 FY2026",
+          "source": "NVDA Quarterly Report Q1 FY2027",
+          "published_date": ""
+        },
+        {
+          "chunk_id": "f86c29eacb424dee8155b189ce97dd09:8",
+          "quote": "Aggressive capital allocation with $40.4 billion in share repurchases in fiscal 2026 and $19.3 billion repurchased in Q1 FY2027",
+          "source": "NVDA Quarterly Report Q1 FY2027",
+          "published_date": ""
+        }
+      ]
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1984,
+  "completion_tokens": 1173
+}

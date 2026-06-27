@@ -1,0 +1,13 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA data center revenue 10-K",
+      "NVIDIA segment revenue breakdown",
+      "NVIDIA data center segment earnings",
+      "NVIDIA product revenue segments fiscal 2025"
+    ],
+    "strategy": "BASELINE"
+  },
+  "prompt_tokens": 1159,
+  "completion_tokens": 87
+}

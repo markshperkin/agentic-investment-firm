@@ -1,0 +1,28 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVIDIA positioned for sustained data-center growth driven by inference expansion beyond training",
+      "why_now": "NVIDIA's launch of a next-generation inference platform with marquee customer commitments validates a major growth vector beyond model training. Concurrently, management's de-risking narrative on China exposure removes a key overhang, allowing investors to focus on domestic and allied-market data-center tailwinds.",
+      "expected_edge": "The inference platform rollout expands TAM and diversifies revenue streams within data centers, historically NVIDIA's highest-margin segment. De-risked China headwinds preserve guidance credibility and reduce geopolitical uncertainty, positioning NVIDIA for cleaner earnings acceleration through the cycle.",
+      "risks": "Execution risk on inference adoption may lag initial expectations; competitive threats from AMD, custom chips, or emerging players could erode market share. Regulatory or trade policy changes could still impact supply chains or customer access despite current mitigation. Valuation may not reflect these positives if macro sentiment deteriorates.",
+      "confidence": 0.72,
+      "key_evidence": [
+        {
+          "chunk_id": "b27dd8bb585f49ff939823972810dc40:0",
+          "quote": "NVIDIA has reaffirmed that its China data-center exposure is limited and already largely de-risked, with management stating the proposed export restrictions would not materially affect its outlook or guidance.",
+          "source": "Management guidance"
+        },
+        {
+          "chunk_id": "b27dd8bb585f49ff939823972810dc40:0",
+          "quote": "NVIDIA launched a next-generation inference platform with marquee customers committing to early adoption, which analysts say reinforces NVIDIA's data-center moat and broadens demand beyond model training.",
+          "source": "Product announcement / Analyst commentary"
+        }
+      ]
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1488,
+  "completion_tokens": 532
+}

@@ -1,0 +1,11 @@
+{
+  "data": {
+    "relevant": true,
+    "coverage": 0.6,
+    "failure_kind": "NONE",
+    "missing": "Actual numerical revenue figures by segment for fiscal 2024 and 2025. The excerpts contain segment definitions and structure but lack the specific revenue amounts needed to fully answer the query.",
+    "fix_hint": "Retrieve the actual financial tables showing revenue by segment. Look for tables in the 10-K or 10-Q that explicitly list \"Revenue by Segment\" or similar with dollar amounts for \"Compute and Networking\" and \"Graphics\" segments for fiscal years ending January 26, 2025 and January 28, 2024."
+  },
+  "prompt_tokens": 1953,
+  "completion_tokens": 216
+}

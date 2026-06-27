@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA recent financial performance revenue earnings",
+      "NVIDIA data center GPU business segment",
+      "NVIDIA artificial intelligence AI growth strategy",
+      "NVIDIA supply chain manufacturing capacity",
+      "NVIDIA competitive position market share technology"
+    ],
+    "strategy": "BASELINE"
+  },
+  "prompt_tokens": 900,
+  "completion_tokens": 94
+}

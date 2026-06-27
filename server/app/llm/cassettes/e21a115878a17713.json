@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "No Trading Activity; Portfolio Flat vs SPY +0.05%",
+    "summary": "The portfolio held no positions today with zero trades executed. Cash remained at $1,000,000 and portfolio return was 0.00%, trailing the SPY benchmark by 5.23 basis points (benchmark return: +0.052%). No investment decisions were made during the day.",
+    "risk_note": "Portfolio remains fully liquid at starting cash levels with no concentration risk. Process metrics show all safety systems operational (zero refusals, zero risk engine rejects, zero injection quarantines). Continued cash drag against equities market is expected until capital is deployed."
+  },
+  "prompt_tokens": 954,
+  "completion_tokens": 193
+}

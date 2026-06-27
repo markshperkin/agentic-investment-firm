@@ -1,0 +1,83 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.85,
+    "key_points": [
+      {
+        "text": "Compute Networking revenue reached $193.5 billion in fiscal 2026, up 67% year-over-year, driven by accelerated computing and AI platforms, with Data Center computing revenue growing 59% from Blackwell platform demand.",
+        "citation": {
+          "chunk_id": "cb088bcb9dca476e8265b371ec41e734:84",
+          "quote": "Revenue from Data Center computing grew 59% driven by demand for our Blackwell computing platform",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Data Center networking revenue surged 142% year-over-year, driven by NVLink compute fabric for GB200/GB300 systems and growth in Ethernet and InfiniBand platforms.",
+        "citation": {
+          "chunk_id": "cb088bcb9dca476e8265b371ec41e734:84",
+          "quote": "Revenue from Data Center networking grew 142% driven by the introduction and continued ramp of NVLink compute fabric for GB200 and GB300 systems",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Ecosystem strength evidenced by over 7.5 million developers worldwide using CUDA and NVIDIA software tools, with technology available from virtually every major server maker and CSP.",
+        "citation": {
+          "chunk_id": "cb088bcb9dca476e8265b371ec41e734:11",
+          "quote": "There are over 7.5 million developers worldwide using CUDA and our other software tools",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Q1 FY2027 (ended April 26, 2026) Compute Networking segment revenue reached $74.6 billion with operating income of $53.3 billion, up 88% and 142% respectively from Q1 FY2026.",
+        "citation": {
+          "chunk_id": "cebfc0ddb8a047c8b58bb78af4fe6e86:17",
+          "quote": "Revenue $ 74,550... Operating income $ 53,335... Three Months Ended Apr 27, 2025... Revenue $ 39,589... Operating income $ 22,054",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "Total revenue in fiscal 2026 reached $215.9 billion, up 65% year-over-year from $130.5 billion in fiscal 2025, with operating income increasing 58% to $139.3 billion.",
+        "citation": {
+          "chunk_id": "cb088bcb9dca476e8265b371ec41e734:84",
+          "quote": "Year Ended Jan 25, 2026 Revenue $ 215,938... Year Ended Jan 26, 2025 Revenue $ 130,497",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Graphics segment revenue grew 57% to $22.5 billion in fiscal 2026, driven by Blackwell architecture sales, with operating income up 80% to $9.2 billion.",
+        "citation": {
+          "chunk_id": "cb088bcb9dca476e8265b371ec41e734:84",
+          "quote": "Graphics revenue... The year over year increase was driven by sales of our Blackwell architecture",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Launched NVIDIA Blackwell Ultra platform optimized for agentic, reasoning, and physical AI, delivering significant increase in token throughput and reduction in cost per token compared to Hopper generation.",
+        "citation": {
+          "chunk_id": "cb088bcb9dca476e8265b371ec41e734:8",
+          "quote": "In fiscal year 2026, we launched and scaled the NVIDIA Blackwell Ultra platform, optimized for agentic, reasoning, and physical AI",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Rubin platform announced and expected to commence production shipments in H2 FY2027, built for agentic AI and reasoning with up to 10x reduction in cost per token compared to Blackwell.",
+        "citation": {
+          "chunk_id": "cb088bcb9dca476e8265b371ec41e734:10",
+          "quote": "In fiscal year 2026, we unveiled the NVIDIA Rubin platform, which is expected to commence production shipments in the second half of fiscal year 2027... delivering up to a 10x reduction in cost per token compared to Blackwell",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Increased quarterly cash dividend from $0.01 per share to $0.25 per share as of May 18, 2026, signaling confidence in cash generation and shareholder value.",
+        "citation": {
+          "chunk_id": "cebfc0ddb8a047c8b58bb78af4fe6e86:17",
+          "quote": "On May 18, 2026, we increased our quarterly cash dividend from $ 0.01 per share to $ 0.25 per share",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 11748,
+  "completion_tokens": 1514
+}

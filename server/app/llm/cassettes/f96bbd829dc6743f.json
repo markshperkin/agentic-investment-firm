@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": true,
+    "coverage": 0.65,
+    "failure_kind": "NONE",
+    "fix_hint": "Retrieved excerpts contain segment structure and FY2026/FY2025 segment revenue but lack detailed product category breakdowns and geographic detail. For fuller decision-usefulness, query should retrieve specific tables showing Data Center/Compute/Networking/Gaming/Professional Visualization/Automotive revenue by product line, and explicit geographic revenue breakdowns (US, Taiwan, Israel, Other) with year-over-year comparisons and growth rates."
+  },
+  "prompt_tokens": 6354,
+  "completion_tokens": 181
+}

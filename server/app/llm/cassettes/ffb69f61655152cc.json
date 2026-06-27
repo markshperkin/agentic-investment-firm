@@ -1,0 +1,15 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA data center revenue Q3 2024 fiscal year",
+      "NVIDIA 10-Q segment revenue breakdown data center 2024",
+      "NVIDIA fiscal 2025 Q3 revenue segments accelerated computing",
+      "NVIDIA quarterly results data center business fiscal 2024",
+      "NVIDIA 10-Q filing data center segment disclosure 2024"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 365
+  },
+  "prompt_tokens": 1133,
+  "completion_tokens": 149
+}

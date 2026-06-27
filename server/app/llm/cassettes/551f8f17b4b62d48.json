@@ -1,0 +1,16 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVDA positioned for sustained AI infrastructure dominance with 65% revenue growth and 78% supercomputer market share",
+      "why_now": "Fiscal 2026 results demonstrate exceptional execution: total revenue surged 65% YoY to $215.9B, driven by Data Center segment growing 68% to $193.7B. Operating cash flow jumped 60% to $102.7B, signaling strong underlying momentum. With the U.S. representing 93% growth in revenue and expanding to $149.6B, NVDA is capturing the secular AI infrastructure wave accelerating globally. The company's commitment to $22.7B in data center leases through 2030 demonstrates confidence in sustained demand.",
+      "expected_edge": "NVDA commands 78% of TOP500 supercomputer market and supports 6,000+ applications across enterprise, autonomous driving, healthcare, and finance. Data Center gross margin of 71% (though slightly down from 75% prior year due to volume growth and mix) reflects dominant pricing power. The Compute Networking segment's 57% operating income growth ($130.1B) shows leverage in the model. U.S.-centric growth shields from China regulatory headwinds (China revenue declined 21% due to H20 export restrictions), while still maintaining 9.1% of total revenue.",
+      "risks": "Gross margin compression from 75% to 71% YoY suggests either product mix headwinds or competitive pressure as the market scales. China revenue decline of $5.4B (-21%) signals geopolitical risk and potential further export restrictions on AI chips. The $22.7B future lease obligation represents meaningful capital commitments that could pressure cash flow if demand slows. Customer concentration in hyperscalers remains an unquantified risk. Valuation multiples likely elevated given current market enthusiasm.",
+      "confidence": 0.85
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1966,
+  "completion_tokens": 529
+}

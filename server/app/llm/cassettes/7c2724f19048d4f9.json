@@ -1,0 +1,13 @@
+{
+  "data": {
+    "queries": [
+      "NVDA consolidated statements income revenue fiscal 2025 2024",
+      "NVIDIA 10-K 10-Q financial statements data center revenue line items",
+      "NVDA balance sheet income statement quarterly annual report",
+      "NVIDIA audited consolidated financial statements revenue segments"
+    ],
+    "strategy": "DECOMPOSE"
+  },
+  "prompt_tokens": 1171,
+  "completion_tokens": 109
+}

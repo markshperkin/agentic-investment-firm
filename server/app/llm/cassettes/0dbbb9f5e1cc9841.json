@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "Query returned no chunks. Try: (1) Search for \"NVIDIA 10-Q fiscal 2025\" or \"NVIDIA quarterly earnings 2025\" with specific quarter (Q1, Q2, Q3, Q4); (2) Use ticker-based search \"NVDA 10-Q\"; (3) Check filing date range for fiscal 2025 (May 2024\u2013April 2025); (4) Broaden to \"NVIDIA revenue guidance data center\" or specific metric of interest"
+  },
+  "prompt_tokens": 1017,
+  "completion_tokens": 203
+}

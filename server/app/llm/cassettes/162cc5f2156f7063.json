@@ -1,0 +1,9 @@
+{
+  "data": {
+    "decision": "REQUIRE_HUMAN",
+    "reasoning": "NVIDIA Blackwell multi-year deal signals sustained data-center demand with concrete incremental revenue beginning next quarter. However, this represents a material concentration of upside optionality in a single product cycle transition carrying execution, competitive, and macro headwinds. Key risks requiring committee oversight: (1) Blackwell ramp execution \u2014 architectural transition at scale with binary adoption risk from hyperscaler customer base; (2) Competitive intensity \u2014 AMD's EPYC GPU portfolio and hyperscaler custom silicon (TPU, Trainium, Gaudi) increasingly viable alternatives, particularly if Blackwell delays occur; (3) Macro/capex cycle \u2014 cloud infrastructure spending is cyclical and sensitive to AI ROI realization; top-3 customer concentration amplifies impact of any demand deceleration; (4) Geopolitical \u2014 U.S.-China export restrictions could materially shrink addressable market if enforcement tightens or customer base shifts. Position size (~$75.5k) is material but the multi-year contract de-risks near-term visibility. Committee judgment needed on whether Blackwell execution confidence and competitive moat assumptions warrant concentration in a single mega-cap growth narrative.",
+    "severity": "MEDIUM"
+  },
+  "prompt_tokens": 961,
+  "completion_tokens": 325
+}

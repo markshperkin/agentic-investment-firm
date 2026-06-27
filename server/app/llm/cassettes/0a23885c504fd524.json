@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts were retrieved. Try searching with specific terms from the SPY prospectus such as \"SPY prospectus\" or \"SPDR S&P 500 prospectus\" or search the SEC EDGAR database directly for State Street Global Advisors' fund documents. Consider searching for the fund's official prospectus filing (typically form 485APOS or similar) rather than general fund overview terms."
+  },
+  "prompt_tokens": 906,
+  "completion_tokens": 181
+}

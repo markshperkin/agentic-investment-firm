@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA segment information Data Center revenue quarterly",
+      "NVIDIA Note segment reporting disaggregated revenue by segment",
+      "NVIDIA Data Center segment revenue 10-K 10-Q",
+      "NVIDIA segment detail breakdown Data Center Gaming Professional Visualization Automotive"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 180
+  },
+  "prompt_tokens": 1180,
+  "completion_tokens": 127
+}

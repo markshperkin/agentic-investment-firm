@@ -1,0 +1,16 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVIDIA's AI accelerator demand surge and expanding production capacity signal sustained data-center growth ahead",
+      "why_now": "Management has reiterated confidence in sustained data-center growth with a robust backlog and is expanding production capacity to meet stronger-than-expected orders for AI accelerators. Demand is broad-based across both cloud and enterprise customers, indicating the AI cycle remains intact and broad rather than concentrated.",
+      "expected_edge": "NVIDIA's willingness to expand capacity while maintaining high backlog visibility suggests management confidence in demand durability beyond the current quarter. Broad-based demand across customer segments reduces concentration risk and supports the thesis that AI adoption is structural rather than speculative.",
+      "risks": "AI capex cycles are subject to demand shocks if customers pull back spending; competitive pressures from alternative accelerators could erode market share; geopolitical restrictions on chip exports could constrain addressable markets; valuation multiples remain elevated and vulnerable to sentiment shifts.",
+      "confidence": 0.75
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1508,
+  "completion_tokens": 326
+}

@@ -1,0 +1,11 @@
+{
+  "data": {
+    "relevant": true,
+    "coverage": 0.85,
+    "failure_kind": "NONE",
+    "fix_hint": "",
+    "missing": ""
+  },
+  "prompt_tokens": 7603,
+  "completion_tokens": 104
+}

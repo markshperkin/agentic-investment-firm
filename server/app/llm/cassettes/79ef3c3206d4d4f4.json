@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No SEC filing excerpts were retrieved for the query. Verify that CIK 0000922006 is correct and that relevant SEC filings exist for this entity in the database. If the CIK is incorrect, cross-reference the proper CIK for SPY or the intended company."
+  },
+  "prompt_tokens": 897,
+  "completion_tokens": 154
+}

@@ -1,0 +1,91 @@
+{
+  "run_id": "a6108b92b19248edada81ec8f4c1e4fe",
+  "replay_date": "2024-05-23",
+  "metrics": {
+    "starting_cash": 1000000.0,
+    "cash": 974986.5,
+    "holdings_value": 27500.0,
+    "equity": 1002486.5,
+    "portfolio_return": 0.002486,
+    "benchmark": "SPY",
+    "benchmark_return": 0.0,
+    "alpha": 0.002486,
+    "n_trades": 1
+  },
+  "process": {
+    "total_cost_usd": 0.00054,
+    "total_tokens": 100,
+    "citation_checks": 1,
+    "grounded_views": 1,
+    "groundedness": 1.0,
+    "refusals": 0,
+    "risk_engine_rejects": 0,
+    "injection_quarantines": 0
+  },
+  "holdings": [
+    {
+      "ticker": "NVDA",
+      "quantity": 250,
+      "avg_cost_basis": 100.05,
+      "mark": 110.0,
+      "market_value": 27500.0,
+      "unrealized_pnl": 2487.5,
+      "realized_pnl": 0.0
+    }
+  ],
+  "trades": [
+    {
+      "ticker": "NVDA",
+      "side": "BUY",
+      "quantity": 250,
+      "status": "FILLED",
+      "fill_price": 100.05,
+      "realized_pnl": null,
+      "as_of": "2024-05-23T09:30:00"
+    }
+  ],
+  "decisions": [
+    {
+      "tick_seq": 0,
+      "as_of": "2024-05-23T09:30:00",
+      "ticker": "NVDA",
+      "path": "CONTEXT_BUILD",
+      "stance": "BULLISH",
+      "confidence": 0.8,
+      "thesis": "thesis",
+      "decision_log": [
+        {
+          "action": "awaiting_approval",
+          "approval_id": "189c66ceb05542ebbfaa9acbe42d500d"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "623950fc753e479495620f0736d3af3f:0",
+          "source": "",
+          "text": "Operating momentum looks positive."
+        }
+      ]
+    },
+    {
+      "tick_seq": 6,
+      "as_of": "2024-05-23T15:30:00",
+      "ticker": "NVDA",
+      "path": "DAY_REVIEW",
+      "stance": null,
+      "confidence": null,
+      "thesis": null,
+      "decision_log": [
+        {
+          "action": "eod_no_position"
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "narrative": {
+    "headline": "2024-05-23: equity $1,002,486 (+0.25%)",
+    "summary": "Closed with $974,986 cash and $27,500 in 1 position(s) across 1 filled trade(s). Day return +0.25%, +0.25% vs SPY.",
+    "risk_note": "0 risk-engine rejects, 0 refusals, 0 injection quarantines."
+  }
+}

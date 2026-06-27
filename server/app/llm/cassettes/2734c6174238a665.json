@@ -1,0 +1,75 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.85,
+    "key_points": [
+      {
+        "text": "Exceptional revenue growth of 65% year-over-year for fiscal 2026, with total revenue of $215.9 billion versus $130.5 billion in fiscal 2025, driven primarily by accelerated computing and AI solutions in the Data Center segment.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "quote": "Total $ 215,938 $ 130,497 $ 85,441 65 %",
+          "source": "10-K 2026-02-25"
+        }
+      },
+      {
+        "text": "Data Center computing revenue grew 59% driven by demand for Blackwell computing platform, while Data Center networking grew 142% driven by NVLink compute fabric and Ethernet/InfiniBand platforms.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "quote": "Revenue from Data Center computing grew 59% driven by demand for our Blackwell computing platform. Revenue from Data Center networking grew 142% driven by the introduction and continued ramp of NVLink compute fabric for GB200 and GB300 systems and the growth of Ethernet and InfiniBand platforms.",
+          "source": "10-K 2026-02-25"
+        }
+      },
+      {
+        "text": "Strong gross margin improvement to 74.9% in Q1 FY2027, up from 60.5% a year ago, due to non-recurrence of the prior year's $4.5 billion H20 inventory charge and favorable product mix.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:22",
+          "quote": "Gross margin increased from a year ago on lower inventory provisions, primarily due to the prior year's $4.5 billion charge associated with H20 excess inventory and purchase obligations.",
+          "source": "10-Q 2026-05-20"
+        }
+      },
+      {
+        "text": "Q1 FY2027 total revenue of $81.6 billion, up 85% year-over-year, with Compute Networking revenue growing 88% to $74.6 billion driven by Blackwell systems and networking solutions ramp.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:22",
+          "quote": "Compute Networking $ 74,550 $ 39,589 $ 34,961 88 % Graphics 7,065 4,473 2,592 58 % Total $ 81,615 $ 44,062 $ 37,553 85 %",
+          "source": "10-Q 2026-05-20"
+        }
+      },
+      {
+        "text": "Outstanding long-term shareholder value demonstrated by stock returning 1,348.75% on $100 invested on January 31, 2021, compared to S&P 500's 100.33% and Nasdaq 100's 106.01% over the five-year period.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:49",
+          "quote": "NVIDIA Corporation $ 100.00 $ 175.98 $ 157.05 $ 470.88 $ 1,100.68 $ 1,448.75",
+          "source": "10-K 2026-02-25"
+        }
+      },
+      {
+        "text": "Compute Networking segment operating income grew 142% year-over-year in Q1 FY2027 to $53.3 billion from $22.1 billion, driven by strong revenue growth and the one-year prior non-recurrence of the H20 charge.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:22",
+          "quote": "Compute Networking $ 53,335 $ 22,054 $ 31,281 142 %",
+          "source": "10-Q 2026-05-20"
+        }
+      },
+      {
+        "text": "Edge Computing revenue of $6.4 billion in Q1 FY2027, up 29% year-over-year and up 10% sequentially, driven by robust Blackwell workstation demand.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:22",
+          "quote": "Edge Computing revenue for the first quarter was $6.4 billion, up 29% from a year ago and up 10% sequentially. The increases were driven by robust Blackwell workstation demand",
+          "source": "10-Q 2026-05-20"
+        }
+      },
+      {
+        "text": "Dividend increased 25x from $0.01 to $0.25 per share on May 18, 2026, reflecting management confidence in the company's cash generation and financial strength.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:17",
+          "quote": "On May 18, 2026, we increased our quarterly cash dividend from $ 0.01 per share to $ 0.25 per share to all shareholders of record on June 4, 2026.",
+          "source": "10-Q 2026-05-20"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 13382,
+  "completion_tokens": 1437
+}

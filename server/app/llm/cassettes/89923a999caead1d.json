@@ -1,0 +1,13 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA fiscal 2025 revenue by segment data center gaming",
+      "NVIDIA quarterly earnings results net revenue income statement",
+      "NVIDIA annual report 10-K financial statements consolidated",
+      "NVIDIA management guidance outlook future revenue growth"
+    ],
+    "strategy": "DECOMPOSE"
+  },
+  "prompt_tokens": 1085,
+  "completion_tokens": 100
+}

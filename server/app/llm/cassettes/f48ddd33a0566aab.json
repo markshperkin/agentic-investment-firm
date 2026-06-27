@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "No Trading Activity; Underperformed Benchmark by 52 bps",
+    "summary": "Portfolio remained fully in cash at $1,000,000 with zero trades executed and zero decisions made. Portfolio return was 0.0% vs SPY benchmark return of 0.0523%, resulting in an alpha of -0.0523 (-52 bps). No holdings were established. Analysis consumed 1,006 tokens at a cost of $0.00143. No risk engine rejections or injection quarantines were triggered.",
+    "risk_note": "Cash-only positioning results in benchmark drag equal to SPY's daily gain. No active positions to monitor."
+  },
+  "prompt_tokens": 951,
+  "completion_tokens": 197
+}

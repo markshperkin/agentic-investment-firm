@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "End-of-Day Summary: Portfolio Flat, Outperforming Benchmark",
+    "summary": "Portfolio maintained its starting cash of $1,000,000 with zero trades executed. Portfolio return: 0.00% vs. SPY benchmark return of -0.12%, generating alpha of +0.12%. The portfolio holds no positions and all capital remains in cash. Nine decision points were evaluated during the period with seven refusals, indicating conservative positioning or rejection of proposed trades. Process utilized 11,453 tokens with a cost of $0.016665. No risk engine rejections or injection quarantines occurred.",
+    "risk_note": "Portfolio is fully in cash with no market exposure. While this preserves capital and outperforms today's negative benchmark, it creates zero growth opportunity and leaves the portfolio entirely sidelined from market movements."
+  },
+  "prompt_tokens": 954,
+  "completion_tokens": 234
+}

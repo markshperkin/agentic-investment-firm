@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No SEC filing excerpts were retrieved. To find SPY (SPDR S&P 500 ETF Trust) holdings, search for the fund's most recent prospectus or annual report filed with the SEC. Try searching with terms like \"SPY holdings\", \"SPDR S&P 500 portfolio\", or look for the fund's official fact sheet or N-CSR/N-CSRS filings which contain detailed holdings lists."
+  },
+  "prompt_tokens": 894,
+  "completion_tokens": 185
+}

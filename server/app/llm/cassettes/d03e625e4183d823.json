@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "Portfolio Flat; No Trading Activity; Underperforming Benchmark by 5.23 bps",
+    "summary": "End-of-day portfolio metrics: $1,000,000 in cash, $0 in holdings, for total equity of $1,000,000. Portfolio return stands at 0.0% with zero trades executed. SPY benchmark returned +0.0523%, resulting in alpha of -0.0523% (52.3 basis points underperformance). No investment decisions were made today. Cash position remains fully uninvested.",
+    "risk_note": "Portfolio remains entirely in cash with no equity exposure. Opportunity cost of cash drag relative to benchmark is accruing. Risk engine accepted all analytical work with no refusals or injection quarantines."
+  },
+  "prompt_tokens": 951,
+  "completion_tokens": 224
+}

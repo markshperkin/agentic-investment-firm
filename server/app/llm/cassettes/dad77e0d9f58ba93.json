@@ -1,0 +1,29 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.72,
+    "key_points": [
+      {
+        "text": "NVIDIA has reaffirmed that its China data-center exposure is limited and already largely de-risked, with management stating the proposed export restrictions would not materially affect its outlook or guidance.",
+        "citation": {
+          "chunk_id": "b27dd8bb585f49ff939823972810dc40:0",
+          "source": "NEWS",
+          "published_date": "2026-05-29T15:30:00",
+          "quote": "NVIDIA pushed back hard on the day's report of potential U.S. export restrictions, telling investors its China data-center exposure is limited and already largely de-risked and that the proposed measures would not materially affect its outlook or guidance."
+        }
+      },
+      {
+        "text": "NVIDIA launched a next-generation inference platform with marquee customers committing to early adoption, which analysts say reinforces NVIDIA's data-center moat and broadens demand beyond model training.",
+        "citation": {
+          "chunk_id": "b27dd8bb585f49ff939823972810dc40:0",
+          "source": "NEWS",
+          "published_date": "2026-05-29T15:30:00",
+          "quote": "At the same event the company unveiled a next-generation inference platform, with several marquee customers committing to early adoption, a launch analysts said reinforces NVIDIA's data-center moat and broadens demand well beyond model training."
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 1419,
+  "completion_tokens": 438
+}

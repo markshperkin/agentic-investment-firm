@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "Query returned no chunks. Verify that NVIDIA Q3 FY2025 10-Q has been indexed. Try searching with \"NVIDIA data center revenue Q3 2025\" or \"NVIDIA 10-Q fiscal 2025 third quarter segment revenue.\" Check filing date (likely Sept 2024 quarter ending July 2024)."
+  },
+  "prompt_tokens": 1022,
+  "completion_tokens": 167
+}

@@ -1,0 +1,91 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.85,
+    "key_points": [
+      {
+        "text": "Total revenue reached $215,938 million in fiscal 2026, representing 65% growth from $130,497 million in fiscal 2025, driven primarily by Data Center segment expansion.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:85",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Total revenue $ 215,938 &#160; $ 130,497 &#160; $ 60,922"
+        }
+      },
+      {
+        "text": "Data Center revenue grew to $193,737 million in fiscal 2026 from $115,186 million in fiscal 2025, with Compute revenue reaching $162,361 million and Networking revenue reaching $31,376 million.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:85",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Data Center $ 193,737 &#160; $ 115,186 &#160; $ 47,525 &#160; Compute 162,361 &#160; 102,196 &#160; 38,950 &#160; Networking 31,376 &#160; 12,990"
+        }
+      },
+      {
+        "text": "Operating income from Compute Networking segment reached $130,141 million in fiscal 2026, up from $82,875 million in fiscal 2025, representing a 57% increase.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:84",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Operating income $ 130,141 &#160; $ 82,875 &#160; $ 32,016"
+        }
+      },
+      {
+        "text": "Net income increased to $120,067 million in fiscal 2026 from $72,880 million in fiscal 2025, a 65% increase, with basic EPS of $4.93 versus $2.97 in the prior year.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:63",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Net income $ 120,067 &#160; $ 72,880 &#160; $ 29,760. Net income per share: Basic $ 4.93 &#160; $ 2.97"
+        }
+      },
+      {
+        "text": "NVIDIA powers over 78% of the global TOP500 supercomputers and supports 6,000 applications across enterprise software, autonomous driving, healthcare, financial services, and research domains.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:9",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Including GPUs and networking, NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list. With support for 6,000 applications, NVIDIA computing enables some of the most promising areas of discovery"
+        }
+      },
+      {
+        "text": "Gross profit expanded to $153,463 million in fiscal 2026 from $97,858 million in fiscal 2025, representing 71% gross margin, up from 75% in the prior year.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:63",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Gross profit 153,463 &#160; $ 97,858 &#160; $ 44,301 &#160; Operating expenses Research and development 18,497 &#160; $ 12,914"
+        }
+      },
+      {
+        "text": "Operating cash flow increased to $102,718 million in fiscal 2026 from $64,089 million in fiscal 2025, demonstrating strong underlying business momentum despite higher inventory levels.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:65",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Net cash provided by operating activities 102,718 &#160; 64,089 &#160; 28,090"
+        }
+      },
+      {
+        "text": "The company expects to commence data center leases with future obligations of $22.7 billion between fiscal 2027 and 2030, primarily to support research and development efforts.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:85",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Between fiscal years 2027 and 2030, we expect to commence leases with future obligations of $ 22.7 billion, primarily data center leases to support our research and development efforts"
+        }
+      },
+      {
+        "text": "U.S.-based revenue grew to $149,617 million in fiscal 2026 from $77,482 million in fiscal 2025, reflecting 93% growth and increased U.S. focus driven by Compute Networking demand.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:84",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "United States $ 149,617 &#160; $ 77,482 &#160; $ 31,533"
+        }
+      },
+      {
+        "text": "China-headquartered customer revenue declined to $19,677 million in fiscal 2026 from $25,048 million in fiscal 2025, reflecting regulatory export restrictions on H20 products.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:49",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "In April 2025, the USG informed us that a license is required for exports of our H20 product into the China market. As a result of these requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 13291,
+  "completion_tokens": 1831
+}

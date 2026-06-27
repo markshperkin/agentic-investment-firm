@@ -1,6 +1,14 @@
 # ADR 001 — LangGraph for orchestration + HITL
 
-**Status:** Accepted · **Date:** 2026-06-23
+**Status:** ~~Accepted~~ **Superseded** (2026-06-24) · **Date:** 2026-06-23
+
+> **Superseded during the build.** The firm orchestrates with explicit deterministic
+> code (`firm/runner.py` + `firm/dispatcher.py`) and persists state in SQLite
+> (portfolio, `TickerMemory`, and a `PENDING` `ApprovalRequest` row for HITL) — not a
+> LangGraph graph with `interrupt()`. The HITL requirement ("graph state persists
+> across the wait") is met by the durable approval row, which survives restart and is
+> resumed by the approval HTTP call. Full rationale: [`docs/why-not-langgraph.md`](../why-not-langgraph.md).
+> The decision below is kept for history.
 
 ## Context
 Need a 5-agent workflow with persistent state between agents, a human-in-the-loop pause where "graph state persists across the wait," and crash recovery. The brief's HITL wording maps almost literally to a checkpointed graph.

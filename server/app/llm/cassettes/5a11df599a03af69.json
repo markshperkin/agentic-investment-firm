@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts were retrieved. Resubmit with a more specific query targeting NVDA's latest earnings report or 10-Q/10-K filings, using search terms like \"data center revenue,\" \"AI accelerators,\" or specific quarter/year references (e.g., \"NVDA Q3 2024 data center\"). Ensure the document source is specified."
+  },
+  "prompt_tokens": 1014,
+  "completion_tokens": 173
+}

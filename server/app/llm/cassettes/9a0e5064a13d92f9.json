@@ -1,0 +1,9 @@
+{
+  "data": {
+    "action": "TRIM",
+    "gap_risk": "HIGH",
+    "reasoning": "NVDA thesis remains intact (bullish conviction 0.72) with strong fundamental catalysts (China de-risking narrative, new inference platform with customer commitments). However, elevated overnight gap risk is explicitly flagged by strategists and desks for high-beta semis ahead of Federal Reserve communications. The +2.5% intraday gain provides an opportune moment to reduce exposure and lock in gains while mitigating tail risk. Given the thesis is still valid but gap risk is materially elevated due to overnight macro/Fed event risk, trimming preserves conviction while right-sizing overnight vulnerability. A full FLATTEN is unwarranted given thesis strength, but HOLD into an acknowledged gap-risk event is suboptimal risk management."
+  },
+  "prompt_tokens": 1063,
+  "completion_tokens": 225
+}

@@ -1,0 +1,55 @@
+from dataclasses import dataclass
+from datetime import datetime
+
+from app.db import SessionLocal
+from app.guardrails.injection import scan
+from app.guardrails.lookahead import assert_no_lookahead
+from app.models.corpus import Chunk
+from app.obs.spans import span
+from app.rag.embeddings import Embedder
+from app.rag.vector_store import VectorStore
+
+
+@dataclass
+class RetrievedChunk:
+    chunk_id: str
+    text: str
+    source: str
+    form_type: str
+    published_date: str
+    published_ts: float
+    score: float
+
+
+class Retriever:
+    def __init__(self, embedder: Embedder, store: VectorStore):
+        self.embedder = embedder
+        self.store = store
+
+    def retrieve(self, query: str, ticker: str, as_of: datetime, k: int = 8) -> list[RetrievedChunk]:
+        as_of_ts = as_of.timestamp()
+        qvec = self.embedder.embed([query], input_type="query")[0]
+        hits = self.store.search(qvec, k, ticker=ticker, max_published_ts=as_of_ts)
+
+        out: list[RetrievedChunk] = []
+        with SessionLocal() as s:
+            for h in hits:
+                chunk = s.get(Chunk, h.chunk_id)
+                if chunk is None:
+                    continue
+                out.append(RetrievedChunk(
+                    chunk_id=h.chunk_id, text=chunk.text, source=h.metadata.get("source", ""),
+                    form_type=h.metadata.get("form_type", ""),
+                    published_date=h.metadata.get("published_date", ""),
+                    published_ts=h.metadata.get("published_ts", 0.0), score=round(h.score, 4),
+                ))
+
+        clean, quarantined = scan(out)
+        if quarantined:
+            with span("GUARDRAIL", "injection_scan", ticker=ticker) as h:
+                h.set(status="REJECTED")
+                h.set_output({"quarantined": [c.chunk_id for c in quarantined]})
+
+        # Independent boundary assertion — holds on every path, not just retrieval.
+        assert_no_lookahead([{"chunk_id": c.chunk_id, "published_ts": c.published_ts} for c in clean], as_of_ts)
+        return clean

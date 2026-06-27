@@ -1,0 +1,9 @@
+{
+  "data": {
+    "decision": "REQUIRE_HUMAN",
+    "reasoning": "NVIDIA position of 724 shares (~$75k) rests on sustained data-center AI accelerator demand. The thesis is sound: management visibility on backlog and production expansion suggests near-term confidence, and broad-based cloud/enterprise adoption reduces concentration risk.\n\nHowever, material risks warrant committee sign-off:\n\n1. **Demand volatility**: AI capex cycles are inherently cyclical. Customer spending pullbacks (e.g., if cloud providers over-provisioned or consolidate suppliers) could trigger sharp multiple compression. NVIDIA's elevated valuation amplifies downside sensitivity.\n\n2. **Competitive erosion**: AMD, Intel, and custom silicon (e.g., hyperscaler ASICs) are advancing. Market share loss would undermine the margin and growth profile underpinning current valuations.\n\n3. **Geopolitical constraints**: U.S. export controls on advanced chips to China could materially shrink addressable market and reduce TAM assumptions. Regulatory risk is binary and uncontrollable.\n\n4. **Valuation**: Premium multiples reflect AI boom consensus. Any narrative shift\u2014demand moderation, competition gains, or macro slowdown\u2014could trigger re-rating independent of fundamentals.\n\nThe position is long a cyclical, consensus trade at elevated valuation during a macro period of heightened uncertainty. Risk/reward is asymmetric to the downside if any of the three risk buckets materialize. Committee review is warranted.",
+    "severity": "MEDIUM"
+  },
+  "prompt_tokens": 954,
+  "completion_tokens": 385
+}

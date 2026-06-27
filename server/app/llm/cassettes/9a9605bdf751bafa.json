@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The excerpts describe NVIDIA's business segments (Compute Networking and Graphics) and product categories qualitatively, but contain NO revenue figures, growth rates, or quantitative product-line breakdowns. To answer the query, retrieve segments from the financial tables or MD&A that show: (1) Compute Networking revenue and Graphics revenue with year-over-year comparisons, (2) subsegment detail (e.g., Data Center vs. Automotive within Compute Networking; Gaming vs. Professional Visualization within Graphics), and (3) YoY growth rates. Search for \"segment revenue\" or \"revenues by reportable segment\" in the 10-K or 10-Q financial statements sections."
+  },
+  "prompt_tokens": 5350,
+  "completion_tokens": 243
+}

@@ -27,11 +27,15 @@ build/
 *.local
 
 # ---- Runtime state / data stores (committed sample data lives elsewhere) ----
+# server/data/ is the runtime dir: sqlite, chroma, price cache, local cert bundle
+server/data/
 *.sqlite
 *.sqlite3
 *.db
 **/chroma/
 **/.chroma/
+# local CA bundles / certs never belong in the repo
+*.pem
 logs/
 *.log
 

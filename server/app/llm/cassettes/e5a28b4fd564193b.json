@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No SEC filing excerpts were retrieved. Try a more specific search targeting the SPDR S&P 500 ETF (SPY) prospectus filing directly by CIK number or exact fund name. Alternatively, search for \"SPDR S&P 500 ETF prospectus\" or the fund's official SEC Central Index Key (CIK) to locate the actual 485APOS post-effective amendment document."
+  },
+  "prompt_tokens": 904,
+  "completion_tokens": 186
+}

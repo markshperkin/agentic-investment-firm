@@ -1,0 +1,9 @@
+{
+  "data": {
+    "decision": "REQUIRE_HUMAN",
+    "reasoning": "This is a $92k long equity position in NVDA with a bullish AI/data center thesis supported by strong Q1 FY2027 fundamentals (85% YoY revenue growth, 92% YoY Data Center growth, 1,440bps margin expansion). However, the trade carries material execution and macro risks that warrant committee review:\n\n**Investment Thesis:** The trade rests on NVDA's Data Center dominance accelerating through Blackwell ramp-out and sustained margin expansion, with 25%+ upside to justified valuations. Recent results (Q1 FY2027) show exceptional execution\u2014$81.6B total revenue, $75.2B Data Center revenue, 74.9% gross margin\u2014validating the cash generation and product cycle thesis. Dividend increase and customer diversification signal risk mitigation.\n\n**Key Risks to Committee Review:**\n1. **Geopolitical & Regulatory:** Export restrictions (China exposure) are binary tail risks that could materially compress Data Center growth, the core profit engine.\n2. **Competitive Erosion:** AMD and custom AI chip initiatives (Google TPU, etc.) threaten pricing power and market share, especially if customer capex discipline tightens.\n3. **Cyclical Demand:** Customer capex cycles may moderate faster than expected, pulling forward revenue and pressuring ASPs\u2014Blackwell ASP decline or mix shift to lower-margin segments is a margin headwind.\n4. **Valuation Risk:** At current levels, multiples may already embed 2\u20133 years of growth; limited margin of safety if execution falters or rates rise.\n\nThe position is within stated risk appetite and fundamental conviction is high, but concentration in a single name with meaningful downside scenarios requires human judgment on portfolio impact and hedging strategy.",
+    "severity": "MEDIUM"
+  },
+  "prompt_tokens": 1061,
+  "completion_tokens": 466
+}

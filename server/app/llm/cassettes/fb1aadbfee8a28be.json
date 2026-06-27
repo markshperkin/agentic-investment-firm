@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "Portfolio Flat; SPY +0.05% on the Day",
+    "summary": "Portfolio returned 0.0% while the SPY benchmark advanced 0.0523%, resulting in -0.0523% alpha underperformance. No trades were executed (0 trades, 0 decisions). Cash position remains at $1,000,000 with no holdings. Process cost: $0.01695 across 14,854 tokens.",
+    "risk_note": "Portfolio is fully in cash with no market exposure, creating significant benchmark tracking risk in a rising market environment."
+  },
+  "prompt_tokens": 951,
+  "completion_tokens": 178
+}

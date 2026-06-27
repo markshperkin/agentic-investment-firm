@@ -1,0 +1,48 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVDA positioned to sustain secular AI/accelerated computing growth with dominant market share and accelerating profitability",
+      "why_now": "FY2026 results demonstrate the breadth of NVIDIA's AI-driven growth platform: 65% YoY revenue growth, 142% networking growth, and Compute Networking operating income up 57% despite a $4.5B H20 charge. Operating cash flow nearly doubled to $102.7B, providing capital for continued investment while maintaining momentum in a market inflection still in early innings of AI adoption.",
+      "expected_edge": "NVIDIA's 78% share of TOP500 supercomputers creates durable competitive moat that should sustain pricing power and platform switching costs. Accelerating networking growth (142% YoY) signals TAM expansion beyond compute\u2014revenue diversification emerging despite customer concentration. Strong cash generation ($102.7B operating cash flow) allows defensive optionality while riding secular cloud/AI capex cycle.",
+      "risks": "Customer concentration risk is material: one direct customer represents 22% of FY2026 revenue, creating binary downside if that customer (likely hyperscaler) reduces orders or diverts to custom silicon. Management explicitly flagged execution risk around product transitions and supply-demand management that could delay revenue timing. Valuation at current levels prices in sustained growth\u2014any disappointment on guidance or customer concentration materialization could trigger sharp repricing.",
+      "confidence": 0.92,
+      "key_evidence": [
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "quote": "Revenue grew 65% year-over-year to $215,938 million in fiscal 2026, driven by major platform shifts toward accelerated computing and AI, with Data Center computing growing 59% and Data Center networking growing 142%",
+          "source": "NVIDIA FY2026 Results"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "quote": "Operating income more than doubled in the Compute Networking segment to $130,141 million in fiscal 2026 from $82,875 million in fiscal 2025, a 57% increase despite a $4.5 billion charge for H20 excess inventory",
+          "source": "NVIDIA FY2026 Results"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:9",
+          "quote": "NVIDIA powers over 78% of supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list",
+          "source": "NVIDIA Market Position"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:65",
+          "quote": "Strong cash generation with operating cash flow of $102,718 million in fiscal 2026 compared to $64,089 million in fiscal 2025",
+          "source": "NVIDIA FY2026 Cash Flow"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "quote": "Revenue concentration with one direct customer representing 22% of total revenue in fiscal 2026",
+          "source": "NVIDIA FY2026 Risk Factors"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:49",
+          "quote": "The complexity of our product transitions and sophisticated system configurations has and may in the future cause delays in production and create challenges in managing supply and demand",
+          "source": "NVIDIA Management Commentary"
+        }
+      ]
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1765,
+  "completion_tokens": 1016
+}

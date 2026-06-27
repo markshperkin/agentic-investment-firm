@@ -1,0 +1,29 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.75,
+    "key_points": [
+      {
+        "text": "NVIDIA secured a multi-year agreement to supply next-generation Blackwell GPUs to a top-three cloud provider, with revenue expected to materially increase starting next quarter",
+        "citation": {
+          "chunk_id": "8c0e93b986b94385ab688edf2eefac6e:0",
+          "source": "NEWS",
+          "published_date": "2026-05-29T11:30:00",
+          "quote": "NVIDIA has signed a multi-year agreement to supply next-generation Blackwell GPUs to a top-three cloud provider, a deal expected to add materially to data-center revenue beginning next quarter"
+        }
+      },
+      {
+        "text": "The Blackwell supply deal reinforces NVIDIA's data-center backlog and pricing power according to analyst commentary",
+        "citation": {
+          "chunk_id": "8c0e93b986b94385ab688edf2eefac6e:0",
+          "source": "NEWS",
+          "published_date": "2026-05-29T11:30:00",
+          "quote": "Analysts called the agreement a strong incremental demand signal that reinforces NVIDIA's data-center backlog and pricing power"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 1289,
+  "completion_tokens": 398
+}

@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The search returned no results. Try refining the query with more specific terms such as \"SPY fund prospectus overview,\" \"SPDR S&P 500 ETF prospectus,\" or search directly for the fund name and filing type (e.g., \"SPY 424B5\" or \"SPY annual report\"). Ensure the exact fund ticker or full fund name is being used."
+  },
+  "prompt_tokens": 896,
+  "completion_tokens": 175
+}

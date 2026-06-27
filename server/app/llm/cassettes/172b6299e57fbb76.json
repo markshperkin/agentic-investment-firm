@@ -1,0 +1,33 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVIDIA's export-control de-risking and inference platform acceleration unlock renewed bull case",
+      "why_now": "Management directly addressed lingering export-restriction concerns by confirming China data-center exposure is already largely de-risked and won't materially affect guidance. Simultaneously, the unveiling of a next-generation inference platform with marquee customer commitments signals a broadening TAM beyond model training and reinforces competitive moat. This combination of regulatory clarity and product expansion marks a inflection point that reverses earlier headwinds.",
+      "expected_edge": "NVIDIA's articulation of limited China exposure removes a key valuation overhang that has weighed on sentiment. The new inference platform with early-adopter commitments diversifies revenue beyond training accelerators\u2014a structurally attractive growth vector that the market has yet to fully price in. Together, these reduce downside tail risk while extending upside optionality.",
+      "risks": "Further geopolitical escalation or stricter export controls could force management guidance lower despite current reassurances. Execution risk on the inference platform ramp and customer adoption timelines could disappoint. Competitive intensity from AMD, Intel, and custom cloud chips may accelerate, eroding NVIDIA's pricing power and margins.",
+      "confidence": 0.75,
+      "key_evidence": [
+        {
+          "chunk_id": "b27dd8bb585f49ff939823972810dc40:0",
+          "quote": "NVIDIA management directly addressed export-restriction concerns, reaffirming that China data-center exposure is limited and already largely de-risked, with proposed measures not expected to materially affect outlook or guidance.",
+          "source": "<UNKNOWN>"
+        },
+        {
+          "chunk_id": "b27dd8bb585f49ff939823972810dc40:0",
+          "quote": "NVIDIA unveiled a next-generation inference platform with marquee customers committing to early adoption, which analysts said reinforces the company's data-center competitive moat and broadens demand beyond model training.",
+          "source": "<UNKNOWN>"
+        },
+        {
+          "chunk_id": "b27dd8bb585f49ff939823972810dc40:0",
+          "quote": "The update reversed earlier export-control concerns and refocused the market on accelerating AI infrastructure demand, with the bullish thesis firmly intact.",
+          "source": "<UNKNOWN>"
+        }
+      ]
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1542,
+  "completion_tokens": 655
+}

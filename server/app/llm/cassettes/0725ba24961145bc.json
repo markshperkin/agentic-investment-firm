@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The search returned no results. Try a more direct query like \"NVIDIA data center revenue 10-K\" or \"NVIDIA segment revenue breakdown\" without \"results of operations\" which may be too specific a section name. Alternatively, search for \"NVIDIA 10-K revenue by segment\" or just \"NVIDIA data center segment\"."
+  },
+  "prompt_tokens": 1017,
+  "completion_tokens": 163
+}

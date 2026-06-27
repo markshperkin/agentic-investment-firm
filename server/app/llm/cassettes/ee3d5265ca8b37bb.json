@@ -1,0 +1,11 @@
+{
+  "data": {
+    "relevant": true,
+    "coverage": 0.4,
+    "failure_kind": "NONE",
+    "fix_hint": "Query asks for revenue guidance but excerpts contain mostly business strategy, platform descriptions, and risk factors. For next query: extract specific forward revenue guidance numbers (e.g., \"Q3 FY2027 revenue expected to be $X billion\"), quantified growth projections, or management commentary on expected revenue trends. Current excerpts lack concrete revenue targets or quantified forward guidance.",
+    "missing": "Specific forward revenue guidance or quantified revenue forecasts; management's expected revenue growth rates or forward-looking revenue targets"
+  },
+  "prompt_tokens": 5351,
+  "completion_tokens": 208
+}

@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "Portfolio underperformed SPY by 143 basis points; single NVDA position underwater",
+    "summary": "End-of-day portfolio equity stands at $999,118.21, down $881 from start ($1,000,000). Portfolio return of -0.088% versus SPY benchmark return of +0.052%, yielding negative alpha of -0.141%. The sole holding is 398 shares of NVDA at $211.15 mark (avg cost $213.36), representing $84,037.70 in market value with $880.79 unrealized loss. One trade was executed today. Cash position: $915,080.52. Process metrics nominal: 1 citation check completed, full groundedness score, no risk engine rejections or injection quarantines.",
+    "risk_note": "NVDA position carries $880.79 unrealized loss and is concentrated at 8.4% of portfolio equity. Monitor mark-to-market volatility given single-stock exposure."
+  },
+  "prompt_tokens": 1025,
+  "completion_tokens": 272
+}

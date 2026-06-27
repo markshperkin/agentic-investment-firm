@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No SEC filing excerpts were retrieved. For SPY (SPDR S&P 500 ETF Trust) prospectus information, try querying with more specific terms like \"SPY portfolio holdings\" or \"SPY fund composition\" directly. Alternatively, search for the specific N-1A form filing document identifier (CIK number for SPY's issuer) combined with \"portfolio of investments\" or \"holdings\" to retrieve relevant prospectus sections that typically detail the fund's asset allocation and constituent holdings."
+  },
+  "prompt_tokens": 899,
+  "completion_tokens": 199
+}

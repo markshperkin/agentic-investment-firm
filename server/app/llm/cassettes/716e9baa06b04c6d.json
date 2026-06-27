@@ -1,0 +1,28 @@
+{
+  "data": {
+    "action": "HOLD",
+    "thesis_card": {
+      "headline": "NVIDIA's competitive moat remains intact with limited China headwinds and expanding inference optionality",
+      "why_now": "NVIDIA's next-generation inference platform launch with marquee customer commitments is strengthening its data-center competitive advantage precisely when market concerns about China export restrictions could create volatility. The company's already-limited China data-center exposure and de-risking of this segment provides downside protection while the inference expansion unlocks incremental demand beyond model training.",
+      "expected_edge": "NVIDIA's inference platform with committed marquee customers should extend its data-center TAM expansion and gross margin profile, while the limited China exposure cushions against geopolitical headwinds. This dual dynamic\u2014offense on inference demand and defense on China risk\u2014supports multiples resilience relative to semiconductor peer set.",
+      "risks": "Execution risk on inference platform adoption (customers may optimize internally or diversify to competitors); geopolitical escalation could still impact indirect China exposure through system integrators or regional partners; competitive threats from AMD, Intel, or cloud providers' custom silicon; broader AI capex normalization if customer demand disappoints.",
+      "confidence": 0.79,
+      "key_evidence": [
+        {
+          "chunk_id": "b27dd8bb585f49ff939823972810dc40:0",
+          "quote": "NVIDIA has limited China data-center exposure and has already largely de-risked this segment, mitigating concerns about material impacts from potential U.S. export restrictions on guidance",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        },
+        {
+          "chunk_id": "b27dd8bb585f49ff939823972810dc40:0",
+          "quote": "Next-generation inference platform launch with marquee customer commitments strengthens NVIDIA's data-center competitive moat and expands demand beyond model training",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        }
+      ]
+    }
+  },
+  "prompt_tokens": 1477,
+  "completion_tokens": 505
+}

@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts returned. Verify that the query is targeting the correct SEC filing (e.g., 10-Q or 10-K for NVIDIA). Try searching for \"Data Center\", \"Gaming\", \"Professional Visualization\" or other NVIDIA segment names specifically, or search for \"segment revenue breakdown\" with the filing period (e.g., \"Q2 2024\")."
+  },
+  "prompt_tokens": 1010,
+  "completion_tokens": 171
+}

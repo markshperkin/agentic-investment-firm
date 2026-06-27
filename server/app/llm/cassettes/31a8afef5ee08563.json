@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "Query returned no results. Verify that you are searching NVIDIA's latest 10-Q or 10-K filings (e.g., \"NVIDIA Data Center revenue Q3 2024\" or search the investor relations site directly for recent quarterly earnings documents). Ensure the filing contains the Data Center segment breakdown by quarter."
+  },
+  "prompt_tokens": 1012,
+  "completion_tokens": 160
+}

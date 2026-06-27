@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "SPY S&P 500 ETF holdings portfolio composition",
+      "Invesco SPY fund performance returns dividend",
+      "SPY expense ratio fees management",
+      "SPY sector allocation asset distribution",
+      "SPY benchmark tracking methodology"
+    ],
+    "strategy": "BASELINE"
+  },
+  "prompt_tokens": 899,
+  "completion_tokens": 99
+}

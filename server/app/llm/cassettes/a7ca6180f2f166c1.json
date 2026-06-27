@@ -1,0 +1,13 @@
+{
+  "data": {
+    "queries": [
+      "SPY CIK 0000922006",
+      "SPDR S&P 500 ETF Trust 485APOS filing",
+      "State Street SPDR SPY prospectus amendment",
+      "S&P 500 Index tracking ETF prospectus SEC filing"
+    ],
+    "strategy": "DECOMPOSE"
+  },
+  "prompt_tokens": 1157,
+  "completion_tokens": 113
+}

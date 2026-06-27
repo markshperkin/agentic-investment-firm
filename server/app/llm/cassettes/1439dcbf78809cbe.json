@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "PLTR Palantir financial performance revenue earnings",
+      "PLTR business segments products services customers",
+      "PLTR competitive positioning market share industry trends",
+      "PLTR management strategy guidance outlook",
+      "PLTR balance sheet cash flow liquidity debt"
+    ],
+    "strategy": "BASELINE"
+  },
+  "prompt_tokens": 900,
+  "completion_tokens": 105
+}

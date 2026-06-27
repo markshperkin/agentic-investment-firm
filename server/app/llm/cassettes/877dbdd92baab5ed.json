@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "Search for capex or capital expenditure guidance/outlook for fiscal years 2026 and 2027. Try queries like 'NVDA capital expenditures guidance' or 'NVDA property plant equipment spending 2026 2027' to find forward-looking capex commentary or management discussion of capex plans."
+  },
+  "prompt_tokens": 8766,
+  "completion_tokens": 161
+}

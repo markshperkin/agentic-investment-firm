@@ -1,0 +1,38 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVIDIA's Dominant AI Infrastructure Position Strengthens with Blackwell Ramp and Margin Recovery",
+      "why_now": "Data Center revenue has reached $71.5B (fiscal year 2026) with NVIDIA powering 78% of global supercomputers, establishing near-monopoly control in AI infrastructure. The recurring $4.5B H20 excess inventory charge from prior year has cleared, enabling gross margin expansion in Q1 FY2027. Blackwell architecture is now ramping across cloud providers, AI model makers, and enterprises, while Edge Computing revenue growth (29% YoY to $6.4B in Q1 FY2027) signals expansion into new revenue streams beyond traditional data center TAM.",
+      "expected_edge": "NVIDIA's technological lead and customer lock-in effects (78% supercomputer penetration) create durable competitive moat. Blackwell adoption across heterogeneous customer segments (cloud/enterprise/AI labs) diversifies growth drivers. Margin recovery from inventory normalization combined with strong operational leverage in data center business should drive earnings upside relative to consensus.",
+      "risks": "AI capex cycle may decelerate if cloud providers achieve desired capacity. Regulatory scrutiny on export controls to China could constrain growth. Competitive threats from AMD, custom silicon by hyperscalers (TPUs, custom accelerators), or next-gen architectures could erode market share. Valuation at 0.85 conviction suggests meaningful execution risk remains.",
+      "confidence": 0.85,
+      "key_evidence": [
+        {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:9",
+          "quote": "Data Center revenue reached $71.5 billion in fiscal year 2026, with NVIDIA powering over 78% of supercomputers on the global TOP500 list",
+          "source": "NVIDIA fiscal year 2026 results"
+        },
+        {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:22",
+          "quote": "Gross margin improved significantly in Q1 FY2027 on lower inventory provisions, with the prior year's $4.5 billion H20 excess inventory charge not recurring",
+          "source": "NVIDIA Q1 FY2027 earnings"
+        },
+        {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:8",
+          "quote": "Blackwell architecture is driving revenue growth across multiple customer segments including cloud providers, AI model makers, and enterprises adopting generative and agentic AI applications",
+          "source": "NVIDIA fiscal year 2026 results"
+        },
+        {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:22",
+          "quote": "Edge Computing revenue reached $6.4 billion in Q1 FY2027, up 29% year-over-year, demonstrating expansion beyond traditional data center markets",
+          "source": "NVIDIA Q1 FY2027 earnings"
+        }
+      ]
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1617,
+  "completion_tokens": 843
+}

@@ -1,0 +1,9 @@
+{
+  "data": {
+    "action": "TRIM",
+    "gap_risk": "HIGH",
+    "reasoning": "NVDA has rallied +2.5% today (last_price 102.5 from day_open 100.0) on a positive bullish thesis (confidence 0.76) driven by China de-risking commentary and new inference platform strength. However, new information explicitly warns of \"elevated overnight gap risk\" for high-beta semiconductors, with strategists cutting exposure into the close ahead of a Federal Reserve event. The thesis remains intact\u2014fundamentals are solid\u2014but the timing risk is material. A TRIM reduces overnight gap exposure while maintaining conviction in the position. This balances the strong bullish view with prudent risk management given the elevated macro uncertainty flagged by market professionals and the high-beta nature of NVDA. A full FLATTEN would be excessive given thesis conviction, but carrying the full 747 shares through a gap-risk event contradicts the warning from the desks."
+  },
+  "prompt_tokens": 1064,
+  "completion_tokens": 259
+}

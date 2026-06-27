@@ -1,0 +1,67 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.75,
+    "key_points": [
+      {
+        "text": "Net income surged to $120,067 million in fiscal year 2026, more than 64% higher than the $72,880 million in fiscal year 2025",
+        "citation": {
+          "chunk_id": "cb088bcb9dca476e8265b371ec41e734:65",
+          "source": "10-K 2026-02-25",
+          "quote": "Net income $ 120,067 [fiscal 2026] $ 72,880 [fiscal 2025]"
+        }
+      },
+      {
+        "text": "Q1 FY2027 net income of $58,321 million nearly tripled the $18,775 million in Q1 FY2026, demonstrating exceptional growth momentum",
+        "citation": {
+          "chunk_id": "cebfc0ddb8a047c8b58bb78af4fe6e86:7",
+          "source": "10-Q 2026-05-20",
+          "quote": "Net income $ 58,321 [Q1 FY2027] $ 18,775 [Q1 FY2026]"
+        }
+      },
+      {
+        "text": "Aggressive capital return: $282 million shares repurchased for $40.4 billion in fiscal year 2026, with Board approval of additional $60.0 billion authorization in August 2025",
+        "citation": {
+          "chunk_id": "cb088bcb9dca476e8265b371ec41e734:48",
+          "source": "10-K 2026-02-25",
+          "quote": "In fiscal year 2026, we repurchased 282 million shares of our common stock for $40.4 billion. On August 26, 2025, our Board of Directors approved an additional $60.0 billion in share repurchase authorization"
+        }
+      },
+      {
+        "text": "Substantial shareholder value initiatives: Q1 FY2027 repurchased 108 million shares for $20.2 billion, with Board approval of additional $80.0 billion authorization on May 18, 2026",
+        "citation": {
+          "chunk_id": "cebfc0ddb8a047c8b58bb78af4fe6e86:16",
+          "source": "10-Q 2026-05-20",
+          "quote": "We repurchased 108 million and 126 million shares of our common stock for $ 20.2 billion and $ 14.5 billion during the first quarter of fiscal years 2027 and 2026, respectively. On May 18, 2026, our Board of Directors approved an additional $ 80.0 billion in share repurchase authorization"
+        }
+      },
+      {
+        "text": "Dividend significantly increased: Quarterly cash dividend raised from $0.01 per share to $0.25 per share effective for shareholders of record on June 4, 2026, representing a 25x increase",
+        "citation": {
+          "chunk_id": "cebfc0ddb8a047c8b58bb78af4fe6e86:16",
+          "source": "10-Q 2026-05-20",
+          "quote": "On May 18, 2026, we increased our quarterly cash dividend from $ 0.01 per share to $ 0.25 per share to all shareholders of record on June 4, 2026"
+        }
+      },
+      {
+        "text": "Strong balance sheet: Total shareholders' equity increased to $195,474 million as of April 26, 2026 from $157,293 million as of January 25, 2026, reflecting robust profitability",
+        "citation": {
+          "chunk_id": "cebfc0ddb8a047c8b58bb78af4fe6e86:7",
+          "source": "10-Q 2026-05-20",
+          "quote": "Total shareholders' equity 195,474 [April 26, 2026] $ 157,293 [January 25, 2026]"
+        }
+      },
+      {
+        "text": "Operating cash flow of $50,344 million in Q1 FY2027 significantly exceeded Q1 FY2026's $27,414 million, indicating strong cash generation",
+        "citation": {
+          "chunk_id": "cebfc0ddb8a047c8b58bb78af4fe6e86:7",
+          "source": "10-Q 2026-05-20",
+          "quote": "Net cash provided by operating activities 50,344 [Q1 FY2027] $ 27,414 [Q1 FY2026]"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 14707,
+  "completion_tokens": 1249
+}

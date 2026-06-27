@@ -1,0 +1,9 @@
+{
+  "data": {
+    "decision": "REQUIRE_HUMAN",
+    "severity": "MEDIUM",
+    "reasoning": "Trade approved by deterministic engine, but flagged for committee review due to material offsetting risks against the thesis.\n\n**Thesis Summary:** Long NVDA on secular AI/accelerated computing adoption. FY2026 results validate platform breadth: 65% YoY revenue growth, 142% networking growth, operating cash flow ~$103B. Early innings of AI adoption cycle still intact; dominant market position supports sustained profitability acceleration.\n\n**Key Risks Requiring Committee Attention:**\n\n1. **Customer Concentration (Binary Downside):** One direct customer represents 22% of FY2026 revenue\u2014likely a hyperscaler. Material risk if that customer reduces orders, pivots to custom silicon, or diverts demand. Concentration of this magnitude creates event-driven repricing exposure.\n\n2. **Execution Risk on Transitions:** Management disclosed execution risks around product transitions and supply-demand management that could delay revenue timing. In a high-growth, capital-intensive business, execution slippage directly threatens guidance credibility.\n\n3. **Valuation Embedded Growth:** Entry price (~$91,914 for 431 shares) reflects market pricing in sustained high growth. Limited margin of safety if guidance disappoints or customer concentration materializes\u2014sharp repricing likely in either scenario.\n\n**Position Size & Recommendation:** ~$92k notional is moderate, but concentration and valuation sensitivity warrant committee confirmation that this position aligns with portfolio risk appetite and customer concentration tolerances."
+  },
+  "prompt_tokens": 1025,
+  "completion_tokens": 389
+}

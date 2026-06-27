@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts were retrieved for this query. To get SPY portfolio composition data from SEC filings, search for the fund's latest prospectus, annual report (10-K equivalent for funds), or semi-annual/annual report filed with the SEC under the fund's CIK number. Try searching for \"SPY holdings\" or \"State Street Global Advisors\" combined with specific SEC form types like \"N-CSRS\" or \"N-1A\" which contain detailed portfolio holdings information."
+  },
+  "prompt_tokens": 900,
+  "completion_tokens": 197
+}

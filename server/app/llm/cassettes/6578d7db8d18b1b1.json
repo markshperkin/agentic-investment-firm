@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "NVDA financial performance revenue earnings",
+      "NVDA artificial intelligence AI business segment",
+      "NVDA data center GPU product line",
+      "NVDA competitive position market share",
+      "NVDA balance sheet cash flow"
+    ],
+    "strategy": "BASELINE"
+  },
+  "prompt_tokens": 900,
+  "completion_tokens": 97
+}

@@ -1,0 +1,9 @@
+{
+  "data": {
+    "relevant": true,
+    "coverage": 0.85,
+    "failure_kind": "NONE"
+  },
+  "prompt_tokens": 7979,
+  "completion_tokens": 72
+}

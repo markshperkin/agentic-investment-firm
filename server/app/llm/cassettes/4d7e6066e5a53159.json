@@ -1,0 +1,58 @@
+{
+  "data": {
+    "action": "BUY",
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1,
+    "thesis_card": {
+      "headline": "NVDA: Blackwell Supercycle and AI Infrastructure Buildout Sustain Dominant Earnings Power",
+      "why_now": "NVDA delivered 65% YoY revenue growth to $215.9B in FY2026, powered by the Blackwell computing platform and NVLink fabric driving Data Center networking revenue up 142%. The transition from Hopper to full-scale Blackwell datacenter solutions is already generating outsized demand, with Compute & Networking alone reaching $193.5B (+67%). A $22.7B pipeline of future data center lease obligations (FY2027\u2013FY2030) signals management's conviction in sustaining this infrastructure buildout. AI capex among hyperscalers remains at record levels, and NVDA sits at the critical chokepoint \u2014 accelerated compute silicon and the interconnect fabric tying it together.",
+      "expected_edge": "At a 60.4% operating margin and 55.6% net income margin on $215.9B of revenue, NVDA demonstrates pricing power and operating leverage that peers cannot replicate. R&D spend surging 43% to $18.5B \u2014 including a 79% jump in compute and infrastructure investment \u2014 widens the moat for next-generation architectures beyond Blackwell. Geographic diversification is solid: 69% of revenue from U.S.-headquartered customers, with Taiwan's Data Center revenue 76% attributable to U.S./European end customers, reducing direct China-exposure risk. Even absorbing a one-time $4.5B H20 inventory charge, gross profit still reached $153.5B. The structural edge is durable: no competitor has a comparable full-stack AI platform (silicon + networking + software) at scale.",
+      "risks": "1. Customer concentration: top two customers represent 22% and 14% of revenue respectively (up from 12%/11% prior year), creating meaningful single-customer dependency. 2. Gross margin compression from 75.0% to 71.1% on Hopper-to-Blackwell transition may persist through product ramps. 3. Geopolitical/export control risk: China revenue of $19.7B and the already-realized $4.5B H20 charge illustrate regulatory tail risk that could recur with future restriction tightening. 4. Supply chain execution risk on $22.7B of forward lease commitments if AI capex spending by hyperscalers decelerates. 5. Competitive response from AMD, Intel, and custom silicon (Google TPUs, AWS Trainium) at the margin.",
+      "confidence": 0.85,
+      "key_evidence": [
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "quote": "Total revenue grew 65% year-over-year to $215,938 million in fiscal year 2026, driven by data center compute and networking platforms for accelerated computing and AI solutions.",
+          "source": "NVDA FY2026 Annual Report"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "quote": "Compute Networking segment revenue increased 67% to $193,479 million, with Data Center computing revenue growing 59% and Data Center networking revenue growing 142%, driven by demand for Blackwell computing platform and NVLink compute fabric.",
+          "source": "NVDA FY2026 Annual Report"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "quote": "Operating margin improved to 60.4% in fiscal year 2026 from 62.4% in fiscal year 2025, despite a $4.5 billion charge for H20 excess inventory and purchase obligations, with net income of $120,067 million representing 55.6% of revenue.",
+          "source": "NVDA FY2026 Annual Report"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:54",
+          "quote": "Gross profit increased to $153,463 million in fiscal year 2026, though gross margin contracted to 71.1% from 75.0% primarily due to the transition from Hopper HGX systems to Blackwell full-scale datacenter solutions and the $4.5 billion H20 provision.",
+          "source": "NVDA FY2026 Annual Report"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:85",
+          "quote": "Company expects to commence leases with future obligations of $22.7 billion between fiscal years 2027 and 2030, primarily for data center leases to support research and development efforts.",
+          "source": "NVDA FY2026 Annual Report"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:84",
+          "quote": "Strong geographic diversification with U.S.-headquartered customer revenue at $149,617 million (69% of total), while Taiwan and China represent $42,345 million and $19,677 million respectively, with 76% of Taiwan Data Center revenue attributed to U.S. and Europe end customers.",
+          "source": "NVDA FY2026 Annual Report"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:54",
+          "quote": "Customer concentration risk is present but manageable, with largest direct customer representing 22% of revenue and second customer at 14%, both primarily in Compute Networking.",
+          "source": "NVDA FY2026 Annual Report"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:54",
+          "quote": "Research and development expenses increased 43% to $18,497 million, driven by 29% increase in compensation and benefits and 79% increase in compute and infrastructure.",
+          "source": "NVDA FY2026 Annual Report"
+        }
+      ]
+    }
+  },
+  "prompt_tokens": 2030,
+  "completion_tokens": 1600
+}

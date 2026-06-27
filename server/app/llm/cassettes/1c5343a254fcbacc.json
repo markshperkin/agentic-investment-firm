@@ -1,0 +1,13 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA consolidated statements of income revenue by segment data center gross margin earnings per share",
+      "NVIDIA MD&A results of operations revenue growth rate gross profit operating income",
+      "NVIDIA financial results discussion segment revenue GPU sales quarterly earnings guidance"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 365
+  },
+  "prompt_tokens": 1094,
+  "completion_tokens": 121
+}

@@ -1,0 +1,59 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.85,
+    "key_points": [
+      {
+        "text": "Revenue surged 65% year-over-year in FY 2026 to $215.9 billion, with even stronger growth continuing into Q1 FY 2027 with first quarter revenue of $81.6 billion, up 85% year-over-year",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:53",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Revenue $ 215,938"
+        }
+      },
+      {
+        "text": "Gross margin expanded significantly, with Q1 FY 2027 gross margin at 74.9% compared to 60.5% in the prior year quarter, driven by lower inventory provisions after the prior year's $4.5 billion H20 charge",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:22",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Gross margin increased from a year ago on lower inventory provisions, primarily due to the prior year's $4.5 billion charge associated with H20 excess inventory and purchase obligations"
+        }
+      },
+      {
+        "text": "Data Center segment revenue grew 59% in FY 2026 driven by demand for Blackwell computing platform, with Data Center networking revenue growing 142% driven by NVLink compute fabric, Ethernet and InfiniBand platforms",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:53",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Revenue from Data Center computing grew 59% driven by demand for our Blackwell computing platform. Revenue from Data Center networking grew 142%"
+        }
+      },
+      {
+        "text": "Net income doubled to $120.1 billion in FY 2026 from $72.9 billion in FY 2025, with operating income reaching $130.4 billion, representing a 60% margin on revenue",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:63",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Net income $ 120,067 ... Operating income 130,387"
+        }
+      },
+      {
+        "text": "The company commands 78% of the global TOP500 supercomputers market and holds over 7.5 million CUDA developers, establishing deep competitive moats in accelerated computing and AI infrastructure",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:9",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "NVIDIA powers over 78% of the supercomputers on the global TOP500 list... There are over 7.5 million developers worldwide using CUDA"
+        }
+      },
+      {
+        "text": "Rubin platform, unveiled in FY 2026, is expected to commence production shipments in H2 FY 2027 and delivers up to 10x reduction in cost per token compared to Blackwell for agentic AI applications",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:10",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "In fiscal year 2026, we unveiled the NVIDIA Rubin platform, which is expected to commence production shipments in the second half of fiscal year 2027... delivering up to a 10x reduction in cost per token compared to Blackwell"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 12564,
+  "completion_tokens": 1077
+}

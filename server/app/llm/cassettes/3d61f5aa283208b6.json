@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The query requested segment revenue breakdown for Data Center and Gaming. No chunks were retrieved. Try searching for \"NVIDIA Data Center revenue Gaming revenue segment\" or check the 10-Q/10-K revenue table with explicit segment filtering to retrieve the disclosed segment breakouts from the consolidated statements."
+  },
+  "prompt_tokens": 1012,
+  "completion_tokens": 150
+}

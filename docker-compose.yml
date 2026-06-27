@@ -1,0 +1,15 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - LLM_MODE=cassette
+      - DATABASE_URL=sqlite:////data/firm.sqlite
+    volumes:
+      - firm-data:/data
+
+volumes:
+  firm-data:

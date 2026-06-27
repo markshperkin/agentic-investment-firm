@@ -1,0 +1,21 @@
+{
+  "data": {
+    "action": "HOLD",
+    "thesis_card": {
+      "headline": "NVDA remains structurally attractive despite near-term China export control risks",
+      "why_now": "While U.S. export controls under consideration present a material near-term headwind to China data-center sales and pose inventory/guidance risks, NVDA's dominant AI accelerator position and TAM expansion in enterprise/cloud computing provide fundamental support. The 72% confidence reflects conviction in long-term thesis but acknowledgment of geopolitical uncertainty.",
+      "expected_edge": "NVDA's architectural lead in high-performance computing and embedded AI advantage should sustain premium valuations post-policy clarity. If export controls are less restrictive than feared, upside re-rating; if implemented broadly, China revenue headwind is already partially priced in given recent volatility.",
+      "risks": "1) U.S. export controls could force material China revenue write-downs and FY guidance cuts, creating 15%+ stock volatility; 2) Inventory corrections at customers if sales forecasts revised downward; 3) Competitor gains (AMD, custom silicon) if supply disruptions extend; 4) Macro AI spending slowdown coupled with geopolitical pressure creates compounding downside.",
+      "confidence": 0.72,
+      "key_evidence": [
+        {
+          "chunk_id": "8b7901c8bb5245feb23d9147ab21c78b:0",
+          "quote": "U.S. export controls under consideration could materially impact China sales, which represent a meaningful share of data-center revenue, and may force inventory write-downs and near-term guidance cuts",
+          "source": "<UNKNOWN>"
+        }
+      ]
+    }
+  },
+  "prompt_tokens": 1432,
+  "completion_tokens": 431
+}

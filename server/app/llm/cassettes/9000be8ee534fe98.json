@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No chunks were retrieved. Ensure the search includes NVIDIA segment revenue disclosures from recent 10-Q or 10-K filings. Try a more specific query like \"NVIDIA Data Center segment revenue\" or search for \"NVIDIA revenue by segment\" in the most recent quarterly report."
+  },
+  "prompt_tokens": 1014,
+  "completion_tokens": 153
+}

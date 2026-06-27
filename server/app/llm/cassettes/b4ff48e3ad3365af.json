@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA Data Center revenue Gaming revenue segment",
+      "NVIDIA consolidated statements revenue segment breakout",
+      "NVIDIA segment results Data Center Gaming Professional Visualization",
+      "NVIDIA 10-Q 10-K revenue by segment table",
+      "NVIDIA operating segment revenue fiscal 2026"
+    ],
+    "strategy": "DECOMPOSE"
+  },
+  "prompt_tokens": 1085,
+  "completion_tokens": 110
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "queries": [
+      "SPDR S&P 500 ETF Trust CIK 1086364",
+      "SPY fund prospectus State Street Global Advisors",
+      "SPDR ETF Trust SPY investment strategy objective",
+      "SPY 485APOS prospectus amendment filing",
+      "S&P 500 ETF Trust SPY annual report 10-K"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 365
+  },
+  "prompt_tokens": 1136,
+  "completion_tokens": 153
+}

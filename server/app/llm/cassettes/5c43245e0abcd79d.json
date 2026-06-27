@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "Query requests revenue growth metrics and AI data center performance. Retrieved excerpts contain only risk disclosures, platform descriptions, and qualitative statements about AI demand\u2014no financial results, revenue figures, growth rates, or segment performance data. Requery using \"NVIDIA revenue\" + specific period (e.g., Q1 FY2026) or \"NVIDIA data center segment revenue\" to retrieve actual P&L results, YoY growth rates, or forward guidance."
+  },
+  "prompt_tokens": 5338,
+  "completion_tokens": 190
+}

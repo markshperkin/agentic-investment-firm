@@ -1,0 +1,11 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.2,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The retrieved excerpts describe Data Center segment composition and customer concentration metrics, but do not provide the actual revenue figures or breakdown for the Data Center segment. To answer the query, you need the specific revenue amounts (in dollars or percentages) for fiscal 2025 Data Center segment. Look for tables showing \"Revenue by segment\" or \"Data Center revenue\" with quantitative data, typically found in the Management's Discussion and Analysis (MD&A) section or financial statements table within 10-Q/10-K filings.",
+    "missing": "Actual Data Center segment revenue figures for fiscal 2025 (three months and nine months ended); percentage breakdown if segment is further subdivided into product/service categories"
+  },
+  "prompt_tokens": 1369,
+  "completion_tokens": 250
+}

@@ -1,0 +1,16 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVIDIA's expanding production capacity and robust multi-customer backlog signal sustained AI accelerator demand beyond Blackwell agreement",
+      "why_now": "Management guidance indicates stronger-than-expected orders requiring capacity expansion and broad-based demand across both cloud and enterprise customers with a robust backlog providing visibility into data-center growth through the year. This signals the AI infrastructure cycle is more durable and widespread than consensus assumptions.",
+      "expected_edge": "The expansion of production capacity in response to organic demand signals NVIDIA can sustain high revenue growth rates longer than marginal expectations. A broad-based backlog across multiple customer segments de-risks the narrative from single-customer concentration and validates the secular durability of AI infrastructure spending.",
+      "risks": "Risk of demand normalization if enterprise AI spending inflects downward; competitive threat from alternative accelerators gaining share; execution risk on ramping new production capacity; potential margin compression if supply normalizes faster than demand.",
+      "confidence": 0.9
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1496,
+  "completion_tokens": 320
+}

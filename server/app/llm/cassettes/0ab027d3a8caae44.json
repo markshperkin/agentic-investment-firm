@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The retrieval returned no chunks. Ensure the SEC filing query includes NVIDIA's 10-Q or 10-K filing for fiscal Q3 2024 (ended October 2024). Try searching for \"NVIDIA data center revenue October 2024\" or directly reference the 10-Q filing with segment revenue breakdown. The key metric should appear in the Condensed Consolidated Statements of Income or segment disclosures."
+  },
+  "prompt_tokens": 1018,
+  "completion_tokens": 183
+}

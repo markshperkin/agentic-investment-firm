@@ -1,0 +1,29 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BEARISH",
+    "confidence": 0.72,
+    "key_points": [
+      {
+        "text": "U.S. authorities are preparing tightened export controls that would restrict NVIDIA's advanced-chip sales to China, a market that represents a meaningful share of data-center revenue",
+        "citation": {
+          "chunk_id": "385473cc018b401ab9471f213d0ec93a:0",
+          "source": "NEWS",
+          "published_date": "2026-05-29T14:30:00",
+          "quote": "A regulatory report indicates U.S. authorities are preparing tightened export controls that would restrict NVIDIA's advanced-chip sales to China, a market that represents a meaningful share of data-center revenue."
+        }
+      },
+      {
+        "text": "The regulatory measure could force NVIDIA to write down China-bound inventory and cut near-term guidance",
+        "citation": {
+          "chunk_id": "385473cc018b401ab9471f213d0ec93a:0",
+          "source": "NEWS",
+          "published_date": "2026-05-29T14:30:00",
+          "quote": "Desks warned the measure could force NVIDIA to write down China-bound inventory and cut near-term guidance"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 1354,
+  "completion_tokens": 385
+}

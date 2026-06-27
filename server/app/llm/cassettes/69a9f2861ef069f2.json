@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "Query returned zero SEC filing excerpts. This indicates either the retrieval search failed to find documents or no indexed material matched the query. To resolve: (1) Verify NVDA (NVIDIA) filings are indexed in the system (check most recent 10-K, 10-Q, 8-K); (2) Try a simpler query like \"NVDA revenue\" or \"NVIDIA earnings\"; (3) Specify a fiscal period/year (e.g., \"NVDA FY2025 revenue\") to narrow scope; (4) Check if document indexing/upload succeeded. Note: Forward-looking 2026 projections may not exist in historical filings\u2014focus on trailing/current period results instead."
+  },
+  "prompt_tokens": 1015,
+  "completion_tokens": 250
+}

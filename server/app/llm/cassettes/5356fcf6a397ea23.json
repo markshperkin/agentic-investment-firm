@@ -1,0 +1,25 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.72,
+    "key_points": [
+      {
+        "text": "NVIDIA maintains robust demand for AI accelerators with strong backlog extending beyond existing Blackwell GPU agreements, supported by broad-based demand across cloud and enterprise customers",
+        "citation": {
+          "chunk_id": "PRIOR_VIEW"
+        }
+      },
+      {
+        "text": "U.S. export controls under consideration could materially impact China sales, which represent a meaningful share of data-center revenue, and may force inventory write-downs and near-term guidance cuts",
+        "citation": {
+          "chunk_id": "8b7901c8bb5245feb23d9147ab21c78b:0",
+          "published_date": "2026-05-29T14:30:00",
+          "quote": "U.S. authorities are preparing tightened export controls that would restrict NVIDIA's advanced-chip sales to China, a market that represents a meaningful share of data-center revenue. Desks warned the measure could force NVIDIA to write down China-bound inventory and cut near-term guidance"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 1373,
+  "completion_tokens": 342
+}

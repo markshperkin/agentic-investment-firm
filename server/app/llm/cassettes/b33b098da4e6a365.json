@@ -1,0 +1,16 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVIDIA's Robust AI Accelerator Backlog and Capacity Expansion Signal Sustained Data-Center Strength",
+      "why_now": "NVIDIA is proactively expanding production capacity to meet stronger-than-expected orders for AI accelerators, backed by a robust backlog and broad-based demand across both cloud and enterprise customers. This capacity expansion and management commentary indicate confidence in sustained data-center growth through the year, suggesting the AI infrastructure cycle remains in an expansionary phase.",
+      "expected_edge": "The broad-based demand (cloud + enterprise) and backlog visibility support continued revenue growth and pricing power in AI accelerators. Capacity expansion ahead of demand rather than in response to it demonstrates confidence in order durability, reducing downside risk and supporting upside potential.",
+      "risks": "AI investment cycles can be volatile and subject to sentiment shifts; execution risks on capacity expansion; potential margin compression if supply catches up to demand faster than expected; competitive pressures from AMD and other vendors; macroeconomic slowdown could dampen enterprise spending despite current momentum.",
+      "confidence": 0.75
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1492,
+  "completion_tokens": 346
+}

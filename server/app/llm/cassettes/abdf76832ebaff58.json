@@ -1,0 +1,9 @@
+{
+  "data": {
+    "decision": "REQUIRE_HUMAN",
+    "severity": "MEDIUM",
+    "reasoning": "**Trade Summary:** Long 695 shares of NVIDIA (~$72,280 notional). Thesis rests on sustained AI accelerator demand, strong management guidance on backlog/orders, active capacity expansion, and diversified customer base across cloud and enterprise.\n\n**Key Risks Requiring Committee Attention:**\n\n1. **Demand Cliff Risk** \u2013 Management's confidence in \"sustained\" growth is forward-looking. Enterprise AI spending cycles are cyclical; if capex budgets compress due to slower ROI realization or macro slowdown, orders could decelerate faster than currently modeled. This is the primary downside scenario.\n\n2. **Competitive Displacement** \u2013 AMD and custom silicon solutions (e.g., hyperscaler in-house chips) are improving. Unexpected market share loss would compress margins and growth assumptions. NVIDIA's moat is wide but not unbreachable.\n\n3. **Geopolitical Headwinds** \u2013 Semiconductor export restrictions to China (a material portion of addressable market) are regulatory risks beyond management control. Recent and potential future tightening could shrink TAM meaningfully.\n\n4. **Execution/Capex Risk** \u2013 Capacity expansion is capital-intensive and execution-dependent. Delays or cost overruns could pressure margins or disappoint timing assumptions embedded in the thesis.\n\n5. **Macro Sensitivity** \u2013 Despite broad customer diversification, enterprise AI capex remains discretionary spending. A sharp recession could trigger budget freezes, independent of AI's long-term merit.\n\n**Recommendation:** Trade aligns with bull thesis but warrants heightened monitoring of demand signals (order trends, channel inventory), competitive wins, and geopolitical developments. Position size is within normal risk tolerance if held as part of a diversified book."
+  },
+  "prompt_tokens": 990,
+  "completion_tokens": 454
+}

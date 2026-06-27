@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA 10-K filing 2026",
+      "NVIDIA 10-K January 2026 fiscal year end",
+      "NVIDIA annual report form 10-K SEC filing March 2026",
+      "NVIDIA most recent 10-K SEC EDGAR",
+      "Nvidia form 10-K fiscal year 2025"
+    ],
+    "strategy": "DECOMPOSE"
+  },
+  "prompt_tokens": 1142,
+  "completion_tokens": 123
+}

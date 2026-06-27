@@ -1,0 +1,9 @@
+{
+  "data": {
+    "action": "HOLD",
+    "gap_risk": "MEDIUM",
+    "reasoning": "NVDA remains aligned with bullish thesis despite modest intraday action. The 1.73% daily gain with 385 bars of trading activity reflects steady accumulation rather than volatility. Fundamentals remain intact: 65% YoY revenue growth, 142% Data Center networking growth, dominant 78% supercomputer market share, and strong operating cash flow generation ($102.7B in FY2026 vs $64.1B prior year) all support the high-conviction bullish view (92%). No new negative evidence has emerged to challenge the thesis. While customer concentration risk (22% from one customer) and execution complexity remain acknowledged risks, these were already factored into the standing view. Overnight gap risk is moderate given NVDA's institutional ownership and relatively tight recent bid-ask dynamics. The position shows no sign of near-term thesis deterioration warranting a trim or flatten ahead of close. Conviction remains high enough to carry through the overnight session without reducing exposure."
+  },
+  "prompt_tokens": 1223,
+  "completion_tokens": 279
+}

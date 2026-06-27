@@ -1,0 +1,75 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.78,
+    "key_points": [
+      {
+        "text": "Revenue grew 65% year-over-year to $215.9 billion in fiscal year 2026, with net income of $120.1 billion, representing 64% growth from prior year",
+        "citation": {
+          "chunk_id": "e0e02485e4cf4e75a50f65f354796b82:63",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Revenue $ 215,938 ... Year Ended Jan 25, 2026 Jan 26, 2025 ... $ 130,497 ... Net income $ 120,067 ... $ 72,880"
+        }
+      },
+      {
+        "text": "Gross profit margin expanded to 71.1% in fiscal 2026 from 75.0% in fiscal 2025, while operating margin remained strong at 60.4%",
+        "citation": {
+          "chunk_id": "e0e02485e4cf4e75a50f65f354796b82:63",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Gross profit 153,463 ... 97,858 ... Operating income 130,387 ... 81,453"
+        }
+      },
+      {
+        "text": "NVIDIA is establishing itself as a data center-scale AI infrastructure company with strong platform strategy integrating hardware, software, algorithms, and services across multiple end markets",
+        "citation": {
+          "chunk_id": "e0e02485e4cf4e75a50f65f354796b82:8",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "NVIDIA has a platform strategy, bringing together hardware, systems, software, algorithms, libraries, AI models and training data sets, and services to create unique value... we address them with a unified underlying programmable architecture allowing us to support several multi-billion-dollar end markets"
+        }
+      },
+      {
+        "text": "NVIDIA powers over 78% of global supercomputers on the TOP500 list, including 9 of the top 10 systems on the Green500 list, demonstrating dominance in AI infrastructure",
+        "citation": {
+          "chunk_id": "e0e02485e4cf4e75a50f65f354796b82:9",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list"
+        }
+      },
+      {
+        "text": "Launched Blackwell Ultra platform in fiscal 2026 optimized for agentic and physical AI, with significant improvements in token throughput and cost per token versus Hopper generation",
+        "citation": {
+          "chunk_id": "e0e02485e4cf4e75a50f65f354796b82:8",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "In fiscal year 2026, we launched and scaled the NVIDIA Blackwell Ultra platform, optimized for agentic, reasoning, and physical AI... it delivers a significant increase in token throughput and reduction in cost per token compared to the Hopper generation"
+        }
+      },
+      {
+        "text": "Operating cash flow was strong at $102.7 billion in fiscal 2026, up 60% from $64.1 billion in fiscal 2025, demonstrating robust cash generation",
+        "citation": {
+          "chunk_id": "e0e02485e4cf4e75a50f65f354796b82:65",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Net cash provided by operating activities 102,718 ... 64,089"
+        }
+      },
+      {
+        "text": "Company made $18.6 billion in investments in private companies and infrastructure funds in Q1 fiscal 2027, signaling confidence in long-term market opportunities",
+        "citation": {
+          "chunk_id": "035ceff15b694724a74ed6ad46a7e0ee:20",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "$18.6 billion in private companies and infrastructure funds. Some of these investments include AI model makers that may indirectly purchase or use our products in the cloud"
+        }
+      },
+      {
+        "text": "Blackwell continued to account for the majority of system shipments in Q1 fiscal 2027, indicating strong demand for latest-generation data center products",
+        "citation": {
+          "chunk_id": "035ceff15b694724a74ed6ad46a7e0ee:20",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Blackwell continued to account for the majority of our system shipments"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 10801,
+  "completion_tokens": 1344
+}

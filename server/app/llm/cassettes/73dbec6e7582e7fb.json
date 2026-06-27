@@ -1,0 +1,67 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.85,
+    "key_points": [
+      {
+        "text": "Total revenue reached $215,938 million in fiscal year 2026, a 65% increase from $130,497 million in fiscal year 2025, driven primarily by Data Center compute (up 59%) and networking (up 142%) platforms powered by Blackwell architecture.",
+        "citation": {
+          "chunk_id": "ff767b70bd40447c839388ed72e58cbb:53",
+          "quote": "Year Ended Jan 25, 2026 Jan 26, 2025 $ Change % Change ($ in millions) Compute Networking $ 193,479  $ 116,193  $ 77,286  67  % ... Revenue from Data Center computing grew 59% driven by demand for our Blackwell computing platform. Revenue from Data Center networking grew 142%",
+          "published_date": "2026-02-25"
+        }
+      },
+      {
+        "text": "Data Center revenue grew to $193,737 million in fiscal year 2026 from $115,186 million in fiscal year 2025, representing the dominant revenue stream and reflecting strong demand for accelerated computing and AI infrastructure.",
+        "citation": {
+          "chunk_id": "ff767b70bd40447c839388ed72e58cbb:85",
+          "quote": "Data Center $ 193,737  $ 115,186  $ 47,525",
+          "published_date": "2026-02-25"
+        }
+      },
+      {
+        "text": "Net income surged to $120,067 million in fiscal year 2026 from $72,880 million in fiscal year 2025, with net profit margin remaining strong at 55.6%, demonstrating operating leverage and efficiency improvements.",
+        "citation": {
+          "chunk_id": "ff767b70bd40447c839388ed72e58cbb:63",
+          "quote": "Net income $ 120,067  $ 72,880  $ 29,760",
+          "published_date": "2026-02-25"
+        }
+      },
+      {
+        "text": "In Q1 FY2027, Compute Networking revenue grew 88% year-over-year to $74,550 million, with operating income up 142%, demonstrating continued momentum in Data Center products driven by Blackwell systems ramp and strong demand for InfiniBand and Ethernet solutions.",
+        "citation": {
+          "chunk_id": "86dc05321b344a37aef4df1647277a9a:22",
+          "quote": "Three Months Ended  Apr 26, 2026 Apr 27, 2025 $ Change % Change  ($ in millions) Compute Networking $ 74,550  $ 39,589  $ 34,961  88  %",
+          "published_date": "2026-05-20"
+        }
+      },
+      {
+        "text": "Gross profit margin improved to 74.9% in Q1 FY2027 from 60.5% a year ago, driven by lower inventory provisions following the prior year's $4.5 billion H20 excess inventory charge, demonstrating margin expansion.",
+        "citation": {
+          "chunk_id": "86dc05321b344a37aef4df1647277a9a:22",
+          "quote": "Gross margin increased from a year ago on lower inventory provisions, primarily due to the prior year's $4.5 billion charge associated with H20 excess inventory and purchase obligations.",
+          "published_date": "2026-05-20"
+        }
+      },
+      {
+        "text": "Revenue concentration among top customers remains elevated with three direct customers representing 21%, 17%, and 16% of Q1 FY2027 revenue, primarily from Compute Networking, creating dependency risk on limited customer base.",
+        "citation": {
+          "chunk_id": "86dc05321b344a37aef4df1647277a9a:22",
+          "quote": "For the first quarter of fiscal year 2027, three direct customers represented 21%, 17%, and 16% of total revenue, all of which was primarily attributable to the Compute Networking segment.",
+          "published_date": "2026-05-20"
+        }
+      },
+      {
+        "text": "NVIDIA expects to commence leases with future obligations of $22.7 billion between fiscal years 2027 and 2030, primarily for data center infrastructure to support R&D, indicating substantial capital commitments for growth support.",
+        "citation": {
+          "chunk_id": "ff767b70bd40447c839388ed72e58cbb:85",
+          "quote": "Between fiscal years 2027 and 2030, we expect to commence leases with future obligations of $ 22.7 billion, primarily data center leases to support our research and development efforts",
+          "published_date": "2026-02-25"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 14431,
+  "completion_tokens": 1274
+}
