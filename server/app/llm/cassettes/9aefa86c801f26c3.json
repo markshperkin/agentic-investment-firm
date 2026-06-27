@@ -1,0 +1,9 @@
+{
+  "data": {
+    "decision": "REQUIRE_HUMAN",
+    "reasoning": "NVIDIA trade of ~$75.6k on data-center thesis with material execution and competitive risks. The position rests on a Blackwell multi-year cloud provider contract signaling sustained dominance and pricing power. However, several material headwinds warrant committee review: (1) Blackwell production ramp execution risk \u2014 ramping next-gen GPU supply at scale is operationally complex and delays could crimp forecasted revenue acceleration; (2) Hyperscaler custom silicon competition \u2014 major cloud providers are increasingly developing proprietary chips to reduce GPU spend and lock-in; these initiatives could erode NVIDIA's addressable market and pricing power despite the contract; (3) Macro cloud capex uncertainty \u2014 economic slowdown could pull forward demand expectations or compress hyperscaler capex budgets, directly impacting backlog realization; (4) Geopolitical export controls \u2014 China and other restricted markets remain critical GPU demand centers; further semiconductor export restrictions could shrink total serviceable market. The multi-year contract de-risks some demand but does not eliminate execution, competitive, or macro tail risks. Committee sign-off recommended before deployment.",
+    "severity": "MEDIUM"
+  },
+  "prompt_tokens": 937,
+  "completion_tokens": 310
+}

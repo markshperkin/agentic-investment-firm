@@ -9,7 +9,8 @@ from app.db import Base
 class Portfolio(Base):
     __tablename__ = "portfolio"
 
-    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    run_id: Mapped[str] = mapped_column(String, unique=True, index=True)
     cash: Mapped[float] = mapped_column(Float)
     currency: Mapped[str] = mapped_column(String, default="USD")
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
@@ -27,6 +28,8 @@ class Position(Base):
     quantity: Mapped[int] = mapped_column(Integer, default=0)
     avg_cost_basis: Mapped[float] = mapped_column(Float, default=0.0)
     realized_pnl: Mapped[float] = mapped_column(Float, default=0.0)
+    stop_loss_pct: Mapped[float] = mapped_column(Float, default=0.0)
+    take_profit_pct: Mapped[float] = mapped_column(Float, default=0.0)
     updated_at: Mapped[datetime] = mapped_column(
         DateTime, default=datetime.utcnow, onupdate=datetime.utcnow
     )
@@ -36,6 +39,7 @@ class Trade(Base):
     __tablename__ = "trades"
 
     id: Mapped[str] = mapped_column(String, primary_key=True)
+    run_id: Mapped[str | None] = mapped_column(String, index=True, nullable=True)
     ticker: Mapped[str] = mapped_column(String, index=True)
     side: Mapped[str] = mapped_column(String)
     quantity: Mapped[int] = mapped_column(Integer)

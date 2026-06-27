@@ -1,0 +1,9 @@
+{
+  "data": {
+    "ticker": "PLTR",
+    "stance": "INSUFFICIENT_EVIDENCE",
+    "confidence": 0.0
+  },
+  "prompt_tokens": 2302,
+  "completion_tokens": 75
+}

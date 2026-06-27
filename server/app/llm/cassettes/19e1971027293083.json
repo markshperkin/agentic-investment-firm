@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The excerpts discuss supply chain risks, manufacturing capacity challenges, and demand estimation issues, but contain no explicit capital expenditure plans or guidance from NVIDIA. To answer the query, search for sections discussing: (1) planned CapEx spend in forward guidance or MD&A, (2) facility expansion plans, (3) manufacturing prepayments or capacity commitments with dollar amounts, or (4) investor conference call comments on CapEx intensity. Try querying 'NVDA capex 2026 2027' or 'NVDA capital spending guidance' or review the cash flow statement and investing activities sections."
+  },
+  "prompt_tokens": 5215,
+  "completion_tokens": 222
+}

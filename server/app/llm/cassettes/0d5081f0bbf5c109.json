@@ -1,0 +1,15 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA Q3 2024 earnings data center guidance",
+      "NVIDIA fiscal 2025 Q3 revenue outlook",
+      "NVIDIA forward-looking statements guidance 2024 2025",
+      "NVIDIA data center revenue guidance upcoming quarters",
+      "NVIDIA investor presentation Q3 2024 earnings call"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 180
+  },
+  "prompt_tokens": 1138,
+  "completion_tokens": 139
+}

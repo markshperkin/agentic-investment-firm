@@ -6,6 +6,7 @@ from app.config import get_settings
 from app.db import SessionLocal
 from app.models.portfolio import Position, Trade
 from app.obs.spans import span
+from app.obs.spans import current_run
 from app.state.market_hours import is_market_open
 from app.state.portfolio import get_or_create_portfolio, get_position
 
@@ -47,8 +48,12 @@ class PaperBroker:
         reference_price: float,
         as_of: datetime,
         idempotency_key: str | None = None,
+        run_id: str | None = None,
+        stop_loss_pct: float | None = None,
+        take_profit_pct: float | None = None,
     ) -> Fill:
         key = idempotency_key or uuid.uuid4().hex
+        rid = run_id or current_run()
         with span("EXECUTION", f"execute:{side}:{ticker}", ticker=ticker,
                   input={"side": side, "quantity": quantity, "reference_price": reference_price}) as h:
             with SessionLocal() as s:
@@ -58,7 +63,7 @@ class PaperBroker:
                     return self._fill_from_trade(existing, reason="idempotent_replay")
 
                 trade = Trade(
-                    id=uuid.uuid4().hex, ticker=ticker, side=side, quantity=quantity,
+                    id=uuid.uuid4().hex, run_id=rid, ticker=ticker, side=side, quantity=quantity,
                     reference_price=reference_price, idempotency_key=key,
                     as_of=as_of.isoformat(), status="PENDING",
                 )
@@ -72,7 +77,7 @@ class PaperBroker:
                     h.set_output(fill.__dict__)
                     return fill
 
-                portfolio = get_or_create_portfolio(s)
+                portfolio = get_or_create_portfolio(s, rid)
                 position = get_position(s, portfolio.id, ticker)
                 fill_price, slip = self._fill_price(side, reference_price)
                 commission = self.settings.commission_per_trade
@@ -107,6 +112,10 @@ class PaperBroker:
                         position.quantity * position.avg_cost_basis + quantity * fill_price
                     ) / new_qty
                     position.quantity = new_qty
+                    if stop_loss_pct is not None:
+                        position.stop_loss_pct = stop_loss_pct
+                    if take_profit_pct is not None:
+                        position.take_profit_pct = take_profit_pct
                 else:  # SELL
                     proceeds = fill_price * quantity - commission
                     realized = (fill_price - position.avg_cost_basis) * quantity - commission

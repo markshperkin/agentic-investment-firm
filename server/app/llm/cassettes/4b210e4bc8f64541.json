@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No SEC filing excerpts were retrieved. To find the SPDR S&P 500 ETF Trust prospectus, try searching for: \"SPY prospectus\", \"SPDR S&P 500 ETF prospectus\", or the fund's official CIK number. Ensure the search query targets SEC EDGAR filings, specifically looking for N-1A or prospectus documents filed by the fund issuer (State Street Global Advisors)."
+  },
+  "prompt_tokens": 902,
+  "completion_tokens": 192
+}

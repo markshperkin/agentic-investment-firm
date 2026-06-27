@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The retrieved excerpts describe NVIDIA's business segments, platforms, and markets (Data Center, Gaming, Professional Visualization, Automotive) but contain no actual financial data. To answer the query about financial performance, revenue, and earnings, retrieve excerpts from the financial statements sections including: Consolidated Statements of Income showing revenue/earnings figures, Management's Discussion & Analysis (MD&A) sections discussing financial results, or segment revenue breakdowns. Search specifically for revenue amounts, net income, earnings per share, or year-over-year financial comparisons."
+  },
+  "prompt_tokens": 1565,
+  "completion_tokens": 205
+}

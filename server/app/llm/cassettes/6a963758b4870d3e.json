@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No documents were retrieved. Try a broader search on NVIDIA's capex guidance, forward investment plans, or capital allocation disclosures in recent 10-K, 10-Q, or earnings call transcripts. Consider searching for \"NVIDIA capital expenditure\" or \"NVIDIA capex outlook\" without year constraint to find forward-looking statements."
+  },
+  "prompt_tokens": 1014,
+  "completion_tokens": 164
+}

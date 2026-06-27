@@ -1,0 +1,15 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA segment information revenue Data Center Gaming Professional",
+      "NVIDIA geographic revenue breakdown United States China Asia",
+      "NVIDIA revenue recognition segment reporting Note financial statements",
+      "segment revenue by product line NVIDIA Data Center accelerators gaming",
+      "NVIDIA quarterly revenue by region customer concentration disclosure"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 180
+  },
+  "prompt_tokens": 1112,
+  "completion_tokens": 130
+}

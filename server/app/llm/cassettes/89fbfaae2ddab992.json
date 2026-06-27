@@ -1,0 +1,9 @@
+{
+  "data": {
+    "action": "TRIM",
+    "gap_risk": "HIGH",
+    "reasoning": "While the standing bullish thesis remains intact (confidence 0.79) based on de-risked China exposure and strong inference platform momentum, the new evidence signals elevated overnight gap risk for high-beta semiconductor names like NVIDIA ahead of what appears to be a significant Federal Reserve event (likely policy announcement or economic data). The modest +2.5% intraday gain and limited 8-bar price action suggest insufficient intraday conviction to justify holding full exposure through a high-gap-risk overnight window. The strategist warning about desks cutting exposure into the close indicates market practitioners are actively de-risking. A TRIM reduces overnight gamma risk while preserving core bullish conviction for reopening, allowing re-entry if morning price action confirms the thesis without being caught in a potential gap-down scenario tied to macro uncertainty."
+  },
+  "prompt_tokens": 1058,
+  "completion_tokens": 239
+}

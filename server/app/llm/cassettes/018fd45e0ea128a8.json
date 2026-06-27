@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No SEC filing excerpts were retrieved. To find SPY holdings and asset allocation information, search for the fund's prospectus or annual report filing (likely under fund name \"SPDR S&P 500 ETF Trust\" or ticker SPY), or look for SEC filings from the fund sponsor (State Street Global Advisors). Try searching for \"SPY holdings\", \"SPDR S&P 500 ETF\" prospectus, or the most recent 10-Q/10-K filing from the fund issuer."
+  },
+  "prompt_tokens": 893,
+  "completion_tokens": 207
+}

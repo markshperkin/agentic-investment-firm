@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "SPY portfolio of investments holdings list",
+      "SPDR S&P 500 ETF Trust CIK N-1A form",
+      "SPY fund holdings investment portfolio schedule",
+      "SPY prospectus asset allocation equity positions",
+      "SPY investment objective strategy statement prospectus section"
+    ],
+    "strategy": "DECOMPOSE"
+  },
+  "prompt_tokens": 1166,
+  "completion_tokens": 114
+}

@@ -1,0 +1,16 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVIDIA positioned to sustain AI accelerator growth with expanded capacity and broad-based demand",
+      "why_now": "NVIDIA is expanding production capacity to meet stronger-than-expected orders for AI accelerators, supported by a robust backlog and management's reiterated confidence in sustained data-center growth. Demand is characteristically broad-based across cloud and enterprise customers, signaling sustained secular tailwinds rather than concentrated exposure.",
+      "expected_edge": "The combination of supply-side expansion (increased production capacity) and demand-side momentum (robust backlog, broad customer base) positions NVIDIA to capture accelerating AI infrastructure investment at scale. First-mover advantage in high-margin AI chips, coupled with increasing switching costs and ecosystem lock-in, provides durable competitive moat.",
+      "risks": "Supply chain disruptions could constrain capacity expansion despite strong demand. Competitive pressure from AMD and other emerging AI chip manufacturers could erode margin and market share. Geopolitical tensions (particularly around export controls to China) could disrupt demand or force product reconfiguration. Valuation multiples remain elevated and vulnerable to macro slowdown or AI adoption disappointment.",
+      "confidence": 0.75
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1507,
+  "completion_tokens": 368
+}

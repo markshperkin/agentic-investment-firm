@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA data center revenue Q3 2025",
+      "NVIDIA 10-Q fiscal 2025 third quarter segment revenue",
+      "NVIDIA Q3 FY2025 10-Q third quarter ended",
+      "NVIDIA quarterly segment revenue data center 2025",
+      "NVIDIA filing third quarter fiscal 2025 business results"
+    ],
+    "strategy": "DECOMPOSE"
+  },
+  "prompt_tokens": 1152,
+  "completion_tokens": 124
+}

@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The query asks for SPY S&P 500 ETF holdings composition, which is typically found in fund prospectuses, fact sheets, or annual reports filed by the fund sponsor (State Street Global Advisors). Try searching SEC EDGAR using: (1) \"SPY\" with document type 485APOS or N-CSR, (2) the fund's CIK number (State Street S&P 500 ETF Trust), or (3) include specific terms like \"portfolio holdings,\" \"composition,\" or \"schedule of investments\" which appear in fund annual/semi-annual reports."
+  },
+  "prompt_tokens": 899,
+  "completion_tokens": 218
+}

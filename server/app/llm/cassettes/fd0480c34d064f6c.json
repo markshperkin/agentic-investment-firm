@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "Portfolio Flat; SPY +0.05% as No Trades Executed",
+    "summary": "End-of-day portfolio value: $1,000,000 (unchanged). Portfolio return: 0.00% vs. benchmark (SPY) return of +0.0523%, resulting in alpha of -0.0523%. No trades were executed today (0 trades, 0 decisions). Current holdings: none. Cash position: $1,000,000. Processing cost: $0.04 (27,195 tokens).",
+    "risk_note": "Portfolio is fully in cash with zero market exposure. No active positions to monitor."
+  },
+  "prompt_tokens": 954,
+  "completion_tokens": 194
+}

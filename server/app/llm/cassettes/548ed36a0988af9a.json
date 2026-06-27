@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA Data Center segment revenue quarterly",
+      "NVIDIA segment revenue 10-Q",
+      "NVIDIA revenue segments operating results by reportable segment",
+      "NVIDIA gross profit by segment Data Center Gaming Professional"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 180
+  },
+  "prompt_tokens": 1124,
+  "completion_tokens": 115
+}

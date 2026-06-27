@@ -47,11 +47,12 @@ class PriceIngester:
         self,
         replay_date: str,
         tickers: list[str],
-        lookback_days: int = 7,
-        interval: str = "5m",
+        interval: str | None = None,
     ) -> dict[str, str]:
         day = datetime.fromisoformat(replay_date)
-        start = day - timedelta(days=lookback_days)
+        interval = interval or _interval_for(day)
+        # replay day only — no prior-day lookback (nothing downstream uses it)
+        start = day
         end = day + timedelta(days=1)
         results: dict[str, str] = {}
         for ticker in _with_benchmark(tickers):
@@ -64,7 +65,8 @@ class PriceIngester:
                 out = self.dir / replay_date
                 out.mkdir(parents=True, exist_ok=True)
                 df.to_parquet(out / f"{ticker}.parquet", index=False)
-                record_asset(replay_date, ticker, "PRICES", "READY", {"n_bars": int(len(df))})
+                record_asset(replay_date, ticker, "PRICES", "READY",
+                             _price_detail(df, day, interval))
                 results[ticker] = "READY"
             except Exception as exc:  # noqa: BLE001
                 record_asset(replay_date, ticker, "PRICES", "FAILED", {"reason": str(exc)})
@@ -74,3 +76,32 @@ class PriceIngester:
 
 def _with_benchmark(tickers: list[str]) -> list[str]:
     return tickers if BENCHMARK in tickers else [*tickers, BENCHMARK]
+
+
+def _price_detail(df: pd.DataFrame, day: datetime, interval: str) -> dict:
+    """What we stored: total bars, how many fall on the replay day vs any stray
+    off-day bars Yahoo returned, the interval served, and the covered range."""
+    ts = pd.to_datetime(df["ts"])
+    n = int(len(df))
+    current = int((ts.dt.date == day.date()).sum())
+    return {
+        "interval": interval,
+        "n_bars": n,
+        "n_bars_current_day": current,
+        "n_bars_lookback": n - current,
+        "first_ts": str(ts.min()),
+        "last_ts": str(ts.max()),
+    }
+
+
+def _interval_for(day: datetime) -> str:
+    """Pick the finest yfinance interval Yahoo will still serve for this date.
+    Yahoo caps intraday history: sub-hour (e.g. 5m) ~60 days, hourly (60m) ~730
+    days. The replay clock ticks hourly, so 60m aligns 1:1 with ticks and reaches
+    ~2 years back; older than that degrades to daily bars (flat intraday)."""
+    age_days = (datetime.now() - day).days
+    if age_days <= 55:
+        return "5m"    # finer granularity available, still > hourly ticks
+    if age_days <= 725:
+        return "60m"   # hourly — matches tick cadence, ~2yr reach
+    return "1d"        # older than ~2yr: daily bars only

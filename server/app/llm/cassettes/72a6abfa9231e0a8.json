@@ -1,0 +1,9 @@
+{
+  "data": {
+    "decision": "REQUIRE_HUMAN",
+    "severity": "MEDIUM",
+    "reasoning": "**Trade Summary:** Buy 813 shares of NVIDIA (~$86,991 notional exposure).\n\n**Investment Thesis:** NVIDIA has secured a multi-year GPU supply agreement with a top-3 cloud provider for next-generation Blackwell chips, with material revenue contribution expected next quarter. The deal represents visibility into near-term data-center demand and validates pricing power and backlog strength in a maturing AI infrastructure cycle.\n\n**Key Risk Factors:**\n\n1. **Execution Risk (Blackwell Ramp):** Delayed or sub-scale production ramp on next-gen architecture could undermine the thesis and create near-term revenue miss vs. market expectations.\n\n2. **Cloud Capex Cycle Contraction:** If hyperscaler capital spending cycles soften\u2014driven by macro headwinds, slowing AI ROI realization, or regulatory pressure\u2014demand could weaken materially despite the locked-in agreement.\n\n3. **Competitive & Structural Pressure:** AMD's competitive GPU offerings and accelerating custom silicon initiatives by hyperscalers (Google TPU, Meta trainium, AWS Trainium) reduce NVIDIA's pricing power and long-term market share.\n\n4. **Geopolitical & Regulatory:** Export controls on advanced semiconductors (China, sanctioned jurisdictions) could restrict addressable market and limit upside scenarios.\n\n5. **Valuation Sensitivity:** Market repricing of AI infrastructure growth expectations lower\u2014driven by disappointing LLM ROI, deployment moderation, or prolonged capex discipline\u2014would create significant drawdown risk, particularly if multiples contract.\n\n**Committee Sign-Off Required:** This is a concentrated, sector-correlated position with meaningful execution, cyclical, and macro risks. Human judgment needed on position sizing, conviction level, and portfolio fit."
+  },
+  "prompt_tokens": 983,
+  "completion_tokens": 461
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA capital expenditures future spending",
+      "NVIDIA capex investments 2026 2027",
+      "NVIDIA property plant equipment investment",
+      "NVIDIA spending plans semiconductor manufacturing",
+      "NVIDIA long-term capital requirements"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 180
+  },
+  "prompt_tokens": 1093,
+  "completion_tokens": 120
+}

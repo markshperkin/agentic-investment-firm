@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 from app.llm.base import ProviderResult
 from app.llm.providers.cassette import CassetteProvider
-from app.llm.router import HAIKU, SONNET, LLMRouter
+from app.llm.router import HAIKU, LLMRouter
 from app.obs import spans
 
 
@@ -17,8 +17,9 @@ class Stance(BaseModel):
 def test_routing_picks_model_tier():
     router = LLMRouter(provider=CassetteProvider())
     assert router.model_for("research") == HAIKU
-    assert router.model_for("pm") == SONNET
-    assert router.model_for("risk") == SONNET
+    assert router.model_for("pm") == HAIKU
+    assert router.model_for("day_review") == HAIKU
+    assert router.model_for("risk_narrator") == HAIKU
 
 
 def test_cassette_roundtrip_validates_and_costs_and_traces():

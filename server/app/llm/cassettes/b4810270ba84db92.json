@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.2,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The retrieved excerpts describe the composition of NVDA's Data Center segment (what products/services it includes) and provide one example of Data Center revenue growth data (up 142% in fiscal 2025). However, they do not contain the actual consolidated statements of income with detailed revenue line items for the Data Center segment. To answer this query, you need to search for: NVDA's consolidated statements of income (from 10-K or 10-Q), specifically the revenue rows showing Data Center segment revenue figures with corresponding periods and amounts."
+  },
+  "prompt_tokens": 1721,
+  "completion_tokens": 205
+}

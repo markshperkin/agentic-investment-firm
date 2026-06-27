@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "No Trading Activity; Underperformance vs SPY Benchmark",
+    "summary": "Portfolio remained in cash with zero trades executed. Starting cash of $1,000,000 and ending cash of $1,000,000 produced a portfolio return of 0.0%, underperforming the SPY benchmark by 0.0523% (alpha: -0.000523). No positions were held. 2 decisions were evaluated during the session.",
+    "risk_note": "Cash drag: Holding 100% cash on a positive market day (SPY +0.0523%) resulted in opportunity cost. No trading was undertaken despite market movement."
+  },
+  "prompt_tokens": 954,
+  "completion_tokens": 193
+}

@@ -1,0 +1,28 @@
+{
+  "data": {
+    "action": "HOLD",
+    "thesis_card": {
+      "headline": "NVDA at risk from tightened U.S. export controls to China; absent position, await clarity on scope and timing",
+      "why_now": "U.S. authorities are preparing enhanced export restrictions that would limit NVIDIA's advanced-chip sales to China, a meaningful portion of data-center revenue. Near-term catalysts include guidance cuts and potential inventory write-downs if controls are enacted.",
+      "expected_edge": "A bearish stance is justified given downside risks to near-term earnings and guidance from China market restrictions. However, with no current position and uncertain control implementation timelines, HOLD preserves optionality to enter on further clarity or re-rate.",
+      "risks": "Regulatory uncertainty remains material: final control scope, timing of enforcement, and NVIDIA's actual China exposure could differ from expectations. Conversely, geopolitical negotiations or carve-outs could soften impact. Tech sector sentiment could also shift, limiting downside if demand elsewhere offsets China headwinds.",
+      "confidence": 0.65,
+      "key_evidence": [
+        {
+          "chunk_id": "8b7901c8bb5245feb23d9147ab21c78b:0",
+          "quote": "U.S. authorities are preparing tightened export controls that would restrict NVIDIA's advanced-chip sales to China, a market that represents a meaningful share of data-center revenue",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        },
+        {
+          "chunk_id": "8b7901c8bb5245feb23d9147ab21c78b:0",
+          "quote": "The export controls measure could force NVIDIA to write down China-bound inventory and cut near-term guidance",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        }
+      ]
+    }
+  },
+  "prompt_tokens": 1475,
+  "completion_tokens": 479
+}

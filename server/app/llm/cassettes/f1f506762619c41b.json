@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The search returned no chunks. To find NVDA segment revenue breakdown, try querying the most recent 10-K or 10-Q filing directly, or search for specific terms like \"segment revenue by product line\" or \"Data Center revenue $XXX million\" from recent earnings reports. Include the filing period (e.g., \"FY2024\" or \"Q3 2024\") for better results."
+  },
+  "prompt_tokens": 1019,
+  "completion_tokens": 179
+}

@@ -9,7 +9,7 @@ _WORD = re.compile(r"[a-z0-9]+")
 class Embedder(Protocol):
     dim: int
 
-    def embed(self, texts: list[str]) -> list[list[float]]:
+    def embed(self, texts: list[str], input_type: str = "document") -> list[list[float]]:
         ...
 
 
@@ -28,8 +28,8 @@ class FakeEmbedder:
         norm = math.sqrt(sum(x * x for x in v)) or 1.0
         return [x / norm for x in v]
 
-    def embed(self, texts: list[str]) -> list[list[float]]:
-        return [self._vec(t) for t in texts]
+    def embed(self, texts: list[str], input_type: str = "document") -> list[list[float]]:
+        return [self._vec(t) for t in texts]  # input_type ignored — lexical fake
 
 
 class VoyageEmbedder:
@@ -41,8 +41,10 @@ class VoyageEmbedder:
         self.model = model
         self.dim = dim
 
-    def embed(self, texts: list[str]) -> list[list[float]]:
+    def embed(self, texts: list[str], input_type: str = "document") -> list[list[float]]:
         import voyageai
 
+        # Voyage aligns queries and documents better when told which is which:
+        # input_type="query" for the search string, "document" for stored chunks.
         client = voyageai.Client(api_key=self.api_key)
-        return client.embed(texts, model=self.model, input_type="document").embeddings
+        return client.embed(texts, model=self.model, input_type=input_type).embeddings

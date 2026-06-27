@@ -1,0 +1,67 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.82,
+    "key_points": [
+      {
+        "text": "Strong profitability with net income of $58.3 billion in Q1 FY2027, more than triple the $18.8 billion in Q1 FY2026, demonstrating exceptional year-over-year earnings growth.",
+        "citation": {
+          "chunk_id": "d64230d808be43dbb76801d2c0559247:7",
+          "quote": "Net income $ 58,321 ... $ 18,775",
+          "source": "10-Q 2026-05-20"
+        }
+      },
+      {
+        "text": "Robust cash generation with operating cash flow of $50.3 billion in Q1 FY2027 compared to $27.4 billion in Q1 FY2026, up 84% year-over-year.",
+        "citation": {
+          "chunk_id": "d64230d808be43dbb76801d2c0559247:7",
+          "quote": "Net cash provided by operating activities 50,344 ... 27,414",
+          "source": "10-Q 2026-05-20"
+        }
+      },
+      {
+        "text": "Significant shareholder capital return with $20.2 billion in share repurchases in Q1 FY2027 versus $14.5 billion in Q1 FY2026, and board approval of an additional $80 billion repurchase authorization without expiration on May 18, 2026.",
+        "citation": {
+          "chunk_id": "d64230d808be43dbb76801d2c0559247:16",
+          "quote": "We repurchased 108 million and 126 million shares of our common stock for $ 20.2 billion and $ 14.5 billion during the first quarter of fiscal years 2027 and 2026, respectively. As of April 26, 2026, we were authorized, subject to certain specifications, to repurchase up to $ 38.5 billion of our common stock. On May 18, 2026, our Board of Directors approved an additional $ 80.0 billion in share repurchase authorization, without expiration.",
+          "source": "10-Q 2026-05-20"
+        }
+      },
+      {
+        "text": "Substantial dividend increase with quarterly dividend raised from $0.01 to $0.25 per share effective June 4, 2026, signaling confidence in cash generation and capital structure.",
+        "citation": {
+          "chunk_id": "d64230d808be43dbb76801d2c0559247:16",
+          "quote": "On May 18, 2026, we increased our quarterly cash dividend from $ 0.01 per share to $ 0.25 per share to all shareholders of record on June 4, 2026.",
+          "source": "10-Q 2026-05-20"
+        }
+      },
+      {
+        "text": "Strong balance sheet with total shareholders' equity of $195.5 billion as of April 26, 2026, up from $157.3 billion as of January 25, 2026, with total assets growing to $259.5 billion.",
+        "citation": {
+          "chunk_id": "d64230d808be43dbb76801d2c0559247:7",
+          "quote": "Total shareholders' equity 195,474 ... 157,293 ... Total liabilities and shareholders' equity $ 259,474 ... $ 206,803",
+          "source": "10-Q 2026-05-20"
+        }
+      },
+      {
+        "text": "Full-year FY2026 net income of $120.1 billion, up from $72.9 billion in FY2025, demonstrating sustained acceleration in profitability.",
+        "citation": {
+          "chunk_id": "a2295188d5b44e69b4c6acedc35a8c7d:65",
+          "quote": "Net income $ 120,067 ... $ 72,880",
+          "source": "10-K 2026-02-25"
+        }
+      },
+      {
+        "text": "Leading AI infrastructure platform with data-center-scale Blackwell architecture offerings featuring holistic co-design of chips, networking, systems, software, and algorithms to maximize AI performance and scale.",
+        "citation": {
+          "chunk_id": "a2295188d5b44e69b4c6acedc35a8c7d:7",
+          "quote": "Introduced with the Blackwell architecture, our data-center-scale offerings feature extreme co-design where the infrastructure's chips, networking, systems, software, and algorithms are holistically architected and optimized to maximize performance and scale.",
+          "source": "10-K 2026-02-25"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 12841,
+  "completion_tokens": 1259
+}

@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts were retrieved. Verify that the 10-K filing exists and that the query parameters (ticker: NVIDIA, form type: 10-K, fiscal year: 2025, filing date: January 2025) are correct. Try searching with a more specific filing date or accession number if available. Note: NVIDIA's fiscal year 2025 10-K would typically be filed in late January or early February 2025, so ensure the document index is current."
+  },
+  "prompt_tokens": 1021,
+  "completion_tokens": 195
+}

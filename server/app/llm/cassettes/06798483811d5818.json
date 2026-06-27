@@ -1,0 +1,75 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.75,
+    "key_points": [
+      {
+        "text": "Exceptional revenue growth: Q1 FY2027 revenue reached $81,615 million, up 85% from $44,062 million in Q1 FY2026, driven by strong demand for Blackwell computing platform and Data Center accelerated computing.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:18",
+          "quote": "Total revenue $ 81,615 [Apr 26, 2026] $ 44,062 [Apr 27, 2025]",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "Strong Compute Networking segment performance: Revenue grew from $39,589 million (Q1 FY2026) to $74,550 million (Q1 FY2027), with Data Center computing driven by Blackwell platform demand and networking growing 142% YoY in fiscal 2026.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:17",
+          "quote": "Compute Networking segment... Revenue $ 74,550 [Apr 26, 2026] $ 39,589 [Apr 27, 2025]",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "High profitability with operating income of $56,276 million in Q1 FY2027 vs $23,694 million in Q1 FY2026, representing 138% growth, demonstrating strong operating leverage.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:17",
+          "quote": "Operating income $ 56,276 [Apr 26, 2026] $ 23,694 [Apr 27, 2025]",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "Full year FY2026 results show Compute Networking revenue of $193,479 million (up 67% YoY) and operating income of $130,141 million (up 57% YoY), with Data Center computing revenue growth of 59% and networking growth of 142%.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "quote": "Revenue from Data Center computing grew 59% driven by demand for our Blackwell computing platform. Revenue from Data Center networking grew 142%",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Increased shareholder returns: Quarterly cash dividend increased from $0.01 per share to $0.25 per share effective May 18, 2026, reflecting confidence in cash generation and capital allocation.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:17",
+          "quote": "On May 18, 2026, we increased our quarterly cash dividend from $ 0.01 per share to $ 0.25 per share",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "Geographic diversification with 78% of Q1 FY2027 revenue from United States customers ($63,769 million), improving from 58% in Q1 FY2026, reflecting strong domestic demand.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:18",
+          "quote": "United States $ 63,769 [Apr 26, 2026] $ 25,685 [Apr 27, 2025]",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "Significant planned capital investment: $32.4 billion in future data center lease obligations expected between Q2 FY2027 and FY2033, indicating management confidence in sustained demand for AI infrastructure.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:18",
+          "quote": "Between the second quarter of fiscal year 2027 and fiscal year 2033, we expect to commence leases with future obligations of $ 32.4 billion, primarily for data center leases",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "Customer concentration in high-growth Data Center/Compute Networking segment: In Q1 FY2027, three direct customers represented 21%, 17%, and 16% of total revenue, primarily from Compute Networking segment, confirming demand from hyperscale cloud providers.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:18",
+          "quote": "For the first quarter of fiscal year 2027, three direct customers represented 21 %, 17 %, and 16 % of total revenue, all of which was primarily attributable to the Compute Networking segment",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 12982,
+  "completion_tokens": 1427
+}

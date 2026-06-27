@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "NVDA segment revenue",
+      "NVDA Data Center",
+      "NVDA revenue by platform",
+      "NVDA 10-Q 10-K",
+      "Nvidia financial results segments"
+    ],
+    "strategy": "BASELINE"
+  },
+  "prompt_tokens": 1174,
+  "completion_tokens": 92
+}

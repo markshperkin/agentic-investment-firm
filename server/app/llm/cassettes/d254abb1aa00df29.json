@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "Query returned no chunks. Try: \"NVDA segment revenue fiscal 2024\" or \"NVIDIA data center gaming automotive revenue 2024\" to retrieve 10-K segment/product line breakdown. Ensure filing is being searched (10-K FY2024)."
+  },
+  "prompt_tokens": 1021,
+  "completion_tokens": 150
+}

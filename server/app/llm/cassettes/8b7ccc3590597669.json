@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA quarterly earnings 10-Q fiscal 2025",
+      "NVIDIA revenue guidance forward-looking statements",
+      "NVIDIA segment revenue growth data center GPU",
+      "NVIDIA annual report 10-K fiscal 2025 consolidated statements"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 365
+  },
+  "prompt_tokens": 1112,
+  "completion_tokens": 123
+}

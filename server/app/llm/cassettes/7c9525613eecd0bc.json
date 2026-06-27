@@ -1,0 +1,30 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVIDIA's de-risked China exposure and inference platform expansion reinforce data-center dominance",
+      "why_now": "Management has explicitly affirmed that China data-center exposure is limited and already de-risked, removing a key overhang that has weighed on sentiment. Simultaneously, the unveiling of a next-generation inference platform with marquee customer commitments signals a strategic pivot to capture a broader share of the AI value chain beyond model training, unlocking a new revenue stream with strong competitive moats.",
+      "expected_edge": "The combination of reduced geopolitical risk and platform expansion positions NVIDIA to accelerate growth across the full lifecycle of AI workloads. The inference platform's early marquee customer adoption provides visibility into a large TAM expansion, while the de-risked China narrative should reduce earnings volatility and multiple compression from headlines.",
+      "risks": "Geopolitical tensions could escalate despite management reassurance, resulting in unexpected export restrictions. Competition in inference accelerators could intensify from AMD, custom silicon (AWS, Google), or new entrants. Execution risk remains on the inference platform ramp\u2014early commitments may not translate to material revenue at scale. Valuation may already reflect parts of this bullish thesis.",
+      "confidence": 0.76,
+      "key_evidence": [
+        {
+          "chunk_id": "b27dd8bb585f49ff939823972810dc40:0",
+          "quote": "NVIDIA management affirmed that China data-center exposure is limited and already largely de-risked, with proposed export measures not expected to materially affect outlook or guidance.",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        },
+        {
+          "chunk_id": "b27dd8bb585f49ff939823972810dc40:0",
+          "quote": "NVIDIA unveiled a next-generation inference platform with marquee customer commitments to early adoption, which broadens demand beyond model training and reinforces the company's data-center moat.",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        }
+      ]
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1480,
+  "completion_tokens": 583
+}

@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts were retrieved. Re-run the search with explicit segment names (e.g., \"Data Center\", \"Gaming\", \"Professional Visualization\", \"Automotive\") or use a direct query for revenue by segment from the most recent 10-Q or 10-K filing."
+  },
+  "prompt_tokens": 1014,
+  "completion_tokens": 151
+}

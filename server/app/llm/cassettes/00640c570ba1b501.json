@@ -1,0 +1,22 @@
+{
+  "data": {
+    "action": "SELL",
+    "thesis_card": {
+      "headline": "NVIDIA faces material near-term headwinds from tightened U.S. export controls to China",
+      "why_now": "U.S. authorities are actively preparing stricter export controls that would restrict NVIDIA's advanced-chip sales to China\u2014a meaningful contributor to data-center revenue. This regulatory risk is imminent and could force inventory write-downs and guidance cuts in the near term.",
+      "expected_edge": "Early exit from a position vulnerable to announced policy changes that will materially impact revenue and earnings. Avoiding the execution risk of inventory writedowns and the stock repricing that typically follows guidance cuts.",
+      "risks": "Export controls may be delayed, watered down, or take longer to implement than anticipated. NVIDIA may find alternative markets or pivot product mix faster than expected. China exposure may be smaller than feared, limiting the actual financial impact. Broader AI momentum could partially offset the headwind.",
+      "confidence": 0.7,
+      "key_evidence": [
+        {
+          "chunk_id": "8b7901c8bb5245feb23d9147ab21c78b:0",
+          "quote": "U.S. authorities are preparing tightened export controls that would restrict NVIDIA's advanced-chip sales to China, a market that represents a meaningful share of data-center revenue. The measure could force NVIDIA to write down China-bound inventory and cut near-term guidance.",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        }
+      ]
+    }
+  },
+  "prompt_tokens": 1476,
+  "completion_tokens": 395
+}

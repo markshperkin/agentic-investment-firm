@@ -1,0 +1,9 @@
+{
+  "data": {
+    "decision": "REQUIRE_HUMAN",
+    "reasoning": "NVIDIA position of ~$84.9K requires committee sign-off due to material execution and macro risks despite compelling infrastructure thesis. \n\nThe bull case is grounded: NVIDIA's 78% supercomputer dominance, 3x YoY net income growth ($58.3B), $50.3B operating cash flow, and roadmap credibility (Rubin platform 10x cost-per-token improvement) establish genuine structural moats in AI accelerators. The $18.6B ecosystem investment reinforces switching costs.\n\nHowever, three first-order risks warrant human judgment:\n\n1. **Valuation & Drawdown Risk**: The thesis does not quantify current multiples against intrinsic value targets. Elevated valuations create asymmetric downside if execution slips even modestly; momentum can reverse sharply in concentrated semiconductor plays.\n\n2. **Customer Concentration Cliff Risk**: Hyperscaler capex (Meta, Microsoft, Google, Amazon) is cyclical and currently elevated. A coordinated pause in AI infrastructure spending or in-house chip adoption (Google's TPU strategy, Amazon's Trainium) would directly impact demand. This is not a competitive erosion risk\u2014it's customer behavior risk.\n\n3. **Geopolitical & Regulatory Overhang**: China export restrictions and potential antitrust scrutiny on compute infrastructure concentration are binary tail risks that could constrain addressable market expansion regardless of product quality. These sit outside management control.\n\nThe position size (~$85K) is material enough that downside scenarios (20\u201330% drawdown on capex cycle normalization + valuation reset) warrant explicit committee risk tolerance confirmation before execution.",
+    "severity": "MEDIUM"
+  },
+  "prompt_tokens": 1107,
+  "completion_tokens": 430
+}

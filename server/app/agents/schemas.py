@@ -55,11 +55,15 @@ class TradeProposal(BaseModel):
     quantity: int = Field(gt=0)
     est_notional: float = Field(ge=0.0)
     thesis_card: ThesisCard
+    stop_loss_pct: float = Field(gt=0.0, le=1.0)
+    take_profit_pct: float = Field(gt=0.0, le=1.0)
 
 
 class PMDecision(BaseModel):
     action: Literal["BUY", "SELL", "HOLD"]
     thesis_card: ThesisCard
+    stop_loss_pct: float = Field(default=0.04, gt=0.0, le=1.0)
+    take_profit_pct: float = Field(default=0.10, gt=0.0, le=1.0)
 
 
 class NoTrade(BaseModel):
@@ -70,3 +74,15 @@ class RiskNarrative(BaseModel):
     decision: Literal["REQUIRE_HUMAN", "REJECT"]
     reasoning: str
     severity: Literal["LOW", "MEDIUM", "HIGH"] = "LOW"
+
+
+class EodDecision(BaseModel):
+    action: Literal["HOLD", "TRIM", "FLATTEN"]
+    reasoning: str
+    gap_risk: Literal["LOW", "MEDIUM", "HIGH"] = "MEDIUM"
+
+
+class ReportSummary(BaseModel):
+    headline: str
+    summary: str
+    risk_note: str = ""

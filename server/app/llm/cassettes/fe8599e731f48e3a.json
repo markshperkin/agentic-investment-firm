@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "End of Day Summary: No Trading Activity",
+    "summary": "Portfolio remains fully in cash at $1,000,000. No trades were executed today (0 trades). Portfolio return stands at 0.00%, underperforming the SPY benchmark by 52 basis points (benchmark return: +0.0523%). Alpha is -0.000523, indicating underperformance relative to the benchmark. No open positions held.",
+    "risk_note": "All capital remains uninvested in cash. Opportunity cost of 52 bps vs benchmark benchmark today."
+  },
+  "prompt_tokens": 950,
+  "completion_tokens": 174
+}

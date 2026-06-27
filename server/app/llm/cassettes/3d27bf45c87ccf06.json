@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "Query asks for NVDA capital allocation, stock buyback/repurchase authorization. Retrieved excerpts contain revenue growth, segment performance, gross margin trends, and operating expenses, but zero discussion of share repurchases, buyback programs, authorization amounts, or capital allocation policy. Search should target investor relations sections, Board authorization disclosures, or SEC filings with explicit repurchase program details (typically found in Equity sections of balance sheets or MD&A capital allocation subsections)."
+  },
+  "prompt_tokens": 5734,
+  "completion_tokens": 192
+}

@@ -1,0 +1,32 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "NEUTRAL",
+    "confidence": 0.45,
+    "key_points": [
+      {
+        "text": "NVIDIA operates through two main business segments: Compute and Networking, which includes Data Center accelerated computing platforms, AI solutions, networking, automotive platforms, Jetson robotics, and DGX Cloud services; and Graphics, which includes GeForce GPUs for gaming and PCs, GeForce NOW streaming service, Quadro/NVIDIA RTX GPUs for enterprise workstations.",
+        "citation": {
+          "chunk_id": "bd2969b71dc04426982d6cbddb74a9c6:96",
+          "source": "10-Q 2025-05-28T20:32:57"
+        }
+      },
+      {
+        "text": "Data Center revenue reached $115,186 million for fiscal year ended January 26, 2025, more than doubling from $47,525 million in the prior year, while Compute revenue within Data Center grew from $38,950 million to $102,196 million and Networking revenue grew from $8,575 million to $12,990 million.",
+        "citation": {
+          "chunk_id": "b242cffe86874a96bca38e18a5348fa8:528",
+          "source": "10-K 2025-02-26T21:48:33"
+        }
+      },
+      {
+        "text": "NVIDIA faces increasingly competitive environment with major competitors including AMD, Huawei, and other suppliers and licensors of hardware and software for GPUs, custom chips and accelerated computing solutions, some of which may have greater marketing, financial, distribution and manufacturing resources.",
+        "citation": {
+          "chunk_id": "b242cffe86874a96bca38e18a5348fa8:90",
+          "source": "10-K 2025-02-26T21:48:33"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 2322,
+  "completion_tokens": 531
+}

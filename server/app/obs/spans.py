@@ -52,6 +52,18 @@ def set_tick(tick_seq: int | None, as_of: str | None = None) -> None:
     _current_as_of.set(as_of)
 
 
+def set_run(run_id: str) -> None:
+    """Bind the current-run contextvar in this thread/task (used when a background
+    run continues a run_id created by the request handler)."""
+    _current_run.set(run_id)
+
+
+def current_run() -> str | None:
+    """The run bound to this thread/task, if any. Lets the book scope itself to the
+    active run without threading run_id through every account call."""
+    return _current_run.get()
+
+
 class SpanHandle:
     def __init__(self, span_id: str):
         self.id = span_id

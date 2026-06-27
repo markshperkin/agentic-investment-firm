@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "Cash position maintained; SPY outperformed by 122 basis points",
+    "summary": "No trades executed today. Portfolio remains fully invested in cash at $1,000,000 with zero portfolio return, underperforming the SPY benchmark which returned 1.23% for an alpha of -1.23%. No open holdings. Process executed 9 decisions with 7 refusals and 1 risk engine approval.",
+    "risk_note": "Portfolio completely out of market; benchmark underperformance is structural given zero equity exposure while SPY rallied 122 bps."
+  },
+  "prompt_tokens": 954,
+  "completion_tokens": 180
+}

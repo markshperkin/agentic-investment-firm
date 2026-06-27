@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The retrieved excerpts contain only metadata, segment classification tags, and structural references to financial statements, but do not include the actual consolidated statements of income with revenue figures for fiscal 2025 and 2024. To answer this query, request the specific revenue line items from NVDA's consolidated statements of income (typically found in the main financial statements section of the 10-K), showing total revenue and revenue by segment for fiscal years 2025 and 2024."
+  },
+  "prompt_tokens": 1896,
+  "completion_tokens": 189
+}

@@ -15,7 +15,7 @@ class RiskAgent:
         self.router = router
 
     def narrate(self, proposal: TradeProposal, engine: RiskEngineResult) -> RiskNarrative:
-        with span("AGENT", "risk", agent="risk", ticker=proposal.ticker,
+        with span("AGENT", "risk_narrator", agent="risk_narrator", ticker=proposal.ticker,
                   input={"engine_decision": engine.decision}):
             prompt = (
                 f"Proposed: {proposal.side} {proposal.quantity} {proposal.ticker} "
@@ -24,5 +24,5 @@ class RiskAgent:
                 f"Risks: {proposal.thesis_card.risks}\n"
                 "Write the risk narrative for the committee."
             )
-            return self.router.complete("risk", system=SYSTEM, prompt=prompt,
+            return self.router.complete("risk_narrator", system=SYSTEM, prompt=prompt,
                                         schema=RiskNarrative).value

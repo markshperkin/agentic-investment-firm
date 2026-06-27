@@ -1,0 +1,16 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVDA positioned for sustained growth with margin expansion and next-generation AI platform momentum",
+      "why_now": "NVDA is experiencing a powerful inflection driven by (1) exceptional Q1 FY 2027 revenue of $81.6B (+85% YoY), (2) gross margin expansion to 74.9% from 60.5% YoY as inventory charges normalize, and (3) imminent launch of Rubin platform in H2 FY 2027, which offers 10x cost-per-token improvement over Blackwell for agentic AI\u2014a natural next-generation demand driver as enterprise customers optimize inference economics",
+      "expected_edge": "NVDA's margin profile and earnings trajectory have inflected higher as the H20 charge reverses and Blackwell demand remains strong. The introduction of Rubin positions the company to capture the next wave of AI inference workloads with superior economics, reducing competitive risk from alternative platforms and extending the company's dominance in the AI compute stack. Data Center networking revenue growth of 142% demonstrates ecosystem stickiness and pricing power in full-stack AI infrastructure",
+      "risks": "Execution risk on Rubin production ramp and customer adoption timeline; competitive pressure from custom silicon and open-source inference models; macroeconomic slowdown reducing enterprise AI capex; valuation multiple compression if the market reprices AI spending expectations; geopolitical constraints on semiconductor exports to China",
+      "confidence": 0.85
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1772,
+  "completion_tokens": 437
+}

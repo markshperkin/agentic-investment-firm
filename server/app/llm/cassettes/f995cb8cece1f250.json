@@ -1,0 +1,30 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVIDIA Blackwell Supply Win Validates Sustained AI Acceleration and Data-Center Dominance",
+      "why_now": "NVIDIA has secured a multi-year agreement to supply next-generation Blackwell GPUs to a top-three cloud provider, with material revenue acceleration expected beginning next quarter. This represents a strong incremental demand signal in a market driving AI infrastructure buildout.",
+      "expected_edge": "The Blackwell supply agreement reinforces NVIDIA's data-center backlog and pricing power, positioning the company to capitalize on the ongoing shift toward advanced compute. The multi-year nature of the deal provides visibility into sustained demand and revenue growth, with Blackwell adoption likely to expand beyond this anchor customer.",
+      "risks": "Execution risk on Blackwell production ramp; potential slowdown in AI spending or customer budget reallocation; competitive pressure from AMD or custom silicon alternatives; macroeconomic headwinds affecting cloud capex spending; geopolitical export restrictions affecting major markets.",
+      "confidence": 0.75,
+      "key_evidence": [
+        {
+          "chunk_id": "8c0e93b986b94385ab688edf2eefac6e:0",
+          "quote": "NVIDIA has signed a multi-year agreement to supply next-generation Blackwell GPUs to a top-three cloud provider, with revenue expected to materially increase in data-center segment beginning next quarter",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        },
+        {
+          "chunk_id": "8c0e93b986b94385ab688edf2eefac6e:0",
+          "quote": "Analysts view the Blackwell supply agreement as a strong incremental demand signal that reinforces NVIDIA's data-center backlog and pricing power",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        }
+      ]
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1491,
+  "completion_tokens": 541
+}

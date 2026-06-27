@@ -1,0 +1,67 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.82,
+    "key_points": [
+      {
+        "text": "NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list, demonstrating dominant market position in high-performance computing infrastructure.",
+        "citation": {
+          "chunk_id": "7f7e7c9c1dac4545aebbc6849bebf4ef:9",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Including GPUs and networking, NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list."
+        }
+      },
+      {
+        "text": "Net income for the quarter ended April 26, 2026 reached $58,321 million, more than 3x the prior year quarter net income of $18,775 million, indicating strong earnings growth trajectory.",
+        "citation": {
+          "chunk_id": "a8fa8df022c740c18bb470777dc05c12:7",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Net income $ 58,321 [for three months ended Apr 26, 2026] 18,775 [for three months ended Apr 27, 2025]"
+        }
+      },
+      {
+        "text": "Operating cash flow for Q1 FY2026 was $50,344 million versus $27,414 million in the prior year period, representing 84% year-over-year growth in cash generation.",
+        "citation": {
+          "chunk_id": "a8fa8df022c740c18bb470777dc05c12:7",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Net cash provided by operating activities 50,344 [three months ended Apr 26, 2026] 27,414 [three months ended Apr 27, 2025]"
+        }
+      },
+      {
+        "text": "Full year FY2026 net income was $120,067 million compared to $72,880 million in FY2025, representing 65% year-over-year growth and demonstrating sustained momentum in core profitability.",
+        "citation": {
+          "chunk_id": "7f7e7c9c1dac4545aebbc6849bebf4ef:65",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Net income $ 120,067 [Year Ended Jan 25, 2026] $ 72,880 [Year Ended Jan 26, 2025]"
+        }
+      },
+      {
+        "text": "Total shareholders' equity increased to $195,474 million as of April 26, 2026 from $157,293 million as of January 25, 2026, reflecting strong balance sheet expansion and value creation.",
+        "citation": {
+          "chunk_id": "a8fa8df022c740c18bb470777dc05c12:7",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Total shareholders' equity 195,474 [as of Apr 26, 2026] 157,293 [as of Jan 25, 2026]"
+        }
+      },
+      {
+        "text": "NVIDIA introduced the Rubin platform expected to commence production shipments in the second half of fiscal year 2027, built for agentic AI and reasoning with up to a 10x reduction in cost per token compared to Blackwell.",
+        "citation": {
+          "chunk_id": "7f7e7c9c1dac4545aebbc6849bebf4ef:10",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "In fiscal year 2026, we unveiled the NVIDIA Rubin platform, which is expected to commence production shipments in the second half of fiscal year 2027. Built for agentic AI and reasoning, it excels at processing multi-step problem-solving and massive long-context workflows, delivering up to a 10x reduction in cost per token compared to Blackwell."
+        }
+      },
+      {
+        "text": "Over 7.5 million developers worldwide use CUDA and NVIDIA's software tools, reinforcing the expanding ecosystem and platform lock-in for accelerated computing applications.",
+        "citation": {
+          "chunk_id": "7f7e7c9c1dac4545aebbc6849bebf4ef:12",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "There are over 7.5 million developers worldwide using CUDA and our other software tools to help deploy our technology in our target markets."
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 12517,
+  "completion_tokens": 1299
+}

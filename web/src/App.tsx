@@ -1,51 +1,56 @@
 import { useState } from "react";
-import EventFeed from "./views/EventFeed";
-import Portfolio from "./views/Portfolio";
+import ReplayList from "./components/ReplayList";
+import DatasetList from "./components/DatasetList";
+import ReplayDetail from "./components/ReplayDetail";
+import DatasetDetail from "./components/DatasetDetail";
 
-type Tab = "feed" | "portfolio";
+type NavTab = "replays" | "datasets";
 
 export default function App() {
-  const [tab, setTab] = useState<Tab>("feed");
-  return (
-    <div style={{ fontFamily: "system-ui", padding: 16 }}>
-      <header style={{ display: "flex", gap: 12, marginBottom: 16, alignItems: "center" }}>
-        <strong>Agentic Investment Firm</strong>
-        <nav style={{ display: "flex", gap: 8 }}>
-          <TabButton active={tab === "feed"} onClick={() => setTab("feed")}>
-            Event Feed
-          </TabButton>
-          <TabButton active={tab === "portfolio"} onClick={() => setTab("portfolio")}>
-            Portfolio
-          </TabButton>
-        </nav>
-      </header>
-      {tab === "feed" ? <EventFeed /> : <Portfolio />}
-    </div>
-  );
-}
+  const [navTab, setNavTab] = useState<NavTab>("replays");
+  const [selectedRunId, setSelectedRunId] = useState<string | null>(null);
+  const [selectedDate, setSelectedDate] = useState<string | null>(null);
+  const [datasetVersion, setDatasetVersion] = useState(0);
 
-function TabButton({
-  active,
-  onClick,
-  children,
-}: {
-  active: boolean;
-  onClick: () => void;
-  children: React.ReactNode;
-}) {
   return (
-    <button
-      onClick={onClick}
-      style={{
-        border: "none",
-        borderBottom: active ? "2px solid #333" : "2px solid transparent",
-        background: "none",
-        cursor: "pointer",
-        fontWeight: active ? 600 : 400,
-        padding: "4px 8px",
-      }}
-    >
-      {children}
-    </button>
+    <div className="app">
+      <aside className="sidepanel">
+        <div className="brand">
+          Agentic Investment Firm
+          <small>replay control console</small>
+        </div>
+        <div className="nav-tabs">
+          <button className={navTab === "replays" ? "active" : ""} onClick={() => setNavTab("replays")}>
+            Replays
+          </button>
+          <button className={navTab === "datasets" ? "active" : ""} onClick={() => setNavTab("datasets")}>
+            Datasets
+          </button>
+        </div>
+        {navTab === "replays" ? (
+          <ReplayList selectedRunId={selectedRunId} onSelect={setSelectedRunId} />
+        ) : (
+          <DatasetList
+            selectedDate={selectedDate}
+            onSelect={setSelectedDate}
+            onChanged={() => setDatasetVersion((v) => v + 1)}
+          />
+        )}
+      </aside>
+
+      <main className="main">
+        {navTab === "replays" ? (
+          selectedRunId ? (
+            <ReplayDetail runId={selectedRunId} />
+          ) : (
+            <div className="empty">Select a replay on the left, or start a new one.</div>
+          )
+        ) : selectedDate ? (
+          <DatasetDetail key={datasetVersion} date={selectedDate} />
+        ) : (
+          <div className="empty">Select a dataset day on the left.</div>
+        )}
+      </main>
+    </div>
   );
 }

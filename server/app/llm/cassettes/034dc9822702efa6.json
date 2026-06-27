@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts were retrieved for this query. Try searching with individual key terms like \"SPY prospectus\" or \"State Street Global Advisors N-1A\" separately, or verify that the SEC filing document is available in the database. Note that SPY (SPDR S&P 500 ETF Trust) is managed by State Street Global Advisors, and its prospectus should be filed as an N-1A form with the SEC."
+  },
+  "prompt_tokens": 903,
+  "completion_tokens": 189
+}

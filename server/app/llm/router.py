@@ -1,6 +1,6 @@
 from typing import Type, TypeVar
 
-from pydantic import BaseModel
+from pydantic import BaseModel, ValidationError
 
 from app.config import get_settings
 from app.llm.base import LLMResult, Provider
@@ -12,14 +12,17 @@ T = TypeVar("T", bound=BaseModel)
 HAIKU = "claude-haiku-4-5"
 SONNET = "claude-sonnet-4-6"
 
-# Cost-aware routing: cheap model by default, escalate the hard reasoning.
+# Cost-aware routing. LLM steps do judgment/synthesis on Haiku; the hard *decisions* are
+# deterministic (risk engine, sizer, bound clamps) with humans gating large trades. SONNET
+# stays available to escalate a step here if an eval ever shows Haiku is insufficient.
 TASK_MODEL: dict[str, str] = {
     "query_gen": HAIKU,
     "relevance_critic": HAIKU,
     "research": HAIKU,
     "reporting": HAIKU,
-    "pm": SONNET,
-    "risk": SONNET,
+    "day_review": HAIKU,
+    "pm": HAIKU,
+    "risk_narrator": HAIKU,
 }
 
 
@@ -47,11 +50,20 @@ class LLMRouter:
         from app.guardrails import budget
 
         model = self.model_for(task)
-        budget.charge_call()
         with span("LLM", f"llm:{task}", agent=task, input={"prompt_chars": len(prompt)}) as h:
-            result = self.provider.complete(model, system, prompt, schema)
-            budget.charge_tokens(result.prompt_tokens + result.completion_tokens)
-            value = schema.model_validate(result.data)
+            # One retry: a malformed structured output (e.g. the model leaking tool-call
+            # tags into a field) is usually transient — re-asking yields a clean parse.
+            result = value = None
+            for attempt in range(2):
+                budget.charge_call()
+                result = self.provider.complete(model, system, prompt, schema)
+                budget.charge_tokens(result.prompt_tokens + result.completion_tokens)
+                try:
+                    value = schema.model_validate(result.data)
+                    break
+                except ValidationError:
+                    if attempt == 1:
+                        raise
             cost = price(model, result.prompt_tokens, result.completion_tokens)
             h.set(
                 model=model,

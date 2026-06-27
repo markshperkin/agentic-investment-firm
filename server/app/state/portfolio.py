@@ -4,15 +4,35 @@ from sqlalchemy.orm import Session
 from app.config import get_settings
 from app.db import SessionLocal
 from app.models.portfolio import Portfolio, Position, Trade
+from app.models.span import Run
+from app.obs.spans import current_run
+
+# Book used outside any replay (direct unit tests / ad-hoc calls with no run bound).
+DEFAULT_RUN = "default"
 
 
-def get_or_create_portfolio(session: Session) -> Portfolio:
-    portfolio = session.get(Portfolio, 1)
+def _resolve_run(run_id: str | None) -> str:
+    return run_id or current_run() or DEFAULT_RUN
+
+
+def get_or_create_portfolio(session: Session, run_id: str | None = None) -> Portfolio:
+    """The book for one run — each replay gets its own fresh $1M account. Falls back to
+    the active run when run_id is not passed, or to a shared DEFAULT_RUN off-run."""
+    rid = _resolve_run(run_id)
+    portfolio = session.execute(
+        select(Portfolio).where(Portfolio.run_id == rid)
+    ).scalar_one_or_none()
     if portfolio is None:
-        portfolio = Portfolio(id=1, cash=get_settings().starting_cash)
+        portfolio = Portfolio(run_id=rid, cash=get_settings().starting_cash)
         session.add(portfolio)
         session.flush()
     return portfolio
+
+
+def latest_run_id(session: Session) -> str | None:
+    return session.execute(
+        select(Run.id).order_by(Run.started_at.desc())
+    ).scalars().first()
 
 
 def get_position(session: Session, portfolio_id: int, ticker: str) -> Position | None:
@@ -40,15 +60,19 @@ def equity(session: Session, portfolio_id: int, prices: dict[str, float]) -> flo
     return cash + holdings_value(session, portfolio_id, prices)
 
 
-def account_snapshot(ticker: str, price: float) -> dict:
-    """Cash / equity / position / day-stats snapshot used by the risk engine."""
+def account_snapshot(ticker: str, price: float, run_id: str | None = None) -> dict:
+    """Cash / equity / position / day-stats snapshot used by the risk engine, scoped
+    to one run's book."""
     settings = get_settings()
+    rid = _resolve_run(run_id)
     with SessionLocal() as s:
-        p = get_or_create_portfolio(s)
+        p = get_or_create_portfolio(s, rid)
         s.commit()
         pos = get_position(s, p.id, ticker)
         eq = equity(s, p.id, {ticker: price})
-        trades_today = s.query(Trade).filter(Trade.status == "FILLED").count()
+        trades_today = s.query(Trade).filter(
+            Trade.run_id == rid, Trade.status == "FILLED"
+        ).count()
         return {
             "cash": p.cash,
             "equity": eq,

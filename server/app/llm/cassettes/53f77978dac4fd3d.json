@@ -1,0 +1,9 @@
+{
+  "data": {
+    "decision": "REQUIRE_HUMAN",
+    "severity": "MEDIUM",
+    "reasoning": "This $72k NVDA position reflects a high-conviction bet on sustained AI infrastructure dominance. The thesis is well-grounded: Data Center revenue at $193.7B (90% of revenue) demonstrates commanding market position, and near-doubling of FY2024\u2013FY2026 revenue with parallel cash flow growth shows genuine operational momentum. Management's $40.4B capital return programme and $22.7B in committed leases signal confidence in durability.\n\nHowever, three material risks warrant committee review:\n\n1. **Concentration & Cyclicality Risk (High Impact)**: 90% revenue from Data Center creates binary dependency on hyperscaler AI capex. If this cycle moderates\u2014either from demand saturation, customer capacity sufficiency, or competitive displacement by AMD/custom silicon\u2014NVDA faces cliff risk. Visibility extends only to Rubin H2 FY2027; beyond that, demand trajectory is speculative.\n\n2. **Capital Intensity & Inflexibility (Medium Impact)**: $25.8B inventory and $22.7B future lease commitments ($48.5B total) represent significant sunk and committed capital. If demand disappoints, this locked-in base becomes a drag on returns and cash conversion. Supply chain integration execution is also unproven at scale.\n\n3. **Valuation & Multiple Compression (Medium Impact)**: The exceptional growth already embedded in today's valuation leaves limited margin for error. Even modest earnings misses or growth deceleration below current expectations could trigger multiple rerating and drawdown risk.\n\nThe position size ($72k) is material. The thesis is sound and supported by current data, but depends on maintained AI capex momentum. Requires explicit committee sign-off on concentration tolerance and scenario planning for demand slowdown."
+  },
+  "prompt_tokens": 1103,
+  "completion_tokens": 457
+}

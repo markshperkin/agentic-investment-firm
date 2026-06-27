@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "Portfolio Underperforms SPY; Modest Gains on Flat Activity",
+    "summary": "Portfolio returned 0.1631% (+$1,631.34) against starting capital of $1,000,000, underperforming the SPY benchmark by 139 basis points (benchmark returned 0.30%). The portfolio is currently in cash with zero holdings. Six trades were executed across eight decision points. Process metrics show full groundedness (100%) with zero refusals or risk rejections. Total process cost was $0.094721 across 63,245 tokens and 5 citation checks.",
+    "risk_note": "Negative alpha of -0.001369 indicates underperformance relative to benchmark. All-cash position exposes portfolio to opportunity cost in positive market environment."
+  },
+  "prompt_tokens": 954,
+  "completion_tokens": 225
+}

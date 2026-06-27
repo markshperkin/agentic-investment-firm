@@ -20,8 +20,9 @@ def _view(points):
 
 def test_verifier_keeps_supported_drops_fabricated_number():
     good = KeyPoint(text="Data center revenue was 22.6 billion.",
-                    citation=Citation(chunk_id="d:0"))
-    bad_number = KeyPoint(text="Revenue was 99.9 billion.", citation=Citation(chunk_id="d:0"))
+                    citation=Citation(chunk_id="d:0", quote="data center revenue of 22.6 billion"))
+    bad_number = KeyPoint(text="Revenue was 99.9 billion.",
+                          citation=Citation(chunk_id="d:0", quote="revenue of 99.9 billion"))
     out = verify_view(_view([good, bad_number]), [CHUNK])
     assert len(out.key_points) == 1
     assert out.key_points[0].text.startswith("Data center")
@@ -40,8 +41,10 @@ def test_research_agent_applies_verifier():
     payload = {
         "ticker": "NVDA", "stance": "BULLISH", "confidence": 0.8,
         "key_points": [
-            {"text": "Data center revenue 22.6 billion.", "citation": {"chunk_id": "d:0"}},
-            {"text": "Made-up 500 billion figure.", "citation": {"chunk_id": "d:0"}},
+            {"text": "Data center revenue 22.6 billion.",
+             "citation": {"chunk_id": "d:0", "quote": "data center revenue of 22.6 billion"}},
+            {"text": "Made-up 500 billion figure.",
+             "citation": {"chunk_id": "d:0", "quote": "revenue of 500 billion"}},
         ],
     }
     router = LLMRouter(provider=_Scripted(payload))

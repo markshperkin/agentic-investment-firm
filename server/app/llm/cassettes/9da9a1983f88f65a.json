@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA data center segment revenue Q1 FY2026",
+      "NVIDIA fiscal 2026 revenue growth financial results",
+      "NVIDIA earnings guidance forward looking statements",
+      "NVIDIA annual report 10-K financial performance metrics"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 365
+  },
+  "prompt_tokens": 1114,
+  "completion_tokens": 122
+}

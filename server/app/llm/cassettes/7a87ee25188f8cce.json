@@ -1,0 +1,75 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.92,
+    "key_points": [
+      {
+        "text": "Compute Networking segment revenue surged 67% year-over-year to $193.5 billion in fiscal 2026, driven by accelerated computing and AI platform shifts, with Data Center computing up 59% and Data Center networking up 142%.",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:53",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Compute Networking revenue \u2013 The year over year increase was driven by the major platform shifts \u2013 accelerated computing and AI. Revenue from Data Center computing grew 59% driven by demand for our Blackwell computing platform. Revenue from Data Center networking grew 142% driven by the introduction and continued ramp of NVLink compute fabric for GB200 and GB300 systems and the growth of Ethernet and InfiniBand platforms."
+        }
+      },
+      {
+        "text": "First quarter fiscal 2027 revenue reached $81.6 billion, up 85% year-over-year, with Compute Networking revenue at $74.6 billion (up 88% YoY) and operating income at $56.3 billion (up 138% YoY).",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:22",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Revenue $ 81,615 $ 44,062 85 % ... Compute Networking $ 74,550 $ 39,589 88 % ... Total $ 56,276 $ 23,694 138 %"
+        }
+      },
+      {
+        "text": "Data Center revenue in Q1 fiscal 2027 was $75.2 billion, up 92% year-over-year and up 21% sequentially, driven by the ramp of Blackwell 300 products and demand for InfiniBand, Spectrum-X Ethernet, and NVLink solutions.",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:21",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Data Center $ 75,246 $ 39,112 92 % ... driven by the ramp of our Blackwell 300 products and demand for our InfiniBand, Spectrum-X Ethernet, and NVLink solutions."
+        }
+      },
+      {
+        "text": "Gross margin improved from 60.5% in Q1 fiscal 2026 to 74.9% in Q1 fiscal 2027, primarily due to lower inventory provisions following the prior year's $4.5 billion H20 excess inventory charge.",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:21",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Gross margin increased from a year ago on lower inventory provisions, primarily due to the prior year's $4.5 billion charge associated with H20 excess inventory and purchase obligations."
+        }
+      },
+      {
+        "text": "Graphics segment revenue grew 57% in fiscal 2026 to $22.5 billion, driven by Blackwell architecture sales, with operating income increasing 80% to $9.2 billion.",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:53",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Graphics 22,459 14,304 8,155 57 % ... Graphics 9,156 5,085 4,071 80 %"
+        }
+      },
+      {
+        "text": "Operating income in fiscal 2026 grew 58% to $139.3 billion, with the operating margin at 60.4%, showing strong profitability as the company scales.",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:53",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Operating income 60.4 % 62.4 % ... Total $ 139,297 $ 87,960 $ 51,337 58 %"
+        }
+      },
+      {
+        "text": "The company announced an increase in quarterly cash dividend from $0.01 to $0.25 per share on May 18, 2026, payable June 26, 2026, reflecting confidence in cash generation and shareholder returns.",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:17",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "On May 18, 2026, we increased our quarterly cash dividend from $ 0.01 per share to $ 0.25 per share to all shareholders of record on June 4, 2026."
+        }
+      },
+      {
+        "text": "Hyperscale revenue remained at approximately 50% of Data Center revenue in Q1 fiscal 2027, while the remaining 50% came from diversified customers including AI Clouds, industrial, enterprise, and sovereign customers, reducing customer concentration risk.",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:21",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Hyperscaler revenue increased sequentially and remained at approximately 50% of Data Center revenue, while the remaining 50% came from a continued diversification of customers, including AI Clouds, industrial, enterprise, and sovereign customers."
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 12836,
+  "completion_tokens": 1579
+}

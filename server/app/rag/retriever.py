@@ -26,14 +26,10 @@ class Retriever:
         self.embedder = embedder
         self.store = store
 
-    def retrieve(self, query: str, ticker: str, as_of: datetime, k: int = 5) -> list[RetrievedChunk]:
+    def retrieve(self, query: str, ticker: str, as_of: datetime, k: int = 8) -> list[RetrievedChunk]:
         as_of_ts = as_of.timestamp()
-        qvec = self.embedder.embed([query])[0]
-
-        def where(meta: dict) -> bool:
-            return meta.get("ticker") == ticker and meta.get("published_ts", 0) <= as_of_ts
-
-        hits = self.store.search(qvec, k, where=where)
+        qvec = self.embedder.embed([query], input_type="query")[0]
+        hits = self.store.search(qvec, k, ticker=ticker, max_published_ts=as_of_ts)
 
         out: list[RetrievedChunk] = []
         with SessionLocal() as s:

@@ -1,0 +1,13 @@
+{
+  "data": {
+    "queries": [
+      "NVDA capex 2026 2027",
+      "NVDA capital spending guidance investing activities",
+      "NVIDIA facility expansion manufacturing capacity spending",
+      "NVDA cash flow statement capital expenditures investing activities"
+    ],
+    "strategy": "DECOMPOSE"
+  },
+  "prompt_tokens": 1120,
+  "completion_tokens": 97
+}

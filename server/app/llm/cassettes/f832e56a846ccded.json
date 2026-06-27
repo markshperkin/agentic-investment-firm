@@ -1,0 +1,30 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVIDIA's de-risked China exposure and inference platform expansion unlock sustained data-center growth",
+      "why_now": "Management's reaffirmation that China exposure is limited and already de-risked removes a key overhang that had driven bearish sentiment on export restriction concerns. Simultaneously, the unveiling of a next-generation inference platform with marquee customer commitments signals a broadening of the addressable market beyond model training into inference workloads\u2014a higher-margin, stickier segment that extends the data-center moat.",
+      "expected_edge": "The combination of geopolitical risk mitigation and platform expansion should re-rate the stock as investors reassess the durability of NVIDIA's competitive advantages and the addressable market. Inference workloads represent a multi-year tailwind with high switching costs and customer lock-in, supporting margin expansion and sustained revenue growth beyond the current training cycle.",
+      "risks": "Execution risk on inference platform adoption; competitive pressure from AMD or custom ASICs; macro weakness in cloud capex spending; further geopolitical escalation that could still impact supply chain or demand; valuation already reflects strong growth expectations.",
+      "confidence": 0.72,
+      "key_evidence": [
+        {
+          "chunk_id": "b27dd8bb585f49ff939823972810dc40:0",
+          "quote": "NVIDIA management reaffirmed that China data-center exposure is limited and already largely de-risked",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        },
+        {
+          "chunk_id": "b27dd8bb585f49ff939823972810dc40:0",
+          "quote": "NVIDIA unveiled a next-generation inference platform with marquee customer commitments to early adoption",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        }
+      ]
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1479,
+  "completion_tokens": 536
+}

@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "End-of-Day Summary: Portfolio Flat, SPY +0.21%",
+    "summary": "Portfolio returned 0.0% with equity of $1,000,000, underperforming SPY benchmark by 205.7 bps (benchmark +0.2057%). No positions held and no trades executed during the period. 5 decision cycles processed; cash remains at starting level of $1,000,000.",
+    "risk_note": "Portfolio remains fully in cash with zero market exposure. Alpha deficit of -0.002057 reflects benchmark opportunity cost. All 3 refusals and citation checks passed with no injection quarantines or risk engine rejects."
+  },
+  "prompt_tokens": 954,
+  "completion_tokens": 200
+}

@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "End-of-Day Summary: Flat Portfolio, Trailing Benchmark by 52 bps",
+    "summary": "Portfolio returned 0.0% against a benchmark (SPY) return of 0.0523%, generating an alpha of -52.3 basis points. No positions were taken during the period; cash position held steady at $1,000,000 with zero equity holdings. No trades were executed. The shortfall versus benchmark reflects full cash positioning during a positive market day. Process metrics show 1 decision point evaluated with 1 citation check and full groundedness score (1.0). Total inference cost was $0.04 across 28,609 tokens.",
+    "risk_note": "Open risk: Negative alpha of -52 bps indicates missed upside from zero equity exposure on a rising market day. Portfolio is fully in cash with no diversification or market participation."
+  },
+  "prompt_tokens": 954,
+  "completion_tokens": 245
+}

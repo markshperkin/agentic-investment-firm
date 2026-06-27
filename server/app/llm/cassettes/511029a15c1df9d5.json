@@ -1,0 +1,67 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.92,
+    "key_points": [
+      {
+        "text": "Revenue growth accelerating dramatically: fiscal 2026 full-year revenue of $215.9 billion, up 65% from $130.5 billion in fiscal 2025, with first quarter fiscal 2027 revenue up 85% year-over-year to $81.6 billion",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:63",
+          "quote": "Revenue $ 215,938 ... $ 130,497 ... $ 60,922"
+        }
+      },
+      {
+        "text": "Compute Networking segment revenue surged 88% year-over-year in Q1 FY2027 to $74.6 billion, driven by Blackwell systems ramp and strong demand for InfiniBand, Spectrum-X Ethernet, and NVLink solutions",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:22",
+          "quote": "Compute Networking $ 74,550 ... $ 39,589 ... 88 %"
+        }
+      },
+      {
+        "text": "Profitability surged with gross margin of 74.9% in Q1 FY2027 (vs 60.5% in Q1 FY2026) and net income margin of 71.5% (vs 42.6%), benefiting from lower inventory provisions after prior year's $4.5 billion H20 excess inventory charge",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:22",
+          "quote": "Gross profit 74.9% ... 60.5% ... Net income 71.5% ... 42.6% ... lower inventory provisions, primarily due to the prior year's $4.5 billion charge associated with H20 excess inventory and purchase obligations"
+        }
+      },
+      {
+        "text": "Operating income growth explosive: Compute Networking segment operating income up 142% year-over-year in Q1 FY2027 to $53.3 billion from $22.1 billion, with overall operating margin of 65.6% vs 49.0% prior year",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:22",
+          "quote": "Compute Networking $ 53,335 ... $ 22,054 ... 142 % ... Operating income 65.6% ... 49.0%"
+        }
+      },
+      {
+        "text": "Edge Computing grew 29% year-over-year to $6.4 billion in Q1 FY2027, driven by robust Blackwell workstation demand despite softer consumer PC demand",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:22",
+          "quote": "Edge Computing revenue for the first quarter was $6.4 billion, up 29% from a year ago"
+        }
+      },
+      {
+        "text": "Massive market opportunity with accelerated computing platform enabling AI, data processing, and HPC applications across multiple verticals, with NVIDIA powering over 78% of global TOP500 supercomputers",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:9",
+          "quote": "NVIDIA powers over 78% of the supercomputers on the global TOP500 list"
+        }
+      },
+      {
+        "text": "Platform strength reinforced by 7.5 million developers worldwide using CUDA and ecosystem expansion through 6,000 supported applications and partnerships with major cloud providers",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:12",
+          "quote": "There are over 7.5 million developers worldwide using CUDA and our other software tools ... With support for 6,000 applications"
+        }
+      },
+      {
+        "text": "Fiscal 2026 full-year Compute Networking revenue grew 67% to $193.5 billion with Data Center computing up 59% driven by Blackwell platform and Data Center networking up 142%",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "quote": "Compute Networking $ 193,479 ... $ 116,193 ... 67 % ... Revenue from Data Center computing grew 59% ... Revenue from Data Center networking grew 142%"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 10523,
+  "completion_tokens": 1226
+}

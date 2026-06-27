@@ -14,7 +14,9 @@ import pytest  # noqa: E402
 def fresh_db():
     import app.models  # noqa: F401  register all tables
     from app.db import Base, engine
+    from app.firm import hitl
 
     Base.metadata.drop_all(engine)
     Base.metadata.create_all(engine)
+    hitl.set_blocking(False)  # never carry a blocking-HITL run into the next test
     yield

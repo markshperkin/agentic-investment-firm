@@ -1,0 +1,9 @@
+{
+  "data": {
+    "decision": "REQUIRE_HUMAN",
+    "severity": "MEDIUM",
+    "reasoning": "**TRADE SUMMARY:**\nProposed long position of 707 shares of NVIDIA (~$75,649 notional). Investment thesis rests on Blackwell GPU supply win to a top-three cloud provider, with expectation of material revenue acceleration starting next quarter. The trade is anchored to near-term execution and sustained AI infrastructure demand.\n\n**KEY RISKS REQUIRING COMMITTEE JUDGMENT:**\n\n1. **Production & Execution Risk (HIGH IMPACT):** Blackwell ramp is not yet proven at scale. Delays or yield issues in manufacturing could materially compress revenue guidance and disappoint the market, despite securing the contract.\n\n2. **Demand Sustainability Risk:** While the supply win validates current AI spending, the thesis depends on that spending continuing. Risk of customer budget reallocation, slower-than-expected AI ROI realization, or demand deceleration in adjacent segments could shrink total addressable revenue.\n\n3. **Competitive Encroachment:** AMD's MI series is improving, and major cloud providers are investing in custom silicon. Over a 12\u201318 month horizon, competitive share loss could offset the Blackwell uplift.\n\n4. **Macro & Geopolitical Headwinds:** Cloud capex is cyclical and sensitive to macro conditions. Export restrictions (especially to China) also pose tail risk to consolidated revenue forecasts if they tighten further.\n\n5. **Valuation Leverage:** At current levels, the stock embeds high expectations for Blackwell success. A miss on execution or demand could trigger sharp multiple compression.\n\n**COMMITTEE DECISION REQUIRED:** This trade has merit on the supply-win narrative, but execution is binary over the next 2\u20133 quarters. Committee should confirm risk appetite for near-term volatility and production risk before proceeding."
+  },
+  "prompt_tokens": 949,
+  "completion_tokens": 460
+}

@@ -1,0 +1,67 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.85,
+    "key_points": [
+      {
+        "text": "Compute Networking segment revenue reached $74.55 billion in Q1 FY2027, up 88% year-over-year, driven by Blackwell systems ramp and strong demand for InfiniBand and NVLink solutions",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:22",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Compute Networking $ 74,550... $ 39,589... 88%"
+        }
+      },
+      {
+        "text": "Data Center revenue reached $71.5 billion in fiscal year 2026, reflecting dominant market position with NVIDIA powering over 78% of supercomputers on the global TOP500 list",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:9",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list"
+        }
+      },
+      {
+        "text": "Gross margin improved significantly in Q1 FY2027 on lower inventory provisions, with the prior year's $4.5 billion H20 excess inventory charge not recurring",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:22",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Gross margin increased from a year ago on lower inventory provisions, primarily due to the prior year's $4.5 billion charge associated with H20 excess inventory and purchase obligations"
+        }
+      },
+      {
+        "text": "Total company revenue for fiscal year 2026 was $215.938 billion with net income of $120.067 billion, reflecting strong profitability",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:63",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Revenue $ 215,938... Net income $ 120,067"
+        }
+      },
+      {
+        "text": "Blackwell architecture is driving revenue growth across multiple customer segments including cloud providers, AI model makers, and enterprises adopting generative and agentic AI applications",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:8",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "In 2024, we launched the NVIDIA Blackwell architecture \u2013 connecting 36 Grace CPUs and 72 Blackwell GPUs in a data center scale, liquid-cooled design \u2013 for real-time trillion-parameter inference and training"
+        }
+      },
+      {
+        "text": "Graphics segment operating income increased 79% year-over-year in Q1 FY2027, driven by Blackwell architecture sales",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:22",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Graphics $ 2,941... $ 1,640... 79%"
+        }
+      },
+      {
+        "text": "Edge Computing revenue reached $6.4 billion in Q1 FY2027, up 29% year-over-year, demonstrating expansion beyond traditional data center markets",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:22",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Edge Computing revenue for the first quarter was $6.4 billion, up 29% from a year ago and up 10% sequentially"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 11464,
+  "completion_tokens": 1136
+}

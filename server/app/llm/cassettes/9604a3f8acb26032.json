@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No results returned. Try searching for NVIDIA quarterly earnings (10-Q) or annual report (10-K) from fiscal 2025, or search for \"NVIDIA revenue guidance\" or \"NVIDIA segment revenue growth\" to capture forward-looking or recent period data."
+  },
+  "prompt_tokens": 1012,
+  "completion_tokens": 148
+}

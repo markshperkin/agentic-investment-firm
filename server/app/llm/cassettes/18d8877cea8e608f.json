@@ -1,0 +1,38 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.75,
+    "key_points": [
+      {
+        "text": "NVIDIA is expanding production capacity to meet stronger-than-expected orders for its AI accelerators",
+        "citation": {
+          "chunk_id": "4d05aaac9a2d41ffbbf6e9ef7c50fb02:0",
+          "source": "NEWS",
+          "published_date": "2026-05-29T13:30:00",
+          "quote": "NVIDIA said it is expanding production capacity to meet stronger-than-expected orders for its AI accelerators"
+        }
+      },
+      {
+        "text": "Management cited a robust backlog and reiterated confidence in sustained data-center growth through the year",
+        "citation": {
+          "chunk_id": "4d05aaac9a2d41ffbbf6e9ef7c50fb02:0",
+          "source": "NEWS",
+          "published_date": "2026-05-29T13:30:00",
+          "quote": "citing a robust backlog and reiterating confidence in sustained data-center growth through the year"
+        }
+      },
+      {
+        "text": "Demand is characterized as broad-based across cloud and enterprise customers",
+        "citation": {
+          "chunk_id": "4d05aaac9a2d41ffbbf6e9ef7c50fb02:0",
+          "source": "NEWS",
+          "published_date": "2026-05-29T13:30:00",
+          "quote": "Management characterized demand as broad-based across cloud and enterprise customers"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 1277,
+  "completion_tokens": 474
+}

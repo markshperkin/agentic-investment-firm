@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts were retrieved for NVDA's 10-K. Verify that the fiscal 2026 filing exists in the database (NVIDIA's fiscal year ends in January, so FY2026 10-K would be filed around Feb-Mar 2026). If the filing date has passed, try searching by specific SEC document type (e.g., \"10-K\" + \"NVIDIA\" + \"2026\") or check the exact fiscal period. If the filing has not yet been submitted, search for the most recent available 10-K instead."
+  },
+  "prompt_tokens": 1018,
+  "completion_tokens": 212
+}

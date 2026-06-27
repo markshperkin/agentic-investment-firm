@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "No Trades Executed; Portfolio Outperformed Benchmark by 17bps",
+    "summary": "The portfolio remained fully in cash at $1,000,000 with zero trades executed across 4 decision points. Portfolio return was flat at 0.00%, outperforming the SPY benchmark by 17 basis points (benchmark return: -0.017%). Alpha generated: +0.00017. Process cost: $0.024 USD across 16,188 tokens.",
+    "risk_note": "No open positions. Cash drag risk if extended cash holding period occurs. Two refusals logged during decision process."
+  },
+  "prompt_tokens": 951,
+  "completion_tokens": 189
+}

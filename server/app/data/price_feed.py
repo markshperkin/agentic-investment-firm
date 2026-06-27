@@ -32,18 +32,39 @@ def price_at(replay_date: str, ticker: str, as_of: datetime, prices_dir: Path | 
 def price_features(
     replay_date: str, ticker: str, as_of: datetime, prices_dir: Path | None = None
 ) -> dict:
+    """Intraday features as of `as_of`. `pct_change` is the move since the replay
+    day's OPEN — anchored to the day so any stray off-day bar can't skew it. This
+    is what "how much has it moved today" means."""
     bars = _bars_until(replay_date, ticker, as_of, prices_dir or PRICES_DIR)
     if bars.empty:
-        return {"last_price": None, "prev_close": None, "pct_change": None, "n_bars": 0}
+        return {"last_price": None, "day_open": None, "pct_change": None, "n_bars": 0}
+    day = datetime.fromisoformat(replay_date).date()
+    day_bars = bars[bars["ts"].dt.date == day]
+    open_px = float(day_bars.iloc[0]["close"]) if not day_bars.empty else float(bars.iloc[0]["close"])
     last = float(bars.iloc[-1]["close"])
-    first = float(bars.iloc[0]["close"])
-    pct = (last - first) / first if first else None
+    pct = (last - open_px) / open_px if open_px else None
     return {
         "last_price": round(last, 4),
-        "prev_close": round(first, 4),
+        "day_open": round(open_px, 4),
         "pct_change": round(pct, 6) if pct is not None else None,
         "n_bars": int(len(bars)),
     }
+
+
+def move_since(
+    replay_date: str, ticker: str, prev_as_of: datetime | None, as_of: datetime,
+    prices_dir: Path | None = None,
+) -> float | None:
+    """Tick-over-tick return: the change from the previous tick's price to the
+    price at `as_of`. Both reads are lookahead-safe (each is the last bar ≤ its
+    own timestamp). Returns None at the first tick (no previous price)."""
+    if prev_as_of is None:
+        return None
+    prev = price_at(replay_date, ticker, prev_as_of, prices_dir)
+    now = price_at(replay_date, ticker, as_of, prices_dir)
+    if prev is None or now is None or prev == 0:
+        return None
+    return (now - prev) / prev
 
 
 def clear_cache() -> None:

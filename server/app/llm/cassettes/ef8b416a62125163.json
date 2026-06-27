@@ -1,0 +1,11 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The excerpts contain qualitative business descriptions and strategic statements from NVIDIA's 10-K and 10-Q filings, but include NO actual financial metrics. To form a directional view on earnings and guidance, request excerpts containing: (1) revenue by segment with year-over-year growth rates (e.g., Data Center revenue $X billion, up Y%), (2) gross margin or operating margin trends, (3) forward guidance for revenue and earnings, or (4) quarterly/fiscal year net income and EPS. Search for sections titled 'Results of Operations', 'Condensed Consolidated Statements of Income', 'Management Guidance', or 'Outlook'.",
+    "missing": "Actual revenue figures, growth rates, earnings/net income, gross/operating margins, forward guidance metrics"
+  },
+  "prompt_tokens": 5609,
+  "completion_tokens": 276
+}

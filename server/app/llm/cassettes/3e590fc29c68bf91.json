@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": true,
+    "coverage": 0.65,
+    "failure_kind": "NONE",
+    "fix_hint": "To improve coverage, retrieve specific revenue figures, segment breakdowns, operating margin percentages, and YoY growth rates. Current excerpts contain business descriptions and balance sheet items but lack consolidated income statement metrics needed for a complete financial thesis."
+  },
+  "prompt_tokens": 6966,
+  "completion_tokens": 137
+}

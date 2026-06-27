@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "SPY prospectus",
+      "State Street Global Advisors N-1A",
+      "SPDR S&P 500 ETF Trust prospectus",
+      "SPY fund prospectus filing",
+      "State Street SPY N-1A prospectus"
+    ],
+    "strategy": "DECOMPOSE"
+  },
+  "prompt_tokens": 1156,
+  "completion_tokens": 109
+}

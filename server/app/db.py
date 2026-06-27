@@ -22,7 +22,12 @@ def _ensure_sqlite_dir(url: str) -> None:
 
 _ensure_sqlite_dir(settings.database_url)
 
-connect_args = {"check_same_thread": False} if settings.database_url.startswith("sqlite") else {}
+# check_same_thread=False: the background replay thread and the API approval thread
+# share the engine. timeout: wait (don't error) when they briefly contend for a write.
+connect_args = (
+    {"check_same_thread": False, "timeout": 30}
+    if settings.database_url.startswith("sqlite") else {}
+)
 engine = create_engine(settings.database_url, connect_args=connect_args, future=True)
 SessionLocal = sessionmaker(bind=engine, autoflush=False, expire_on_commit=False, future=True)
 

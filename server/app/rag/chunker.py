@@ -1,4 +1,4 @@
-def chunk_text(text: str, max_chars: int = 800, overlap: int = 100) -> list[str]:
+def chunk_text(text: str, max_chars: int = 5000, overlap: int = 800) -> list[str]:
     """Paragraph-aware splitting with a hard size cap and small overlap."""
     text = " ".join(text.split())
     if not text:

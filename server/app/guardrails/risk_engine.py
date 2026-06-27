@@ -15,37 +15,28 @@ def evaluate(
     side: str,
     quantity: int,
     price: float,
-    equity: float,
-    cash: float,
-    position_qty: int,
-    position_value: float,
-    trades_today: int,
-    day_pnl_pct: float,
     settings: Settings,
+    equity: float = 0.0,
+    cash: float = 0.0,
+    position_qty: int = 0,
+    position_value: float = 0.0,
+    trades_today: int = 0,
+    day_pnl_pct: float = 0.0,
 ) -> RiskEngineResult:
-    """Deterministic gate to the book. Hard breaches -> REJECT (no agent can
-    override). Every legal BUY -> REQUIRE_HUMAN. Risk-reducing SELL -> AUTO_APPROVE."""
-    notional = quantity * price
-    breaches: list[str] = []
+    """Two-tier gate to the book:
 
-    if side == "BUY":
-        if notional > settings.max_order_notional:
-            breaches.append(f"order notional {notional:.0f} > cap {settings.max_order_notional:.0f}")
-        if position_value + notional > settings.max_position_pct * equity:
-            breaches.append(f"position would exceed {settings.max_position_pct:.0%} of equity")
-        if notional > cash:
-            breaches.append("insufficient cash")
-        if trades_today >= settings.max_trades_per_day:
-            breaches.append("max trades/day reached")
-        if day_pnl_pct <= -settings.max_daily_loss_pct:
-            breaches.append("daily-loss kill-switch engaged")
-    else:  # SELL
-        if quantity > position_qty:
-            breaches.append("oversell (no shorting beyond holdings)")
+      * SELL — risk-reducing, always AUTO_APPROVE (the broker still refuses to
+        oversell at fill time, so a sell beyond holdings simply doesn't fill).
+      * BUY  — AUTO_APPROVE below the approval threshold; at/above it the trade
+        escalates to the human Risk Committee (REQUIRE_HUMAN), which pauses the run.
 
-    detail = {"notional": round(notional, 2), "day_pnl_pct": day_pnl_pct}
-    if breaches:
-        return RiskEngineResult("REJECT", breaches, detail)
-    if side == "BUY":
+    There are no policy REJECTs — impossible fills (insufficient cash, oversell) are
+    caught physically by the paper broker, not by a rule here."""
+    notional = round(quantity * price, 2)
+    detail = {"notional": notional, "threshold": settings.approval_notional_threshold}
+
+    if side == "SELL":
+        return RiskEngineResult("AUTO_APPROVE", [], detail)
+    if notional >= settings.approval_notional_threshold:
         return RiskEngineResult("REQUIRE_HUMAN", [], detail)
     return RiskEngineResult("AUTO_APPROVE", [], detail)

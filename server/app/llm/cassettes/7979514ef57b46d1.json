@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts were retrieved. Try searching for \"NVIDIA data center revenue Q3 FY2025\" or \"NVIDIA data center segment results fiscal 2025\" in the latest 10-Q or earnings release. Ensure the search term includes the fiscal period and \"data center\" as a specific segment."
+  },
+  "prompt_tokens": 1015,
+  "completion_tokens": 157
+}

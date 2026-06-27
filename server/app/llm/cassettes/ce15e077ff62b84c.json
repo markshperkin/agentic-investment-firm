@@ -1,0 +1,11 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts were retrieved for NVDA segment and geographic revenue breakdown. Verify the document source (10-Q/10-K) contains Note disclosures on segment revenue and geographic revenue mix. Try querying: 'NVIDIA revenue by segment' or 'NVIDIA revenue by geography' separately, or search for 'segment information' in earnings documents.",
+    "missing": "Revenue by segment (Data Center, Gaming, Professional Visualization, Automotive, OEM); revenue by geographic region (US, China, Asia Pacific, Europe, etc.)"
+  },
+  "prompt_tokens": 1014,
+  "completion_tokens": 219
+}

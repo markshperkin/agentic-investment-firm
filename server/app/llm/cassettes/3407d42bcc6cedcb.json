@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No SEC filing excerpts were retrieved. To answer this query, search for SPY's prospectus document (likely filed as a form N-1A or similar prospectus) and request sections containing portfolio holdings, fund composition, or asset allocation information. Try searching with terms like \"SPY prospectus holdings\" or \"SPY portfolio composition\" directly in SEC filings."
+  },
+  "prompt_tokens": 903,
+  "completion_tokens": 170
+}

@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "Query retrieved no chunks. This appears to be a search/retrieval system issue. Try: (1) Verify the ticker 'NVDA' and filing types (10-Q, 10-K) are available in the corpus; (2) Simplify the query to just 'NVDA segment revenue' or 'NVDA Data Center'; (3) Check if the document index is properly loaded. The intent is sound (segment breakdown of revenue is highly decision-useful), but the retrieval mechanism did not return any results."
+  },
+  "prompt_tokens": 1026,
+  "completion_tokens": 207
+}

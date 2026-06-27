@@ -1,0 +1,75 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.85,
+    "key_points": [
+      {
+        "text": "NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list, demonstrating dominant market position in accelerated computing infrastructure.",
+        "citation": {
+          "chunk_id": "ff767b70bd40447c839388ed72e58cbb:9",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Including GPUs and networking, NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list."
+        }
+      },
+      {
+        "text": "Strong financial momentum with net income of $58.3 billion in Q1 FY2027 (three months ended April 26, 2026), more than tripling the $18.8 billion achieved in the prior year quarter.",
+        "citation": {
+          "chunk_id": "86dc05321b344a37aef4df1647277a9a:7",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Net income $ 58,321 [millions] for Three Months Ended Apr 26, 2026 vs $ 18,775 [millions] for Apr 27, 2025"
+        }
+      },
+      {
+        "text": "Operating cash flow of $50.3 billion for Q1 FY2027 demonstrates strong cash generation, exceeding the prior year quarter's $27.4 billion by 84%.",
+        "citation": {
+          "chunk_id": "86dc05321b344a37aef4df1647277a9a:7",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Net cash provided by operating activities 50,344 [millions] for Three Months Ended Apr 26, 2026 vs 27,414 [millions] for Apr 27, 2025"
+        }
+      },
+      {
+        "text": "Full fiscal year 2026 net income reached $120.1 billion, up 65% from $72.9 billion in fiscal 2025, driven by data center products for accelerated computing and AI solutions.",
+        "citation": {
+          "chunk_id": "ff767b70bd40447c839388ed72e58cbb:65",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Net income $ 120,067 [millions] Year Ended Jan 25, 2026 vs $ 72,880 [millions] Year Ended Jan 26, 2025"
+        }
+      },
+      {
+        "text": "Blackwell architecture continues to dominate system shipments, with Rubin platform expected to commence production shipments in second half of fiscal 2027, offering up to 10x reduction in cost per token compared to Blackwell.",
+        "citation": {
+          "chunk_id": "86dc05321b344a37aef4df1647277a9a:20",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Blackwell continued to account for the majority of our system shipments... We expect our Rubin platform to start shipping in the second half of fiscal year 2027."
+        }
+      },
+      {
+        "text": "Total shareholders' equity increased to $195.5 billion as of April 26, 2026, up 24% from $157.3 billion as of January 25, 2026, reflecting strong capital accumulation.",
+        "citation": {
+          "chunk_id": "86dc05321b344a37aef4df1647277a9a:7",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Total shareholders' equity 195,474 [millions] as of Apr 26, 2026 vs 157,293 [millions] as of Jan 25, 2026"
+        }
+      },
+      {
+        "text": "Broad market expansion with data center becoming the new unit of computing, leveraging NVIDIA's unified platform strategy across four major markets: Data Center, Gaming, Professional Visualization, and Automotive.",
+        "citation": {
+          "chunk_id": "ff767b70bd40447c839388ed72e58cbb:10",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Fueled by an expansion in AI and HPC workloads, the data center has become the new unit of computing, with networking as an integral part... Our platforms address four large markets where our expertise is critical: Data Center, Gaming, Professional Visualization, and Automotive."
+        }
+      },
+      {
+        "text": "Strategic investments of $18.6 billion in private companies and infrastructure funds in Q1 FY2027, including AI model makers, strengthen ecosystem positioning for long-term growth.",
+        "citation": {
+          "chunk_id": "86dc05321b344a37aef4df1647277a9a:20",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "$18.6 billion in private companies and infrastructure funds. Some of these investments include AI model makers that may indirectly purchase or use our products in the cloud."
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 12563,
+  "completion_tokens": 1432
+}

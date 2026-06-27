@@ -1,0 +1,16 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVDA poised for sustained growth as Blackwell ramp drives Data Center dominance and margin expansion",
+      "why_now": "FY2026 delivered 65% revenue growth driven by Data Center (up 68% YoY) with Blackwell architecture proving highly profitable (56% net margin); Q1 FY2027 shows continued momentum with Compute Networking revenue +88% YoY and gross margins expanding 1,440 bps to 74.9% as inventory provisions normalize, signaling durable operating leverage in a multi-year AI infrastructure supercycle",
+      "expected_edge": "NVDA's architectural dominance in accelerated computing is converting to both volume (Data Center now 90% of revenue) and pricing power (gross margins at decade-highs), while execution risk has been de-risked by successful Blackwell ramp. The 1,440 bps margin improvement despite flat cost structure suggests sustainable pricing premium; Q1 FY2027 operating income +142% despite revenue 'only' +88% demonstrates expanding unit economics as scale increases and manufacturing complexity amortizes",
+      "risks": "Revenue concentration risk is material\u2014three customers represent 54% of Q1 revenue (21%, 17%, 16%), creating significant customer concentration dependency; this customer base concentration limits pricing power and creates lumpy revenue/order cycles. Large capex commitments ($22.7B in future lease obligations through FY2030) could pressure free cash flow if revenue growth decelerates or demand shifts; cyclical AI capex cycles could also reverse demand faster than modeled. Geopolitical export restrictions (H20 charge demonstrates prior impact) and increased competition from AMD/custom silicon remain longer-term overhang",
+      "confidence": 0.85
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1869,
+  "completion_tokens": 502
+}

@@ -1,0 +1,9 @@
+{
+  "data": {
+    "decision": "REQUIRE_HUMAN",
+    "severity": "MEDIUM",
+    "reasoning": "NVDA position (~$85k) is justified by strong near-term fundamentals\u2014Blackwell ramp delivering 68% Data Center YoY growth with expanding 75% gross margins and durable operating leverage. However, three material concentration risks require committee sign-off:\n\n1. **Customer Concentration (54% revenue dependency)**: Top 3 customers represent 21%, 17%, and 16% of Q1 revenue. This creates acute lumpy order cycles, limited pricing power, and single-customer demand shock risk that could trigger significant revenue volatility.\n\n2. **Capex/FCF Pressure**: $22.7B future lease obligations through FY2030 embedded in cost structure. If AI capex cycles reverse or revenue growth decelerates materially, FCF generation could compress faster than current models assume\u2014particularly concerning given cyclical nature of infrastructure spend.\n\n3. **Geopolitical & Competitive Moats**: H20 export restrictions precedent shows regulatory risk is real. AMD and custom silicon (ASIC) alternatives are gaining traction among largest customers\u2014the same concentration-risk cohort that drives half of revenue.\n\nThe trade captures genuine AI infrastructure tailwinds and margin expansion, but hinges on sustained hyperscaler capex and customer retention. The concentration dependency and embedded fixed costs mean downside scenarios could be sharp. Committee should confirm position sizing and hedging strategy align with concentration tolerance."
+  },
+  "prompt_tokens": 1069,
+  "completion_tokens": 376
+}

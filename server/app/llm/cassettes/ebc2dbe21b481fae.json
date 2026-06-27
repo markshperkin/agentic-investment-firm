@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "No Trading Activity; Portfolio Flat vs SPY +0.05%",
+    "summary": "The portfolio generated 0.0% return on $1,000,000.00 equity, underperforming the SPY benchmark by 52.3 basis points (SPY +0.0523%). No trades were executed (0 trades). The portfolio remained fully in cash throughout the period with no holdings. Two decisions were evaluated but did not result in any position changes. Process metrics show 28,116 tokens consumed across 1 citation check and 1 grounded view, with 100% groundedness maintained.",
+    "risk_note": "No open positions. No execution risk. All capital remains in uninvested cash."
+  },
+  "prompt_tokens": 954,
+  "completion_tokens": 209
+}

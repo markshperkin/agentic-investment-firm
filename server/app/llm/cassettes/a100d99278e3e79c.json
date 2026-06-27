@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts were retrieved from SEC filings. Try searching with a more specific query focusing on the actual financial data or disclosures you need (e.g., \"SPDR S&P 500 ETF Trust fund holdings\", \"CIK 1086364 annual report\", or specific financial metrics). Ensure the CIK number is correct and the document type (e.g., 10-K, N-1A, prospectus) is specified if searching for particular information."
+  },
+  "prompt_tokens": 906,
+  "completion_tokens": 198
+}

@@ -1,0 +1,67 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.85,
+    "key_points": [
+      {
+        "text": "Data Center revenue reached $193.737 billion in fiscal year 2026, with Compute revenue of $162.361 billion and Networking revenue of $31.376 billion, reflecting the company's dominant position in AI infrastructure",
+        "citation": {
+          "chunk_id": "7f7e7c9c1dac4545aebbc6849bebf4ef:85",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Data Center $ 193,737... Compute 162,361... Networking 31,376"
+        }
+      },
+      {
+        "text": "NVIDIA powers over 78% of the global TOP500 supercomputers and 9 of the top 10 Green500 systems, demonstrating unmatched market leadership in high-performance computing",
+        "citation": {
+          "chunk_id": "7f7e7c9c1dac4545aebbc6849bebf4ef:9",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list"
+        }
+      },
+      {
+        "text": "In Q1 FY2027, Data Center revenue was $75.246 billion, with Hyperscale at $37.869 billion and AI Clouds, Industrial, Enterprise at $37.377 billion, showing broad-based demand across customer segments",
+        "citation": {
+          "chunk_id": "a8fa8df022c740c18bb470777dc05c12:18",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Data Center $ 75,246... Hyperscale 37,869... AI Clouds, Industrial, Enterprise 37,377"
+        }
+      },
+      {
+        "text": "Over 7.5 million developers worldwide use CUDA and other NVIDIA software tools, creating significant ecosystem lock-in and competitive advantage",
+        "citation": {
+          "chunk_id": "7f7e7c9c1dac4545aebbc6849bebf4ef:11",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "There are over 7.5 million developers worldwide using CUDA and our other software tools"
+        }
+      },
+      {
+        "text": "NVIDIA unveiled the Rubin platform in FY2026, expected to commence production shipments in the second half of FY2027, delivering up to a 10x reduction in cost per token compared to Blackwell",
+        "citation": {
+          "chunk_id": "7f7e7c9c1dac4545aebbc6849bebf4ef:10",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "we unveiled the NVIDIA Rubin platform, which is expected to commence production shipments in the second half of fiscal year 2027. Built for agentic AI and reasoning, it excels at processing multi-step problem-solving and massive long-context workflows, delivering up to a 10x reduction in cost per token compared to Blackwell"
+        }
+      },
+      {
+        "text": "In Q1 FY2027, revenue from customers headquartered outside the United States was only 22% of total revenue, down from 42% in Q1 FY2026, reflecting strong U.S. demand concentration and reduced China exposure",
+        "citation": {
+          "chunk_id": "a8fa8df022c740c18bb470777dc05c12:18",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Revenue from sales to customers headquartered outside of the United States accounted for 22 % of total revenue for the first quarter of fiscal year 2027 and 42 % of total revenue for the first quarter of fiscal year 2026"
+        }
+      },
+      {
+        "text": "NVIDIA expects to commence leases with future obligations of $32.4 billion through fiscal year 2033 primarily for data center leases supporting R&D efforts, indicating significant ongoing capital investment in infrastructure",
+        "citation": {
+          "chunk_id": "a8fa8df022c740c18bb470777dc05c12:18",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Between the second quarter of fiscal year 2027 and fiscal year 2033, we expect to commence leases with future obligations of $ 32.4 &#160;billion, primarily for data center leases to support our research and development efforts"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 12720,
+  "completion_tokens": 1277
+}

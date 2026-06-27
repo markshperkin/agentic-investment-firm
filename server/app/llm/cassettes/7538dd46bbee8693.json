@@ -1,0 +1,11 @@
+{
+  "data": {
+    "relevant": true,
+    "coverage": 0.65,
+    "failure_kind": "NONE",
+    "fix_hint": "Query sought forward guidance on PP&E spending for 2026\u20132027. Excerpts provide: (1) FY2026 actual PP&E gross of $16.97B (vs. $10.68B prior year), and net of $10.38B; (2) Q1 FY2027 PP&E capex of $1.1B accrued but not paid, vs. $408M in Q1 FY2026\u2014showing acceleration; (3) cash flow statement showing capex line of $1.757B in Q1 FY2027 vs. $1.227B in Q1 FY2026. This demonstrates material PP&E investment run-rate trending sharply higher (43% YoY in Q1), but no explicit forward 2026\u20132027 full-year capex guidance or management commentary on future infrastructure plans is present. To improve coverage, request management guidance on full-year capex targets or strategic CapEx outlook disclosures from earnings calls or investor presentations.",
+    "missing": "Explicit full-year FY2026\u2013FY2027 capex guidance or forward-looking commentary on infrastructure investment plans"
+  },
+  "prompt_tokens": 7764,
+  "completion_tokens": 361
+}

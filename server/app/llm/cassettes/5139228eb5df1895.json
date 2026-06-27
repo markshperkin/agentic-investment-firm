@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The retrieved excerpts contain only forward-looking statements disclaimers and risk factor boilerplate language. Neither excerpt provides actual financial results, earnings data, revenue figures, or guidance. To answer the query, search for specific sections like: earnings results, revenue by segment, fiscal period financial performance, management guidance/outlook, or specific financial statements (income statement, segment revenue)."
+  },
+  "prompt_tokens": 1203,
+  "completion_tokens": 168
+}

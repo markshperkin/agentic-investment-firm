@@ -1,0 +1,30 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVIDIA positioned to capitalize on incremental Blackwell demand; multi-year top-3 cloud provider agreement signals sustained data-center momentum",
+      "why_now": "NVIDIA has secured a multi-year supply agreement with a top-three cloud provider for next-generation Blackwell GPUs, with material revenue contributions expected to begin next quarter. This agreement validates continued strong demand for NVIDIA's AI infrastructure and reinforces pricing power in a competitive landscape.",
+      "expected_edge": "The Blackwell supply agreement represents a significant incremental revenue stream that extends NVIDIA's data-center growth runway. The multi-year commitment from a tier-one cloud provider demonstrates durable demand, provides visibility into forward revenue, and supports NVIDIA's ability to maintain premium pricing despite competitive pressures. This should support multiple expansion and accelerate data-center revenue growth.",
+      "risks": "Execution risk on Blackwell ramp and potential delays in product availability; competitive threats from AMD and custom silicon efforts by hyperscalers; macroeconomic slowdown could temper cloud capex; concentration risk with a single top-3 cloud provider; geopolitical headwinds affecting AI chip exports.",
+      "confidence": 0.75,
+      "key_evidence": [
+        {
+          "chunk_id": "8c0e93b986b94385ab688edf2eefac6e:0",
+          "quote": "NVIDIA secured a multi-year agreement to supply next-generation Blackwell GPUs to a top-three cloud provider, expected to add materially to data-center revenue beginning next quarter",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        },
+        {
+          "chunk_id": "8c0e93b986b94385ab688edf2eefac6e:0",
+          "quote": "The Blackwell supply agreement is viewed as a strong incremental demand signal that reinforces NVIDIA's data-center backlog and pricing power",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        }
+      ]
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1487,
+  "completion_tokens": 575
+}

@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No documents were retrieved for this query. To find the SPY prospectus, try: (1) searching with the full fund name \"SPDR S&P 500 ETF Trust prospectus\", (2) including the CIK number if available, (3) specifying the filing type as \"prospectus\" or \"N-1A\", or (4) searching for recent prospectus amendments or supplements filed with the SEC for SPY's issuer."
+  },
+  "prompt_tokens": 892,
+  "completion_tokens": 191
+}

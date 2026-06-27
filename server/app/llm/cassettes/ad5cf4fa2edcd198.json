@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "Portfolio +0.33% vs SPY +0.30% | NVDA Long Position | +28.4 bps Alpha",
+    "summary": "Portfolio equity closed at $1,003,284.50, delivering a +0.33% return versus the SPY benchmark's +0.30%, generating +28.4 basis points of alpha. The portfolio holds 369 shares of NVDA (market value $37,822.50) with realized PnL of $3,122.82 and unrealized PnL of $165.68. Cash position stands at $965,462.00. Eight trades executed during the period with no risk engine rejections or injection quarantines. Process metrics show 100% groundedness across 5 citation checks and 5 grounded views, with zero refusals.",
+    "risk_note": "Single-security concentration risk: NVDA represents 3.77% of portfolio equity. No hedges in place. Unrealized gains of $165.68 subject to mark-to-market volatility."
+  },
+  "prompt_tokens": 1026,
+  "completion_tokens": 284
+}

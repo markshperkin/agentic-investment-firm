@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "Portfolio Up 0.62% vs SPY +0.30% \u2014 NVDA Position Driving Outperformance",
+    "summary": "Portfolio returned 0.62% (equity: $1,006,248.88) outperforming benchmark SPY by 32.5 basis points of alpha. Single holding in NVDA (355 shares, $36,387.50 market value) generated realized PnL of $6,092.49 with unrealized gains of $159.39. Six trades executed at minimal cost ($0.09 total). Cash position: $969,861.38. Process quality maintained with 100% groundedness across 5 citation checks and zero risk rejections.",
+    "risk_note": "Portfolio heavily concentrated in single stock (NVDA ~3.6% of equity). Cash drag remains substantial at $969.9K (~96% of portfolio uninvested)."
+  },
+  "prompt_tokens": 1026,
+  "completion_tokens": 254
+}

@@ -2,14 +2,14 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 
 from app.db import get_session
-from app.state.portfolio import get_or_create_portfolio, open_positions
+from app.state.portfolio import get_or_create_portfolio, latest_run_id, open_positions
 
 router = APIRouter()
 
 
 @router.get("/portfolio")
 def portfolio(session: Session = Depends(get_session)) -> dict:
-    p = get_or_create_portfolio(session)
+    p = get_or_create_portfolio(session, latest_run_id(session))
     session.commit()
     positions = open_positions(session, p.id)
     holdings = [
@@ -33,7 +33,7 @@ def portfolio(session: Session = Depends(get_session)) -> dict:
 
 @router.get("/positions")
 def positions(session: Session = Depends(get_session)) -> list[dict]:
-    p = get_or_create_portfolio(session)
+    p = get_or_create_portfolio(session, latest_run_id(session))
     session.commit()
     return [
         {

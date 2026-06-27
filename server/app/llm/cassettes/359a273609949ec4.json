@@ -1,0 +1,13 @@
+{
+  "data": {
+    "queries": [
+      "SPDR S&P 500 prospectus 485APOS",
+      "State Street Global Advisors SPY fund",
+      "SPY SPDR prospectus SEC filing",
+      "S&P 500 ETF Trust prospectus State Street"
+    ],
+    "strategy": "DECOMPOSE"
+  },
+  "prompt_tokens": 1091,
+  "completion_tokens": 109
+}

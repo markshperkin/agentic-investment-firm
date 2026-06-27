@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "Query asks for \"recent financial performance revenue earnings\" but excerpts contain only risk disclosures, supply chain challenges, and competitive positioning language from 10-Q and 10-K. Zero financial metrics (revenue figures, earnings, growth rates, margins, segment breakdowns) are present. Retrieve sections covering: Consolidated Statements of Income, segment revenue tables, YoY/QoQ growth rates, earnings per share, gross margin trends, or forward guidance from MD&A financial results discussion."
+  },
+  "prompt_tokens": 5210,
+  "completion_tokens": 196
+}

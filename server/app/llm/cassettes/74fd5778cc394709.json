@@ -1,0 +1,9 @@
+{
+  "data": {
+    "action": "HOLD",
+    "gap_risk": "MEDIUM",
+    "reasoning": "NVDA demonstrates strong fundamental momentum supporting the bullish thesis: FY2026 revenue grew 65% YoY to $215.9B, Data Center (79% of revenue) surged 68% to $193.7B, operating income jumped 57%, and gross margins remain robust at 71%. The company's dominant 78% position in TOP500 supercomputers and $102.7B operating cash flow underscore durable competitive advantages. Today's modest +1.73% intraday move with 385 bars suggests stable price action into close, not capitulation or euphoria. While China revenue declined 21% due to H20 export restrictions, this was already priced in. The 0.85 conviction bullish rating aligns with the exceptional earnings quality and AI/datacenter secular tailwinds. Gap risk is MEDIUM (overnight events could disrupt momentum) but the position is sized reasonably at 398 shares. The thesis remains intact\u2014hold through the close to maintain exposure to what remains a strong compute/AI secular story."
+  },
+  "prompt_tokens": 1346,
+  "completion_tokens": 297
+}

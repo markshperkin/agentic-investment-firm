@@ -1,0 +1,11 @@
+{
+  "data": {
+    "relevant": true,
+    "coverage": 0.65,
+    "failure_kind": "NONE",
+    "fix_hint": "Query asks for forward-looking revenue guidance. Excerpts contain actual historical revenue performance (FY2026 total revenue $215.9B vs FY2025 $130.5B = +65% YoY; Compute Networking $193.5B vs $116.2B = +67% YoY). First Q FY2027 shows Compute Networking $74.6B vs prior year $69.3B ~8% YoY growth. However, NO explicit management guidance on future quarters/full year is present in these excerpts. To capture forward-looking statements, search for earnings call transcripts, investor day presentations, or sections titled 'Outlook' or 'Future Results' within 8-K or earnings release documents.",
+    "missing": "Explicit forward-looking revenue guidance (e.g., 'We expect FY2027 revenue to grow X%' or quarterly outlook statements)"
+  },
+  "prompt_tokens": 6349,
+  "completion_tokens": 302
+}

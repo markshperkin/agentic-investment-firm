@@ -23,8 +23,10 @@ def decide(
         return DispatchDecision("DAY_REVIEW", "pre-close review")
     if has_new_docs:
         return DispatchDecision("INCREMENTAL_NEWS", "new filing since last tick")
-    if max_abs_move >= threshold:
-        return DispatchDecision("PRICE_REEVAL", f"price moved >= {threshold:.0%}")
+    # A protective stop/target is enforced before a discretionary price re-eval: a hard
+    # exit must fire on the move that breached it, not be shadowed by PRICE_REEVAL.
     if has_stop_trigger:
         return DispatchDecision("MONITOR_SELL", "stop/target triggered")
+    if max_abs_move >= threshold:
+        return DispatchDecision("PRICE_REEVAL", f"price moved >= {threshold:.0%}")
     return DispatchDecision("SKIP", f"no new evidence, max move {max_abs_move:.1%}")

@@ -21,10 +21,21 @@ class Settings(BaseSettings):
     tick_interval_minutes: int = 60
     price_move_threshold: float = 0.02
     act_confidence_threshold: float = 0.6
-    max_position_pct: float = 0.10
-    max_order_notional: float = 25_000.0
-    max_daily_loss_pct: float = 0.03
-    max_trades_per_day: int = 20
+    relevance_min_coverage: float = 0.3
+    max_position_pct: float = 0.10                 # deterministic sizer: max % of equity/order
+    approval_notional_threshold: float = 25_000.0  # >= this notional -> human approval + pause
+    approval_timeout_seconds: int = 1800           # how long a paused run waits for a decision
+
+    # Per-position protective bounds. The PM proposes a stop/target per BUY; the values
+    # are clamped to the max caps below, then stored on the position and enforced
+    # deterministically each tick. The plain *_pct values are the fallback used when a
+    # position carries no PM-set bound.
+    stop_loss_pct: float = 0.04
+    take_profit_pct: float = 0.10
+    max_stop_loss_pct: float = 0.04
+    max_take_profit_pct: float = 0.10
+    min_bound_pct: float = 0.005
+    trim_fraction: float = 0.5
 
     max_llm_calls_per_run: int = 200
     max_tokens_per_run: int = 500_000

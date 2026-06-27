@@ -1,0 +1,15 @@
+{
+  "data": {
+    "queries": [
+      "NVDA 10-K fiscal 2024 segment revenue product line",
+      "Nvidia Data Center segment revenue fiscal year 2024 2025",
+      "NVDA quarterly earnings report Q4 2024 segment breakdown",
+      "Nvidia revenue by product category accelerated computing gaming",
+      "NVDA annual report 2024 business segment operating results"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 365
+  },
+  "prompt_tokens": 1185,
+  "completion_tokens": 149
+}

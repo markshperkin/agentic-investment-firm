@@ -1,0 +1,13 @@
+{
+  "data": {
+    "queries": [
+      "NVDA segment revenue breakdown Data Center Gaming Professional Visualization Automotive",
+      "Nvidia segment revenue by business unit operating segments",
+      "NVDA Data Center revenue contribution percentage",
+      "NVDA Gaming segment revenue growth"
+    ],
+    "strategy": "DECOMPOSE"
+  },
+  "prompt_tokens": 1093,
+  "completion_tokens": 97
+}

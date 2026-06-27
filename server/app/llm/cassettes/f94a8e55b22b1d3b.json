@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "No Positions Held; Portfolio Flat vs SPY Up 0.05%",
+    "summary": "Portfolio returned 0.0% with no trades executed and zero holdings. SPY gained 0.052% today, resulting in a -0.052% alpha underperformance. Cash position remains at $1,000,000 with zero equity deployed. Two decision points were evaluated with no trades generated. Process cost $0.01 on 7,117 tokens.",
+    "risk_note": "Portfolio fully in cash; zero market exposure leaves strategy idle against positive benchmark performance. One refusal flag noted in decision process."
+  },
+  "prompt_tokens": 951,
+  "completion_tokens": 187
+}

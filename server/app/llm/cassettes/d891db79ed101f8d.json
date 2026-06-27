@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "NVDA consolidated statements of income revenue net income earnings per share",
+      "NVDA management discussion analysis MD&A financial results fiscal year",
+      "NVDA segment revenue data center gaming professional visualization automotive",
+      "NVDA gross margin operating income net income year-over-year comparison"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 365
+  },
+  "prompt_tokens": 1103,
+  "completion_tokens": 132
+}

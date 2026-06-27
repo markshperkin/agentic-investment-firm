@@ -1,0 +1,49 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.87,
+    "key_points": [
+      {
+        "text": "Revenue surged 65% year-over-year in FY 2026 to $215.9 billion, with Q1 FY 2027 revenue reaching $81.6 billion, up 85% year-over-year",
+        "citation": {
+          "chunk_id": "prior_view"
+        }
+      },
+      {
+        "text": "Gross margin expanded significantly to 74.9% in Q1 FY 2027 compared to 60.5% in the prior year quarter, driven by lower inventory provisions after the prior year's $4.5 billion H20 charge",
+        "citation": {
+          "chunk_id": "prior_view"
+        }
+      },
+      {
+        "text": "Data Center segment revenue grew 59% in FY 2026 with Data Center networking revenue growing 142% driven by NVLink compute fabric, Ethernet and InfiniBand platforms",
+        "citation": {
+          "chunk_id": "prior_view"
+        }
+      },
+      {
+        "text": "Net income doubled to $120.1 billion in FY 2026 from $72.9 billion in FY 2025, with operating income reaching $130.4 billion representing a 60% margin on revenue",
+        "citation": {
+          "chunk_id": "prior_view"
+        }
+      },
+      {
+        "text": "NVIDIA secured a multi-year agreement to supply next-generation Blackwell GPUs to a top-three cloud provider, with the deal expected to add materially to data-center revenue beginning next quarter, reinforcing data-center backlog and pricing power",
+        "citation": {
+          "chunk_id": "8c0e93b986b94385ab688edf2eefac6e:0",
+          "published_date": "2026-05-29T11:30:00",
+          "source": "NEWS"
+        }
+      },
+      {
+        "text": "Rubin platform unveiled in FY 2026 is expected to commence production shipments in H2 FY 2027 and delivers up to 10x reduction in cost per token compared to Blackwell for agentic AI applications",
+        "citation": {
+          "chunk_id": "prior_view"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 1570,
+  "completion_tokens": 648
+}

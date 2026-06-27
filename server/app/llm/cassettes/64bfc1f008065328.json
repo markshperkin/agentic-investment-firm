@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "NVDA property plant equipment spending 2026 2027",
+      "NVDA capital expenditures guidance outlook",
+      "NVIDIA capex forward guidance management discussion",
+      "NVDA investing activities property plant equipment",
+      "NVIDIA facility construction spending plans"
+    ],
+    "strategy": "FILTER_FIX"
+  },
+  "prompt_tokens": 1109,
+  "completion_tokens": 108
+}

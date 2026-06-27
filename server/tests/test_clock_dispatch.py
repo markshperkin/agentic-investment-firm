@@ -13,8 +13,8 @@ from app.obs.spans import set_tick
 def test_clock_steps_open_to_close_hourly():
     t = clock.ticks("2024-05-23", 60)
     assert t[0] == datetime(2024, 5, 23, 9, 30)
-    assert t[-1] == datetime(2024, 5, 23, 15, 30)
-    assert len(t) == 7
+    assert t[-1] == datetime(2024, 5, 23, 16, 0)   # always closes on the bell
+    assert len(t) == 8
 
 
 def test_dispatch_routing():
@@ -47,7 +47,7 @@ def test_run_replay_emits_tick_spans(tmp_path):
     orig = pf.PRICES_DIR
     pf.PRICES_DIR = tmp_path
     try:
-        run_id = run_replay("2024-05-23", ["NVDA"])
+        run_id = run_replay("2024-05-23", ["NVDA"], block_on_approval=False)
     finally:
         pf.PRICES_DIR = orig
 
@@ -58,5 +58,6 @@ def test_run_replay_emits_tick_spans(tmp_path):
         ticks = s.query(Span).filter(Span.run_id == run_id, Span.kind == "TICK").all()
     paths = [t.name for t in ticks]
     assert paths[0] == "CONTEXT_BUILD"
-    assert paths[-1] == "DAY_REVIEW"
-    assert len(paths) == 7
+    assert paths[-1] == "REPORT"        # concluding end-of-day report step
+    assert paths[-2] == "DAY_REVIEW"
+    assert len(paths) == 9              # 8 clock ticks (incl. the close) + the report step

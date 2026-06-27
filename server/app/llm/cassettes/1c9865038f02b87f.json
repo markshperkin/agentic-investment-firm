@@ -1,0 +1,13 @@
+{
+  "data": {
+    "queries": [
+      "NVDA Data Center Gaming Professional Visualization Automotive segment revenue 10-Q 10-K",
+      "NVDA segment revenue fiscal 2026 10-Q filing breakdown by platform",
+      "NVDA platform revenue Data Center Gaming Professional Visualization financial results"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 180
+  },
+  "prompt_tokens": 1059,
+  "completion_tokens": 129
+}

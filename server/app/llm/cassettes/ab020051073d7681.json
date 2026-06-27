@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "NVDA revenue growth artificial intelligence data center",
+      "NVIDIA GPU semiconductor market share competitive position",
+      "NVDA earnings guidance forward-looking statements",
+      "NVIDIA manufacturing capacity supply chain risks",
+      "NVDA enterprise customer concentration largest customers"
+    ],
+    "strategy": "BASELINE"
+  },
+  "prompt_tokens": 900,
+  "completion_tokens": 101
+}

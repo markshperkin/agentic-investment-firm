@@ -1,0 +1,38 @@
+{
+  "data": {
+    "action": "BUY",
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1,
+    "thesis_card": {
+      "headline": "NVDA: Blackwell-Fueled Hypergrowth + Margin Recovery Creates Compelling Re-Rating Opportunity",
+      "why_now": "NVDA's fiscal 2026 results confirm an accelerating AI infrastructure supercycle: total revenue surged 65% to $215.9B, with Data Center (Compute & Networking) up 67% to $193.5B on explosive Blackwell platform demand. Critically, the one-time $4.5B H20 excess inventory charge that crushed Q1 FY2026 gross margins to 60.5% has fully cleared, with gross margin snapping back to 74.9% in Q1 FY2027 \u2014 a 1,440bps YoY recovery. Operating income followed suit, surging 138% to $56.3B, with Data Center operating income alone up 142% to $53.3B, demonstrating the extraordinary operating leverage embedded in the model as the anomalous charge rolls off the comparables.",
+      "expected_edge": "The combination of (1) ongoing Blackwell ramp driving sequential revenue acceleration, (2) gross margin normalization back toward the high-70s as product mix improves and H20 charge headwinds fully anniversarize, and (3) 138%+ operating income growth reflecting inherent scale leverage \u2014 all point to consensus earnings estimates that are likely still too conservative. The market may not be fully pricing the durability of hyperscaler AI capex commitments nor the speed of the margin recovery. This creates a near-term re-rating catalyst as Q2/Q3 FY2027 results print ahead of depressed prior-year comps.",
+      "risks": "Customer concentration is the primary idiosyncratic risk: the top direct customer grew to 22% of FY2026 revenue (up from 12% in FY2025), entirely within Compute Networking, meaning any pullback, capex pause, or in-house chip development by a single hyperscaler could materially impair near-term results. Additional risks include U.S. export controls on advanced chips (which catalyzed the original H20 charge), geopolitical escalation affecting supply chains, competitive responses from AMD/Intel/custom silicon, and the possibility that AI infrastructure build-out demand plateaus sooner than expected.",
+      "confidence": 0.92,
+      "key_evidence": [
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:51",
+          "quote": "Fiscal 2026 revenue surged 65% to $215.9 billion, with Compute Networking (Data Center) revenue increasing 67% to $193.5 billion, driven by Blackwell platform demand and AI acceleration.",
+          "source": "NVDA FY2026 Annual Filing"
+        },
+        {
+          "chunk_id": "747cc63529714577bff445b896115630:22",
+          "quote": "Gross margin recovered to 74.9% in Q1 FY2027 from 60.5% in Q1 FY2026, primarily due to non-recurrence of the $4.5 billion H20 excess inventory charge taken in Q1 FY2026 and improved product mix.",
+          "source": "NVDA Q1 FY2027 Earnings Release"
+        },
+        {
+          "chunk_id": "747cc63529714577bff445b896115630:22",
+          "quote": "Operating income surged 138% to $56.3 billion in Q1 FY2027, with Compute Networking operating income up 142% to $53.3 billion, demonstrating strong operational leverage as one-time inventory charges clear.",
+          "source": "NVDA Q1 FY2027 Earnings Release"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:54",
+          "quote": "Customer concentration increased with top direct customer representing 22% of FY2026 revenue (up from 12% in FY2025), all primarily from Compute Networking, reflecting hyperscaler dominance but with noted diversification initiatives.",
+          "source": "NVDA FY2026 Annual Filing"
+        }
+      ]
+    }
+  },
+  "prompt_tokens": 1643,
+  "completion_tokens": 1114
+}

@@ -19,6 +19,9 @@ class ApprovalRequest(Base):
     as_of: Mapped[str] = mapped_column(String)
     thesis_card_json: Mapped[dict | None] = mapped_column(JSON, nullable=True)
     risk_reasoning: Mapped[str | None] = mapped_column(String, nullable=True)
+    risk_severity: Mapped[str | None] = mapped_column(String, nullable=True)
+    stop_loss_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
+    take_profit_pct: Mapped[float | None] = mapped_column(Float, nullable=True)
 
     status: Mapped[str] = mapped_column(String, default="PENDING")  # PENDING|APPROVED|REJECTED
     decision: Mapped[str | None] = mapped_column(String, nullable=True)  # approve|edit|reject

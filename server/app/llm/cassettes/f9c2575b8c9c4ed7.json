@@ -1,0 +1,75 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.85,
+    "key_points": [
+      {
+        "text": "Revenue surged 65% year-over-year to $215.938 billion in fiscal 2026, driven by accelerated computing and AI platform adoption, with Data Center revenue reaching $193.737 billion.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:63",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Revenue $ 215,938... Year Ended Jan 25, 2026 Jan 26, 2025... $ 130,497... Data Center $ 193,737... $ 115,186"
+        }
+      },
+      {
+        "text": "Net income reached $120.067 billion in fiscal 2026, up 65% from $72.880 billion in fiscal 2025, with net margin at 55.6%, demonstrating exceptional profitability.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:63",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Net income $ 120,067... $ 72,880... Net income 55.6 % 55.8 %"
+        }
+      },
+      {
+        "text": "Operating income increased 58% to $139.297 billion, with Compute Networking segment operating income growing 57% despite a $4.5 billion H20 inventory charge, indicating strong underlying operational performance.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Operating Income... $ 139,297... $ 87,960... The year over year increase in Compute Networking segment operating income was driven by growth in revenue, partially offset by a $4.5 billion charge associated with H20 excess inventory"
+        }
+      },
+      {
+        "text": "Data Center Compute revenue grew 59% and Data Center Networking revenue surged 142%, driven by Blackwell platform adoption and NVLink fabric for GB200/GB300 systems.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Revenue from Data Center computing grew 59%... Revenue from Data Center networking grew 142% driven by the introduction and continued ramp of NVLink compute fabric for GB200 and GB300 systems"
+        }
+      },
+      {
+        "text": "Gross profit margin remained elevated at 71.1% in fiscal 2026 (vs. 75.0% in fiscal 2025), reflecting strong pricing power despite increased inventory provisions.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Gross profit 71.1 % 75.0 %"
+        }
+      },
+      {
+        "text": "Q1 fiscal 2027 revenue reached $81.615 billion, up 85% from $44.062 billion in Q1 fiscal 2026, with net income of $58.321 billion, demonstrating sustained momentum.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:6",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Revenue $ 81,615... $ 44,062... Net income $ 58,321... $ 18,775"
+        }
+      },
+      {
+        "text": "Strong balance sheet with current assets of $150.995 billion and total shareholders' equity of $195.474 billion as of April 26, 2026, providing substantial financial flexibility.",
+        "citation": {
+          "chunk_id": "747cc63529714577bff445b896115630:6",
+          "source": "10-Q 2026-05-20T20:35:52",
+          "quote": "Total current assets 150,995... Total shareholders' equity 195,474"
+        }
+      },
+      {
+        "text": "Expected to commence $22.7 billion in data center leases between fiscal 2027-2030 with 1.8 to 20 year terms, reflecting confidence in demand for AI infrastructure support.",
+        "citation": {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:85",
+          "source": "10-K 2026-02-25T21:42:19",
+          "quote": "Between fiscal years 2027 and 2030, we expect to commence leases with future obligations of $ 22.7 billion, primarily data center leases to support our research and development efforts"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 13435,
+  "completion_tokens": 1363
+}

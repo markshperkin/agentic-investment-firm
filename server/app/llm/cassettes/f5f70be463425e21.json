@@ -1,0 +1,15 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA 10-Q Q3 2025 quarterly revenue data center segment",
+      "NVIDIA 10-K 2025 annual report financial statements",
+      "NVIDIA Form 10-Q filing fiscal 2025 earnings results",
+      "NVIDIA quarterly results revenue growth rate percentage",
+      "NVIDIA SEC filing balance sheet assets liabilities equity"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 365
+  },
+  "prompt_tokens": 1056,
+  "completion_tokens": 146
+}

@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "End-of-Day Summary: No Trades Executed, Portfolio Flat vs SPY +0.21%",
+    "summary": "Portfolio Performance: Cash position maintained at $1,000,000 with no trades executed (0 trades). Portfolio return: 0.0% vs benchmark (SPY) return of +0.2057%, resulting in alpha of -0.2057%.\n\nPerformance Driver: No investment activity; portfolio remained entirely in cash while the market gained 20.57 basis points.\n\nOpen Risk: The portfolio is currently uninvested with zero holdings, creating a cash drag relative to benchmark. Seven decision refusals were logged during the day, indicating potential constraints on trade execution. Risk engine rejected zero positions.",
+    "risk_note": "Portfolio fully in cash with no equity exposure; underperforming benchmark by 20.57 bps. Monitor for execution constraints given 7 refusals logged today."
+  },
+  "prompt_tokens": 954,
+  "completion_tokens": 252
+}

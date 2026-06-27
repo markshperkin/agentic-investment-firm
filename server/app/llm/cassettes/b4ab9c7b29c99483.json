@@ -1,0 +1,53 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.85,
+    "key_points": [
+      {
+        "text": "Compute Networking segment revenue grew 88% year-over-year in Q1 FY2027, reaching $74.55 billion compared to $39.59 billion in Q1 FY2026, driven by accelerated computing and AI demand with Blackwell accounting for the majority of system shipments",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:17",
+          "published_date": "2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "Full fiscal year 2026 Compute Networking revenue reached $193.48 billion, growing 67% from $116.19 billion in fiscal 2025, with Data Center computing revenue growing 59% and Data Center networking growing 142%",
+        "citation": {
+          "chunk_id": "829ba34d33ee4a59b3e979432f39b3a5:53",
+          "published_date": "2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Operating income for Compute Networking segment grew to $53.34 billion in Q1 FY2027 from $22.05 billion in Q1 FY2026, representing a 142% increase",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:17",
+          "published_date": "2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "Data Center represents the core growth driver with NVLink compute fabric introduced for GB200 and GB300 systems, and the company expects Rubin platform to start shipping in the second half of fiscal year 2027",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:20",
+          "published_date": "2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "NVIDIA increased its quarterly cash dividend from $0.01 per share to $0.25 per share effective June 4, 2026, with payment on June 26, 2026, reflecting confidence in cash generation",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:17",
+          "published_date": "2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "Geographic revenue concentration shows US-headquartered customers represented $63.77 billion (78%) of Q1 FY2027 total revenue, with Taiwan at $12.01 billion, demonstrating strength in core markets",
+        "citation": {
+          "chunk_id": "b38ab48dcef94b9990c543ab834cb1e0:17",
+          "published_date": "2026-05-20T20:35:52"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 12562,
+  "completion_tokens": 838
+}

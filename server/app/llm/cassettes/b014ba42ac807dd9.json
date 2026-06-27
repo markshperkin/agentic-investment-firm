@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "Portfolio Flat vs SPY +0.05% \u2014 No Trades Executed",
+    "summary": "Portfolio returned 0.00% while SPY benchmark returned +0.05%, resulting in alpha of -0.05%. No trades were executed today. Cash position remains at $1,000,000 with zero holdings. The underperformance reflects the cash drag against a positive market day.",
+    "risk_note": "Portfolio holds 100% cash. Full market exposure is foregone; vulnerability to further upside participation if positions remain undeployed."
+  },
+  "prompt_tokens": 951,
+  "completion_tokens": 171
+}

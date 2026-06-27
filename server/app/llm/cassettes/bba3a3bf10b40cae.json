@@ -1,0 +1,24 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVIDIA secured multi-year Blackwell GPU supply deal with top-three cloud provider, materializing near-term data-center revenue acceleration",
+      "why_now": "The multi-year agreement represents concrete demand validation for next-generation Blackwell GPUs from a hyperscale customer, with material revenue contribution expected to begin next quarter. This reinforces NVIDIA's data-center backlog visibility and pricing power in a competitive AI infrastructure market.",
+      "expected_edge": "The secured supply commitment from a tier-1 cloud provider de-risks near-term data-center revenue growth and demonstrates sustained demand for NVIDIA's flagship products. The multi-year structure provides revenue visibility while supporting margins through pricing power, positioning NVIDIA to outperform consensus growth expectations.",
+      "risks": "Execution risk on Blackwell ramp timing; competitive threats from custom silicon by cloud providers; potential macro slowdown impacting cloud capex; contract terms may include volume commitments or pricing concessions not disclosed.",
+      "confidence": 0.87,
+      "key_evidence": [
+        {
+          "chunk_id": "8c0e93b986b94385ab688edf2eefac6e:0",
+          "quote": "NVIDIA secured a multi-year agreement to supply next-generation Blackwell GPUs to a top-three cloud provider, with the deal expected to add materially to data-center revenue beginning next quarter, reinforcing data-center backlog and pricing power",
+          "source": "<UNKNOWN>",
+          "published_date": ""
+        }
+      ]
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1444,
+  "completion_tokens": 458
+}

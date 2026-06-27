@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The retrieved excerpts contain no financial performance data (revenue figures, earnings, growth rates, margins, or YoY comparisons). They consist entirely of forward-looking risk disclosures and business descriptions. To form a directional view on NVIDIA's recent financial performance, retrieve the Consolidated Statements of Income, segment revenue tables, or management discussion sections that contain actual historical revenue/earnings figures with period comparisons."
+  },
+  "prompt_tokens": 5322,
+  "completion_tokens": 177
+}

@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "No Trading Activity; Portfolio Trailing Benchmark by 5.23 bps",
+    "summary": "Portfolio remained fully in cash at $1,000,000 with zero trades executed and zero decisions made. Portfolio return was 0.0%, while benchmark (SPY) advanced 0.0523%, resulting in an underperformance (alpha) of -52.3 basis points. No holdings were established during the period. Risk processing systems reported zero refusals, rejections, or injection quarantines.",
+    "risk_note": "Portfolio remains entirely in cash with no market exposure, capturing zero return while opportunity cost mounts relative to benchmark."
+  },
+  "prompt_tokens": 949,
+  "completion_tokens": 191
+}

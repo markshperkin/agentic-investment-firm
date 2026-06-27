@@ -1,0 +1,12 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA segments revenue data center gaming",
+      "NVIDIA business segments operating results",
+      "NVIDIA segment information revenue breakdown"
+    ],
+    "strategy": "BASELINE"
+  },
+  "prompt_tokens": 1046,
+  "completion_tokens": 75
+}

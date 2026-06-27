@@ -1,0 +1,12 @@
+{
+  "data": {
+    "queries": [
+      "SPY holdings and asset allocation",
+      "S&P 500 ETF fund composition and largest positions",
+      "SPY portfolio strategy and investment objective"
+    ],
+    "strategy": "BASELINE"
+  },
+  "prompt_tokens": 899,
+  "completion_tokens": 82
+}

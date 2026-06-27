@@ -1,0 +1,51 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVDA: Blackwell Supercycle + AI Infrastructure Dominance Justify Continued Accumulation",
+      "why_now": "NVIDIA is at the epicenter of the AI infrastructure buildout, with Data Center revenue surging to $193.7B in FY2026 (from $115.2B in FY2025) and the Blackwell architecture now commanding the majority of system shipments. Gross margins have rebounded sharply \u2014 from 60.5% to 74.9% in Q1 FY2027 \u2014 as the one-time $4.5B H20 excess inventory headwind does not recur. The Blackwell demand ramp, combined with Edge Computing growing 29% YoY to $6.4B, signals that the revenue acceleration is broad-based and not solely dependent on hyperscaler capex. The timing is compelling: margin recovery and a new architecture cycle are coinciding.",
+      "expected_edge": "1) Structural moat: NVIDIA powers >78% of TOP500 supercomputers and 9 of the top 10 Green500 systems, creating deep ecosystem lock-in that is difficult to displace at the infrastructure layer. 2) Compute Networking nearly doubling YoY ($116.2B \u2192 $193.5B) validates that accelerated computing and AI solutions are becoming the default data center paradigm, not a cyclical trend. 3) Margin re-rating catalyst: the non-recurrence of the $4.5B H20 inventory charge provides a clean gross margin tailwind into FY2027, supporting earnings upside relative to consensus. 4) Blackwell is still early in its adoption curve, with enterprise, sovereign AI, and edge deployments providing multiple future growth vectors beyond hyperscalers.",
+      "risks": "1) Geographic concentration risk: U.S. revenue now comprises 69% of total FY2026 revenue ($149.6B), up from 59% \u2014 any U.S.-China export restriction tightening or domestic policy shifts could disproportionately impact demand or supply chains. 2) Customer concentration: heavy reliance on a small number of large cloud and hyperscaler customers creates revenue volatility risk if capex cycles turn. 3) Competitive pressure: AMD, Intel, and custom silicon efforts (Google TPU, AWS Trainium, Microsoft Maia) are intensifying; any loss of share in the cloud AI accelerator market could compress pricing power. 4) Valuation risk: at elevated multiples, any guidance miss or demand deceleration could trigger outsized multiple compression. 5) Supply chain execution: scaling Blackwell production to meet robust demand introduces execution risk around yields and CoWoS packaging capacity.",
+      "confidence": 0.85,
+      "key_evidence": [
+        {
+          "chunk_id": "a2295188d5b44e69b4c6acedc35a8c7d:85",
+          "quote": "Data Center revenue grew substantially to $193.7 billion in FY2026 from $115.2 billion in FY2025, with Compute component revenue reaching $162.4 billion.",
+          "source": "NVDA FY2026 Annual Filing"
+        },
+        {
+          "chunk_id": "a2295188d5b44e69b4c6acedc35a8c7d:84",
+          "quote": "Compute Networking segment revenue nearly doubled year-over-year to $193.5 billion (FY2026) from $116.2 billion (FY2025).",
+          "source": "NVDA FY2026 Annual Filing"
+        },
+        {
+          "chunk_id": "d64230d808be43dbb76801d2c0559247:22",
+          "quote": "Gross margin improved significantly from 60.5% to 74.9%, benefiting from lower inventory provisions due to non-recurrence of the prior year's $4.5 billion H20 excess inventory charge.",
+          "source": "NVDA Q1 FY2027 Earnings Report"
+        },
+        {
+          "chunk_id": "d64230d808be43dbb76801d2c0559247:20",
+          "quote": "Blackwell architecture is driving strong demand momentum, with Blackwell systems accounting for the majority of system shipments.",
+          "source": "NVDA Q1 FY2027 Earnings Report"
+        },
+        {
+          "chunk_id": "a2295188d5b44e69b4c6acedc35a8c7d:9",
+          "quote": "NVIDIA powers over 78% of supercomputers on the global TOP500 list and 9 of the top 10 systems on the Green500 list.",
+          "source": "NVDA FY2026 Annual Filing"
+        },
+        {
+          "chunk_id": "d64230d808be43dbb76801d2c0559247:22",
+          "quote": "Edge Computing revenue reached $6.4 billion in Q1 FY2027, up 29% year-over-year and 10% sequentially, driven by robust Blackwell workstation demand.",
+          "source": "NVDA Q1 FY2027 Earnings Report"
+        },
+        {
+          "chunk_id": "a2295188d5b44e69b4c6acedc35a8c7d:84",
+          "quote": "United States revenue concentration increased significantly, accounting for $149.6 billion (69%) of total FY2026 revenue, up from $77.5 billion (59%) in FY2025.",
+          "source": "NVDA FY2026 Annual Filing"
+        }
+      ]
+    }
+  },
+  "prompt_tokens": 1663,
+  "completion_tokens": 1400
+}

@@ -7,14 +7,14 @@ from app.obs.spans import start_run
 from app.state.sizing import position_sizer
 
 
-def test_sizer_scales_with_confidence_and_clamps():
-    # equity 1,000,000 * 10% * confidence 0.8 = 80,000 -> capped at 25,000 notional
+def test_sizer_scales_with_confidence_and_cash():
+    # equity 1,000,000 * 10% * confidence 0.8 = 80,000 notional -> 800 shares @ 100
     qty = position_sizer(confidence=0.8, equity=1_000_000, price=100.0, cash=1_000_000,
-                         max_position_pct=0.10, max_order_notional=25_000)
-    assert qty == 250  # 25,000 / 100
+                         max_position_pct=0.10)
+    assert qty == 800
     # cash-constrained
     qty2 = position_sizer(confidence=1.0, equity=1_000_000, price=100.0, cash=5_000,
-                          max_position_pct=0.10, max_order_notional=25_000)
+                          max_position_pct=0.10)
     assert qty2 == 50
 
 
@@ -49,7 +49,7 @@ def test_pm_buy_proposal():
     pm = PMAgent(LLMRouter(provider=_Scripted(payload)))
     out = pm.decide(_view(), equity=1_000_000, cash=1_000_000, price=100.0)
     assert out.__class__.__name__ == "TradeProposal"
-    assert out.side == "BUY" and out.quantity == 250
+    assert out.side == "BUY" and out.quantity == 800
 
 
 def test_ticker_memory_is_append_only_timeline():

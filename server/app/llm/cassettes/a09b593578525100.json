@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "No Trading Activity - Portfolio Flat",
+    "summary": "Portfolio remains at starting equity of $1,000,000 with zero positions held. No trades executed (0 trades), no decisions made. Cash position unchanged at $1,000,000. Portfolio return: 0.0%. Benchmark (SPY) return data unavailable for comparison. No operational activity recorded across trading, compliance, or risk processes.",
+    "risk_note": "Benchmark return unavailable; performance versus SPY cannot be assessed. Risk engine shows no rejections or quarantines. Portfolio remains fully liquid with no open positions."
+  },
+  "prompt_tokens": 941,
+  "completion_tokens": 180
+}

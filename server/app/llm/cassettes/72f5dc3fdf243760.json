@@ -1,0 +1,9 @@
+{
+  "data": {
+    "decision": "REQUIRE_HUMAN",
+    "severity": "MEDIUM",
+    "reasoning": "**Trade Summary:**\nBUY 707 shares of NVIDIA (~$75,649). The thesis rests on a multi-year supply agreement with a top-3 cloud provider for next-generation Blackwell GPUs, validating sustained data-center demand and NVIDIA's pricing power in AI infrastructure.\n\n**Key Risks Requiring Committee Attention:**\n\n1. **Execution & Product Risk (MEDIUM):** Blackwell ramp depends on timely product availability and manufacturing execution. Any delays in volume production or yield issues could crimp near-term revenue recognition and disappoint the market's growth expectations.\n\n2. **Competitive Pressure (MEDIUM):** AMD is advancing in GPU competitiveness, and hyperscalers are investing heavily in custom silicon (e.g., Google TPUs, AWS Trainium). Over a multi-year horizon, these could erode NVIDIA's market share and pricing power, even with existing agreements.\n\n3. **Customer Concentration (HIGH):** Revenue depends materially on a single top-3 cloud provider. This creates customer concentration risk\u2014a slowdown in that provider's capex, renegotiation, or pivot to custom silicon could significantly impact realized revenues.\n\n4. **Macroeconomic & Capex Cycle (MEDIUM):** Cloud provider capex is cyclical. A broader economic slowdown or AI bubble correction could cause hyperscalers to moderate GPU spending, undermining the growth thesis.\n\n5. **Geopolitical Headwinds (MEDIUM):** Export controls and trade tensions around AI chips (particularly to China) create regulatory and revenue uncertainty.\n\n**Recommendation:** This position aligns with a credible AI infrastructure thesis but carries material execution, competitive, and customer concentration risks. Requires committee sign-off given exposure size and identified risk profile."
+  },
+  "prompt_tokens": 974,
+  "completion_tokens": 463
+}

@@ -1,0 +1,33 @@
+{
+  "data": {
+    "action": "BUY",
+    "thesis_card": {
+      "headline": "NVDA positioned to extend dominance in AI infrastructure as Blackwell adoption accelerates and margins stabilize at elevated levels",
+      "why_now": "Data Center Compute revenue grew 59% and Networking surged 142%, driven by Blackwell platform and NVLink fabric adoption. The company is commencing $22.7B in data center leases through fiscal 2030, signaling sustained enterprise demand for AI infrastructure and management confidence in multi-year growth trajectory.",
+      "expected_edge": "NVDA's ability to maintain 71.1% gross margins despite fiscal 2025 to 2026 normalization (from 75.0%) demonstrates enduring pricing power and operational leverage. The massive lease commitment locks in revenue visibility, reducing demand risk and providing a hedge against competitive pressure. Early Blackwell/NVLink adoption indicates continued architectural superiority.",
+      "risks": "Gross margin compression from 75% to 71% suggests commoditization pressures and increased inventory provisions may accelerate. Competitive threats from AMD (EPYC) and custom silicon (Google TPUs, Meta custom chips) could disrupt market share. Geopolitical restrictions on China sales and potential customer concentration risk could challenge the $22.7B lease program execution.",
+      "confidence": 0.85,
+      "key_evidence": [
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "quote": "Data Center Compute revenue grew 59% and Data Center Networking revenue surged 142%, driven by Blackwell platform adoption and NVLink fabric for GB200/GB300 systems",
+          "source": "NVDA Financial Results"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:53",
+          "quote": "Gross profit margin remained elevated at 71.1% in fiscal 2026 (vs. 75.0% in fiscal 2025), reflecting strong pricing power despite increased inventory provisions",
+          "source": "NVDA Financial Results"
+        },
+        {
+          "chunk_id": "450795c10c1b42998f119c3b55e7d02d:85",
+          "quote": "Expected to commence $22.7 billion in data center leases between fiscal 2027-2030 with 1.8 to 20 year terms, reflecting confidence in demand for AI infrastructure support",
+          "source": "NVDA Financial Results"
+        }
+      ]
+    },
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.1
+  },
+  "prompt_tokens": 1526,
+  "completion_tokens": 697
+}

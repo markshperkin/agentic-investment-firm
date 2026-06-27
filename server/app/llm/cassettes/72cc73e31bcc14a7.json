@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "End-of-Day Summary: Portfolio Flat, Trailing SPY by 52 bps",
+    "summary": "Portfolio returned 0.0% with no positions held. Starting cash of $1,000,000 remains intact. SPY benchmark returned +0.0523%, resulting in an alpha of -0.0523%. No trades were executed during the session. The portfolio maintained full cash positioning throughout the day.",
+    "risk_note": "Portfolio underperformed benchmark by 52 basis points due to cash drag. No open positions creates market timing risk. Consider trading alignment with benchmark composition."
+  },
+  "prompt_tokens": 951,
+  "completion_tokens": 180
+}

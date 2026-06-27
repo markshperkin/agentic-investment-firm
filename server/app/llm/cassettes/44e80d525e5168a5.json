@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts were returned. Try searching with ticker + specific financial metric, e.g. 'NVIDIA Data Center revenue Q3 2024' or 'NVIDIA segment revenue breakdown'. Verify the SEC filing (10-Q or 10-K) date range and search terms are aligned. If searching a 10-K, ensure query specifies fiscal year."
+  },
+  "prompt_tokens": 1013,
+  "completion_tokens": 168
+}

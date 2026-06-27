@@ -1,0 +1,9 @@
+{
+  "data": {
+    "action": "HOLD",
+    "gap_risk": "MEDIUM",
+    "reasoning": "NVDA closed down just -0.99% on the day with only modest intraday volatility (78 bars, small drawdown from open). The standing thesis remains intact with high conviction (0.85): dominant AI/accelerated computing market share, exceptional financial momentum (net income tripled YoY, FCF up 84%), and strong forward catalysts (Rubin platform with 10x cost improvements). The minor daily pullback appears to be normal trading noise rather than thesis deterioration. Gap risk overnight is MEDIUM\u2014while NVDA is large-cap with reasonable liquidity, the stock has shown sensitivity to broader AI sentiment and macro data. However, the 0.99% intraday decline does not warrant defensive action. The bullish thesis and fundamentals support holding through the close. If conviction weakens materially or gap-risk events (earnings, regulatory news, macro shocks) emerge, position can be trimmed on the next dislocation."
+  },
+  "prompt_tokens": 1310,
+  "completion_tokens": 275
+}

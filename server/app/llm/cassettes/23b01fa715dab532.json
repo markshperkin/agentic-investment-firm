@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "No Trading Activity; Portfolio Underperforming Benchmark",
+    "summary": "Portfolio returned 0.0% today while SPY benchmark returned 0.052%. No trades were executed (0 trades). Cash position remains at $1,000,000 with no holdings. Alpha stands at -0.000523, reflecting underperformance versus the benchmark. Total process cost was $0.059182. System processed 25,758 tokens with 1 citation check and 1 grounded view (100% groundedness). No risk engine rejects, injection quarantines, or refusals were recorded.",
+    "risk_note": "All capital remains uninvested in cash. Zero trading decisions executed today presents execution risk if market opportunities emerge."
+  },
+  "prompt_tokens": 954,
+  "completion_tokens": 213
+}

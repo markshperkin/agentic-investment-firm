@@ -17,16 +17,27 @@ class DecideRequest(BaseModel):
 
 
 @router.get("/approvals")
-def approvals(status: str = Query(default="PENDING"), session: Session = Depends(get_session)) -> list[dict]:
-    rows = session.execute(
-        select(ApprovalRequest).where(ApprovalRequest.status == status)
-        .order_by(ApprovalRequest.created_at.desc())
-    ).scalars().all()
+def approvals(
+    status: str = Query(default="PENDING"),
+    run_id: str | None = Query(default=None),
+    session: Session = Depends(get_session),
+) -> list[dict]:
+    stmt = select(ApprovalRequest)
+    if status and status.upper() != "ALL":
+        stmt = stmt.where(ApprovalRequest.status == status)
+    if run_id:
+        stmt = stmt.where(ApprovalRequest.run_id == run_id)
+    rows = session.execute(stmt.order_by(ApprovalRequest.created_at.desc())).scalars().all()
     return [
         {
-            "id": a.id, "ticker": a.ticker, "side": a.side, "quantity": a.quantity,
-            "est_notional": a.est_notional, "as_of": a.as_of, "status": a.status,
+            "id": a.id, "run_id": a.run_id, "ticker": a.ticker, "side": a.side,
+            "quantity": a.quantity, "est_notional": a.est_notional,
+            "reference_price": a.reference_price, "as_of": a.as_of, "status": a.status,
             "thesis_card": a.thesis_card_json, "risk_reasoning": a.risk_reasoning,
+            "risk_severity": a.risk_severity,
+            "stop_loss_pct": a.stop_loss_pct, "take_profit_pct": a.take_profit_pct,
+            "decision": a.decision, "approver": a.approver, "reject_reason": a.reject_reason,
+            "edited_quantity": a.edited_quantity,
         }
         for a in rows
     ]

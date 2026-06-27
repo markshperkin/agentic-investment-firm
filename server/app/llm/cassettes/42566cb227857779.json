@@ -1,0 +1,15 @@
+{
+  "data": {
+    "queries": [
+      "NVIDIA fiscal 2025 data center revenue segment breakdown",
+      "NVIDIA gaming revenue professional visualization revenue fiscal 2025",
+      "NVIDIA revenue by market segment product category fiscal 2025 table",
+      "NVIDIA data center gaming automotive revenue contribution 2025",
+      "NVIDIA segment revenue comparison fiscal 2024 2025"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 365
+  },
+  "prompt_tokens": 1155,
+  "completion_tokens": 142
+}

@@ -1,0 +1,75 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.85,
+    "key_points": [
+      {
+        "text": "Compute Networking segment revenue nearly doubled year-over-year to $193.5 billion (FY2026) from $116.2 billion (FY2025), demonstrating exceptional growth driven by Data Center accelerated computing and AI solutions demand.",
+        "citation": {
+          "chunk_id": "a2295188d5b44e69b4c6acedc35a8c7d:84",
+          "source": "10-K 2026-02-25",
+          "quote": "Compute Networking segment includes our Data Center accelerated computing and networking platforms and AI solutions and software... Revenue $ 193,479 [FY2026] vs $ 116,193 [FY2025]"
+        }
+      },
+      {
+        "text": "NVIDIA powers over 78% of supercomputers on the global TOP500 list and 9 of the top 10 systems on the Green500 list, indicating dominant market position in high-performance computing infrastructure.",
+        "citation": {
+          "chunk_id": "a2295188d5b44e69b4c6acedc35a8c7d:9",
+          "source": "10-K 2026-02-25",
+          "quote": "NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list"
+        }
+      },
+      {
+        "text": "Data Center revenue grew substantially to $193.7 billion in FY2026 from $115.2 billion in FY2025, with Compute component revenue reaching $162.4 billion, reflecting strong AI and HPC workload acceleration demand.",
+        "citation": {
+          "chunk_id": "a2295188d5b44e69b4c6acedc35a8c7d:85",
+          "source": "10-K 2026-02-25",
+          "quote": "Data Center $ 193,737 [FY2026] vs $ 115,186 [FY2025]; Compute 162,361 [FY2026] vs 102,196 [FY2025]"
+        }
+      },
+      {
+        "text": "In Q1 FY2027, gross margin improved significantly from 60.5% to 74.9%, with gross margin benefiting from lower inventory provisions due to non-recurrence of the prior year's $4.5 billion H20 excess inventory charge.",
+        "citation": {
+          "chunk_id": "d64230d808be43dbb76801d2c0559247:22",
+          "source": "10-Q 2026-05-20",
+          "quote": "Gross margin increased from a year ago on lower inventory provisions, primarily due to the prior year's $4.5 billion charge associated with H20 excess inventory and purchase obligations"
+        }
+      },
+      {
+        "text": "Blackwell architecture is driving strong demand momentum, with Blackwell systems accounting for the majority of system shipments and supporting robust demand across Data Center, Edge Computing, and Graphics segments.",
+        "citation": {
+          "chunk_id": "d64230d808be43dbb76801d2c0559247:20",
+          "source": "10-Q 2026-05-20",
+          "quote": "Revenue growth in the first quarter was driven by data center products for accelerated computing and AI solutions. Blackwell continued to account for the majority of our system shipments"
+        }
+      },
+      {
+        "text": "Edge Computing revenue reached $6.4 billion in Q1 FY2027, up 29% year-over-year and 10% sequentially, driven by robust Blackwell workstation demand despite slower consumer PC demand.",
+        "citation": {
+          "chunk_id": "d64230d808be43dbb76801d2c0559247:22",
+          "source": "10-Q 2026-05-20",
+          "quote": "Edge Computing revenue for the first quarter was $6.4 billion, up 29% from a year ago and up 10% sequentially"
+        }
+      },
+      {
+        "text": "Operating income in Compute Networking more than doubled to $53.3 billion in Q1 FY2027 from $22.1 billion in Q1 FY2026 (142% increase), reflecting strong revenue growth and operational leverage.",
+        "citation": {
+          "chunk_id": "d64230d808be43dbb76801d2c0559247:22",
+          "source": "10-Q 2026-05-20",
+          "quote": "Compute Networking segment operating income in the first quarter of fiscal year 2027... $ 53,335 [Q1 FY2027] vs $ 22,054 [Q1 FY2026]"
+        }
+      },
+      {
+        "text": "United States revenue concentration increased significantly, accounting for $149.6 billion (69%) of total FY2026 revenue, up from $77.5 billion (59%) in FY2025, driven by U.S.-based Compute Networking segment demand.",
+        "citation": {
+          "chunk_id": "a2295188d5b44e69b4c6acedc35a8c7d:84",
+          "source": "10-K 2026-02-25",
+          "quote": "United States $ 149,617 [FY2026] vs $ 77,482 [FY2025]... The increase in revenue to the United States for fiscal years 2026 and 2025 was primarily due to higher U.S.-based Compute Networking segment demand"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 11921,
+  "completion_tokens": 1464
+}

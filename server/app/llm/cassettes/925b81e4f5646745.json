@@ -1,0 +1,11 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "The search returned no results. Try searching for \"SPY N-PORT\" or \"SPDR Portfolio\" combined with \"quarterly holdings\" or \"portfolio composition\" to locate N-PORT-P filings. Alternatively, search for the fund's full name or CIK number if available. N-PORT-P filings are required monthly/quarterly reports of portfolio holdings for mutual funds and ETFs.",
+    "missing": "No SEC filing excerpts were retrieved for this query"
+  },
+  "prompt_tokens": 898,
+  "completion_tokens": 200
+}

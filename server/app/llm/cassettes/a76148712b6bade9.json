@@ -1,0 +1,67 @@
+{
+  "data": {
+    "ticker": "NVDA",
+    "stance": "BULLISH",
+    "confidence": 0.72,
+    "key_points": [
+      {
+        "text": "Revenue more than tripled from $60.9 billion in fiscal 2024 to $215.9 billion in fiscal 2026, with Data Center revenue reaching $193.7 billion (89.7% of total revenue), demonstrating exceptional growth in high-demand AI infrastructure.",
+        "citation": {
+          "chunk_id": "0a8d49081c094b4a87f7b21ad59dfddd:85",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Net income increased substantially to $120.1 billion in fiscal 2026 from $72.9 billion in fiscal 2025, reflecting operating leverage and strong profitability from the AI boom.",
+        "citation": {
+          "chunk_id": "0a8d49081c094b4a87f7b21ad59dfddd:65",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Operating cash flow reached $102.7 billion in fiscal 2026, up from $64.1 billion in fiscal 2025, indicating robust business fundamentals and cash generation capability.",
+        "citation": {
+          "chunk_id": "0a8d49081c094b4a87f7b21ad59dfddd:65",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Company is investing heavily in long-term capacity with expected data center lease obligations of $22.7 billion between fiscal 2027 and 2030, supporting future growth and R&D infrastructure.",
+        "citation": {
+          "chunk_id": "0a8d49081c094b4a87f7b21ad59dfddd:86",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Accelerating inventory positions support growing demand, with total inventories at $25.8 billion as of April 26, 2026, up from $21.4 billion at January 25, 2026, though inventory provisions have moderated to $0.8 billion in Q1 FY2027 from $2.3 billion in Q1 FY2026.",
+        "citation": {
+          "chunk_id": "f86c29eacb424dee8155b189ce97dd09:12",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "Non-marketable equity securities holdings increased to $22.3 billion with unrealized gains of $2.7 billion, positioning the company in high-growth technology investments.",
+        "citation": {
+          "chunk_id": "0a8d49081c094b4a87f7b21ad59dfddd:76",
+          "source": "10-K 2026-02-25T21:42:19"
+        }
+      },
+      {
+        "text": "Company is navigating supply chain complexity through increased manufacturing capacity integration and new supplier relationships while managing demand for accelerated computing platforms, with new Rubin platform expected to ship in H2 FY2027.",
+        "citation": {
+          "chunk_id": "f86c29eacb424dee8155b189ce97dd09:29",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      },
+      {
+        "text": "Aggressive capital allocation with $40.4 billion in share repurchases in fiscal 2026 and $19.3 billion repurchased in Q1 FY2027, returning substantial capital to shareholders while maintaining strong balance sheet.",
+        "citation": {
+          "chunk_id": "f86c29eacb424dee8155b189ce97dd09:8",
+          "source": "10-Q 2026-05-20T20:35:52"
+        }
+      }
+    ]
+  },
+  "prompt_tokens": 14369,
+  "completion_tokens": 1094
+}

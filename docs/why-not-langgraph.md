@@ -54,4 +54,4 @@ None of these describe a one-day, fixed-pipeline, single-process replay with a w
 ## The one-line defense
 "The workflow is a small fixed pipeline, so we kept orchestration as explicit deterministic code with state in the database. 'Graph state persists across the wait' is satisfied by the persisted approval — without taking on a framework whose checkpointing/interrupt features we'd be duplicating and whose native tracing wouldn't meet our committed-offline-replay requirement."
 
-> Supersedes the LangGraph choice in ADR-001. See also `docs/architecture.md` (orchestration) and `docs/handoff.md`.
+> Supersedes the LangGraph choice in ADR-001. See also `docs/architecture.md` (orchestration).

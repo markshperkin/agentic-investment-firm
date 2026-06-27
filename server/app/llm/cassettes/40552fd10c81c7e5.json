@@ -1,0 +1,14 @@
+{
+  "data": {
+    "queries": [
+      "SPY prospectus N-1A holdings portfolio composition",
+      "SPY SPDR prospectus fund objective investment strategy",
+      "SPY annual report portfolio weighted holdings",
+      "SPY form N-1A asset allocation equity index"
+    ],
+    "strategy": "DECOMPOSE",
+    "date_window_days": 90
+  },
+  "prompt_tokens": 1080,
+  "completion_tokens": 122
+}

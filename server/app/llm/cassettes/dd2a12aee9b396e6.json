@@ -1,0 +1,10 @@
+{
+  "data": {
+    "relevant": false,
+    "coverage": 0.0,
+    "failure_kind": "NO_HITS",
+    "fix_hint": "No excerpts were retrieved for NVIDIA's 2026 10-K filing. Verify that: (1) NVIDIA has filed a 10-K for fiscal year 2026 (note: as of early 2025, fiscal 2026 may not yet be filed); (2) the query is correctly targeted to the right fiscal year or filing date; (3) if seeking the most recent available filing, try querying for the latest fiscal year completed (e.g., fiscal 2025 10-K filed in 2025). Alternatively, check the SEC EDGAR system directly to confirm filing availability."
+  },
+  "prompt_tokens": 1015,
+  "completion_tokens": 224
+}

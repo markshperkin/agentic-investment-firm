@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "End-of-Day Summary: No Trading Activity",
+    "summary": "Portfolio Performance: The portfolio generated a 0.0% return against SPY's 0.0523% return, resulting in an alpha of -0.000523. Cash position remains at $1,000,000 with zero holdings. No trades were executed (0 trades). The portfolio underperformed the benchmark by 5.23 basis points on a day of positive market movement.\n\nActivity: 0 trading decisions were made. Process metrics show 8,098 tokens consumed at a cost of $0.008806 USD with no risk engine rejections or injection quarantines recorded.\n\nRisk: Cash drag remains the primary headwind as the fully uninvested position forfeits daily benchmark participation.",
+    "risk_note": "Portfolio remains fully in cash (100% uninvested), creating drag relative to SPY. No active positions expose to market concentration or security-specific risk."
+  },
+  "prompt_tokens": 951,
+  "completion_tokens": 258
+}

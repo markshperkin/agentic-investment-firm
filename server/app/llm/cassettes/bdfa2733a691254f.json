@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "Portfolio Flat; Underperforming SPY by 5.23bps",
+    "summary": "Portfolio returned 0.00% with no positions held, versus SPY +0.0523%. Alpha: -0.0523% (underperformance). Cash position: $1,000,000 (unchanged). No trades executed. Holdings: 0. Process cost: $0.0014 USD.",
+    "risk_note": "Portfolio remains fully in cash with zero active positions. No trading activity to date."
+  },
+  "prompt_tokens": 951,
+  "completion_tokens": 166
+}

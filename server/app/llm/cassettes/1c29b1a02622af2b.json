@@ -1,0 +1,9 @@
+{
+  "data": {
+    "headline": "No Trading Activity | Portfolio Flat vs SPY +0.05%",
+    "summary": "Portfolio returned 0.0% with no positions held and no trades executed. The benchmark (SPY) gained 0.052%, resulting in an alpha of -0.052%. Cash position remains at $1,000,000 with zero holdings value and zero decisions made during the period. No trading activity occurred.",
+    "risk_note": "Portfolio is fully in cash with no market exposure. No trading decisions were generated during the period."
+  },
+  "prompt_tokens": 947,
+  "completion_tokens": 164
+}

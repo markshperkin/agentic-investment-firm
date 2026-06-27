@@ -8,6 +8,11 @@ export default defineConfig({
     proxy: {
       "/runs": "http://localhost:8000",
       "/health": "http://localhost:8000",
+      "/portfolio": "http://localhost:8000",
+      "/datasets": "http://localhost:8000",
+      "/run": "http://localhost:8000",
+      "/approvals": "http://localhost:8000",
+      "/admin": "http://localhost:8000",
       "/stream": { target: "ws://localhost:8000", ws: true },
     },
   },

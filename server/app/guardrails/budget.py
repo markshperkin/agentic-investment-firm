@@ -51,3 +51,11 @@ def charge_tokens(n: int) -> None:
     b = _current.get()
     if b is not None:
         b.add_tokens(n)
+
+
+def credit_wait(seconds: float) -> None:
+    """Exclude time spent blocked on a human approval from the wall-clock budget —
+    waiting for a person is not runaway compute."""
+    b = _current.get()
+    if b is not None:
+        b.started_at += seconds
