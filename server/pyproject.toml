@@ -29,6 +29,10 @@ rag = [
 llm = [
     "anthropic>=0.40",
 ]
+# Convenience: everything in one shot (live app + tests). CI uses the lean [dev] instead.
+all = [
+    "agentic-investment-firm[dev,rag,llm]",
+]
 
 [build-system]
 requires = ["hatchling"]

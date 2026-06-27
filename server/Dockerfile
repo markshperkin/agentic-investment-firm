@@ -12,7 +12,9 @@ RUN npm run build
 FROM python:3.11-slim AS app
 WORKDIR /srv
 COPY server/pyproject.toml ./
-RUN pip install --no-cache-dir .
+# Include the rag + llm extras so the container can run live (Anthropic + Voyage + Chroma),
+# not just the offline cassette path.
+RUN pip install --no-cache-dir ".[rag,llm]"
 COPY server/app ./app
 COPY --from=web /web/dist ./web_dist
 ENV WEB_DIST=/srv/web_dist

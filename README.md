@@ -26,6 +26,8 @@ carries a **verified citation** from a **time-boxed RAG corpus**, and every acti
 
 ## How to run
 
+**Prerequisites:** Docker (for the one-command path), or Python 3.11+ and Node 20+ (local dev).
+
 The firm runs live against real providers — **Anthropic** for the agents and **Voyage +
 Chroma** for RAG. Set those two keys first.
 
@@ -45,19 +47,30 @@ VOYAGE_API_KEY=pa-...
 
 Missing keys in live mode fail loudly — no silent fallback.
 
-### 2. Run the app (Docker)
+### 2. Run the app (Docker — one command)
+
+With `server/.env` in place (step 1), this builds the web UI + backend and runs live:
 
 ```bash
-docker compose up --build    # builds the web UI, FastAPI serves it on :8000
-open http://localhost:8000
+docker compose up --build    # then visit http://localhost:8000
 ```
 
-SQLite + Chroma persist in the `firm-data` volume across restarts.
+Compose reads your keys from `server/.env`; SQLite persists in the `firm-data` volume across
+restarts. (No `.env`? It still boots — in offline cassette mode.)
 
 ### 2b. Run the app (local dev)
 
+In a virtual environment, `.[all]` installs everything (live providers + test deps) in one shot:
+
 ```bash
-cd server && pip install -e ".[dev]" && uvicorn app.main:app --reload --port 8000
+cd server
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+pip install -e ".[all]"          # everything: Anthropic, Voyage, Chroma, test deps
+uvicorn app.main:app --reload --port 8000
+```
+
+```bash
 cd web && npm install && npm run build       # served by FastAPI at /  (or: npm run dev for HMR)
 ```
 
@@ -72,6 +85,7 @@ cost — this is what CI and the committed sample run use.
 
 ```bash
 cd server
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -e ".[dev]"     # walled network? append --trusted-host pypi.org --trusted-host files.pythonhosted.org
 python -m pytest -q          # full deterministic suite
 python -m eval.harness       # golden + red-team eval → docs/eval-report.md

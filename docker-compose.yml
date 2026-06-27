@@ -5,8 +5,13 @@ services:
       dockerfile: server/Dockerfile
     ports:
       - "8000:8000"
+    # Loads LLM_MODE + ANTHROPIC_API_KEY + VOYAGE_API_KEY from server/.env.
+    # required:false so the app still boots in cassette mode if you haven't made one yet.
+    env_file:
+      - path: server/.env
+        required: false
     environment:
-      - LLM_MODE=cassette
+      # Container-local SQLite on the persisted volume (overrides DATABASE_URL from .env).
       - DATABASE_URL=sqlite:////data/firm.sqlite
     volumes:
       - firm-data:/data
